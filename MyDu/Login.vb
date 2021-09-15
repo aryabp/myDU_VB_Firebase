@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class Login
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
 
     End Sub
@@ -34,6 +34,12 @@
 
     Private Sub Guna2CircleButton1_Click(sender As Object, e As EventArgs) Handles Guna2CircleButton1.Click
         Guna2TextBox2.Text = ""
+
+    End Sub
+
+    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
+        Profile.Show()
+        Me.Hide()
 
     End Sub
 End Class

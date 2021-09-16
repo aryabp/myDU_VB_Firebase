@@ -27,9 +27,18 @@ Partial Class Changepwd
         Me.Guna2Elipse3 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.ElipseUserTotal = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2DragControl1 = New Guna.UI2.WinForms.Guna2DragControl(Me.components)
+        Me.Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Guna2Panel5 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Guna2Button8 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Guna2TextBox3 = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Guna2TextBox4 = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Guna2TextBox2 = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Guna2Panel4 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Guna2ImageButton2 = New Guna.UI2.WinForms.Guna2ImageButton()
         Me.Guna2Elipse2 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2ControlBox2 = New Guna.UI2.WinForms.Guna2ControlBox()
         Me.Guna2Panel6 = New Guna.UI2.WinForms.Guna2Panel()
@@ -38,28 +47,19 @@ Partial Class Changepwd
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2ImageButton2 = New Guna.UI2.WinForms.Guna2ImageButton()
         Me.Guna2Button7 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button6 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button5 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Panel5 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.Guna2TextBox2 = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.Guna2TextBox3 = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.Guna2TextBox4 = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Guna2Button8 = New Guna.UI2.WinForms.Guna2Button()
         Me.Panel1.SuspendLayout()
+        Me.Guna2Panel5.SuspendLayout()
         Me.Guna2Panel4.SuspendLayout()
         Me.Guna2Panel6.SuspendLayout()
         Me.Guna2Panel3.SuspendLayout()
         Me.Guna2Panel2.SuspendLayout()
         Me.Guna2Panel1.SuspendLayout()
-        Me.Guna2Panel5.SuspendLayout()
         Me.SuspendLayout()
         '
         'Guna2Elipse3
@@ -69,6 +69,29 @@ Partial Class Changepwd
         'Guna2DragControl1
         '
         Me.Guna2DragControl1.TargetControl = Me.Guna2Button3
+        '
+        'Guna2Button3
+        '
+        Me.Guna2Button3.BorderRadius = 30
+        Me.Guna2Button3.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
+        Me.Guna2Button3.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
+        Me.Guna2Button3.CheckedState.Parent = Me.Guna2Button3
+        Me.Guna2Button3.CustomImages.Parent = Me.Guna2Button3
+        Me.Guna2Button3.DisabledState.Parent = Me.Guna2Button3
+        Me.Guna2Button3.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.Guna2Button3.Font = New System.Drawing.Font("Ubuntu", 21.75!)
+        Me.Guna2Button3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
+        Me.Guna2Button3.HoverState.Parent = Me.Guna2Button3
+        Me.Guna2Button3.Image = CType(resources.GetObject("Guna2Button3.Image"), System.Drawing.Image)
+        Me.Guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.Guna2Button3.ImageOffset = New System.Drawing.Point(60, 0)
+        Me.Guna2Button3.ImageSize = New System.Drawing.Size(40, 40)
+        Me.Guna2Button3.Location = New System.Drawing.Point(12, 417)
+        Me.Guna2Button3.Name = "Guna2Button3"
+        Me.Guna2Button3.ShadowDecoration.Parent = Me.Guna2Button3
+        Me.Guna2Button3.Size = New System.Drawing.Size(423, 87)
+        Me.Guna2Button3.TabIndex = 3
+        Me.Guna2Button3.Text = "Upload Data"
         '
         'Panel1
         '
@@ -80,6 +103,156 @@ Partial Class Changepwd
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(999, 977)
         Me.Panel1.TabIndex = 5
+        '
+        'Guna2Panel5
+        '
+        Me.Guna2Panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.Guna2Panel5.Controls.Add(Me.Guna2Button8)
+        Me.Guna2Panel5.Controls.Add(Me.Label4)
+        Me.Guna2Panel5.Controls.Add(Me.Guna2TextBox3)
+        Me.Guna2Panel5.Controls.Add(Me.Guna2TextBox4)
+        Me.Guna2Panel5.Controls.Add(Me.Guna2TextBox2)
+        Me.Guna2Panel5.Controls.Add(Me.Guna2TextBox1)
+        Me.Guna2Panel5.Location = New System.Drawing.Point(43, 138)
+        Me.Guna2Panel5.Name = "Guna2Panel5"
+        Me.Guna2Panel5.ShadowDecoration.Parent = Me.Guna2Panel5
+        Me.Guna2Panel5.Size = New System.Drawing.Size(902, 778)
+        Me.Guna2Panel5.TabIndex = 1
+        '
+        'Guna2Button8
+        '
+        Me.Guna2Button8.BorderRadius = 20
+        Me.Guna2Button8.CheckedState.Parent = Me.Guna2Button8
+        Me.Guna2Button8.CustomImages.Parent = Me.Guna2Button8
+        Me.Guna2Button8.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button8.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button8.DisabledState.Parent = Me.Guna2Button8
+        Me.Guna2Button8.FillColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
+        Me.Guna2Button8.Font = New System.Drawing.Font("Ubuntu", 14.25!)
+        Me.Guna2Button8.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button8.HoverState.Parent = Me.Guna2Button8
+        Me.Guna2Button8.Location = New System.Drawing.Point(64, 325)
+        Me.Guna2Button8.Name = "Guna2Button8"
+        Me.Guna2Button8.ShadowDecoration.Parent = Me.Guna2Button8
+        Me.Guna2Button8.Size = New System.Drawing.Size(364, 50)
+        Me.Guna2Button8.TabIndex = 4
+        Me.Guna2Button8.Text = "Ubah Password"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Ubuntu Medium", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
+        Me.Label4.Location = New System.Drawing.Point(58, 64)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(310, 34)
+        Me.Label4.TabIndex = 3
+        Me.Label4.Text = "Ubah Password Admin"
+        '
+        'Guna2TextBox3
+        '
+        Me.Guna2TextBox3.BorderRadius = 20
+        Me.Guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.Guna2TextBox3.DefaultText = ""
+        Me.Guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.Guna2TextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.Guna2TextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox3.DisabledState.Parent = Me.Guna2TextBox3
+        Me.Guna2TextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox3.FocusedState.Parent = Me.Guna2TextBox3
+        Me.Guna2TextBox3.Font = New System.Drawing.Font("Ubuntu", 15.75!)
+        Me.Guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox3.HoverState.Parent = Me.Guna2TextBox3
+        Me.Guna2TextBox3.Location = New System.Drawing.Point(483, 220)
+        Me.Guna2TextBox3.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.Guna2TextBox3.Name = "Guna2TextBox3"
+        Me.Guna2TextBox3.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.Guna2TextBox3.PlaceholderText = "Konfirmasi Password Baru"
+        Me.Guna2TextBox3.SelectedText = ""
+        Me.Guna2TextBox3.ShadowDecoration.Parent = Me.Guna2TextBox3
+        Me.Guna2TextBox3.Size = New System.Drawing.Size(364, 53)
+        Me.Guna2TextBox3.TabIndex = 3
+        Me.Guna2TextBox3.UseSystemPasswordChar = True
+        '
+        'Guna2TextBox4
+        '
+        Me.Guna2TextBox4.BorderRadius = 20
+        Me.Guna2TextBox4.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.Guna2TextBox4.DefaultText = ""
+        Me.Guna2TextBox4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.Guna2TextBox4.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.Guna2TextBox4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox4.DisabledState.Parent = Me.Guna2TextBox4
+        Me.Guna2TextBox4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox4.FocusedState.Parent = Me.Guna2TextBox4
+        Me.Guna2TextBox4.Font = New System.Drawing.Font("Ubuntu", 15.75!)
+        Me.Guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox4.HoverState.Parent = Me.Guna2TextBox4
+        Me.Guna2TextBox4.Location = New System.Drawing.Point(64, 220)
+        Me.Guna2TextBox4.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.Guna2TextBox4.Name = "Guna2TextBox4"
+        Me.Guna2TextBox4.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.Guna2TextBox4.PlaceholderText = "Password Lama"
+        Me.Guna2TextBox4.SelectedText = ""
+        Me.Guna2TextBox4.ShadowDecoration.Parent = Me.Guna2TextBox4
+        Me.Guna2TextBox4.Size = New System.Drawing.Size(364, 53)
+        Me.Guna2TextBox4.TabIndex = 2
+        Me.Guna2TextBox4.UseSystemPasswordChar = True
+        '
+        'Guna2TextBox2
+        '
+        Me.Guna2TextBox2.BorderRadius = 20
+        Me.Guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.Guna2TextBox2.DefaultText = ""
+        Me.Guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.Guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.Guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox2.DisabledState.Parent = Me.Guna2TextBox2
+        Me.Guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox2.FocusedState.Parent = Me.Guna2TextBox2
+        Me.Guna2TextBox2.Font = New System.Drawing.Font("Ubuntu", 15.75!)
+        Me.Guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox2.HoverState.Parent = Me.Guna2TextBox2
+        Me.Guna2TextBox2.Location = New System.Drawing.Point(483, 129)
+        Me.Guna2TextBox2.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.Guna2TextBox2.Name = "Guna2TextBox2"
+        Me.Guna2TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.Guna2TextBox2.PlaceholderText = "Password Baru"
+        Me.Guna2TextBox2.SelectedText = ""
+        Me.Guna2TextBox2.ShadowDecoration.Parent = Me.Guna2TextBox2
+        Me.Guna2TextBox2.Size = New System.Drawing.Size(364, 53)
+        Me.Guna2TextBox2.TabIndex = 1
+        Me.Guna2TextBox2.UseSystemPasswordChar = True
+        '
+        'Guna2TextBox1
+        '
+        Me.Guna2TextBox1.BorderRadius = 20
+        Me.Guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.Guna2TextBox1.DefaultText = ""
+        Me.Guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.Guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.Guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox1.DisabledState.Parent = Me.Guna2TextBox1
+        Me.Guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox1.FocusedState.Parent = Me.Guna2TextBox1
+        Me.Guna2TextBox1.Font = New System.Drawing.Font("Ubuntu", 15.75!)
+        Me.Guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2TextBox1.HoverState.Parent = Me.Guna2TextBox1
+        Me.Guna2TextBox1.Location = New System.Drawing.Point(64, 129)
+        Me.Guna2TextBox1.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.Guna2TextBox1.Name = "Guna2TextBox1"
+        Me.Guna2TextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.Guna2TextBox1.PlaceholderText = "Username Admin"
+        Me.Guna2TextBox1.SelectedText = ""
+        Me.Guna2TextBox1.ShadowDecoration.Parent = Me.Guna2TextBox1
+        Me.Guna2TextBox1.Size = New System.Drawing.Size(364, 53)
+        Me.Guna2TextBox1.TabIndex = 0
         '
         'Guna2Panel4
         '
@@ -102,6 +275,23 @@ Partial Class Changepwd
         Me.Label2.Size = New System.Drawing.Size(136, 24)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Emirul Mukmin"
+        '
+        'Guna2ImageButton2
+        '
+        Me.Guna2ImageButton2.CheckedState.ImageSize = New System.Drawing.Size(60, 60)
+        Me.Guna2ImageButton2.CheckedState.Parent = Me.Guna2ImageButton2
+        Me.Guna2ImageButton2.HoverState.ImageSize = New System.Drawing.Size(60, 60)
+        Me.Guna2ImageButton2.HoverState.Parent = Me.Guna2ImageButton2
+        Me.Guna2ImageButton2.Image = CType(resources.GetObject("Guna2ImageButton2.Image"), System.Drawing.Image)
+        Me.Guna2ImageButton2.ImageOffset = New System.Drawing.Point(0, 0)
+        Me.Guna2ImageButton2.ImageRotate = 0!
+        Me.Guna2ImageButton2.ImageSize = New System.Drawing.Size(60, 60)
+        Me.Guna2ImageButton2.Location = New System.Drawing.Point(754, 15)
+        Me.Guna2ImageButton2.Name = "Guna2ImageButton2"
+        Me.Guna2ImageButton2.PressedState.Parent = Me.Guna2ImageButton2
+        Me.Guna2ImageButton2.ShadowDecoration.Parent = Me.Guna2ImageButton2
+        Me.Guna2ImageButton2.Size = New System.Drawing.Size(73, 67)
+        Me.Guna2ImageButton2.TabIndex = 0
         '
         'Guna2ControlBox2
         '
@@ -159,7 +349,7 @@ Partial Class Changepwd
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
         Me.Label1.Location = New System.Drawing.Point(137, 53)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(159, 60)
+        Me.Label1.Size = New System.Drawing.Size(160, 56)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "myDU"
         '
@@ -190,23 +380,6 @@ Partial Class Changepwd
         Me.Guna2Panel1.ShadowDecoration.Parent = Me.Guna2Panel1
         Me.Guna2Panel1.Size = New System.Drawing.Size(441, 1024)
         Me.Guna2Panel1.TabIndex = 3
-        '
-        'Guna2ImageButton2
-        '
-        Me.Guna2ImageButton2.CheckedState.ImageSize = New System.Drawing.Size(60, 60)
-        Me.Guna2ImageButton2.CheckedState.Parent = Me.Guna2ImageButton2
-        Me.Guna2ImageButton2.HoverState.ImageSize = New System.Drawing.Size(60, 60)
-        Me.Guna2ImageButton2.HoverState.Parent = Me.Guna2ImageButton2
-        Me.Guna2ImageButton2.Image = CType(resources.GetObject("Guna2ImageButton2.Image"), System.Drawing.Image)
-        Me.Guna2ImageButton2.ImageOffset = New System.Drawing.Point(0, 0)
-        Me.Guna2ImageButton2.ImageRotate = 0!
-        Me.Guna2ImageButton2.ImageSize = New System.Drawing.Size(60, 60)
-        Me.Guna2ImageButton2.Location = New System.Drawing.Point(754, 15)
-        Me.Guna2ImageButton2.Name = "Guna2ImageButton2"
-        Me.Guna2ImageButton2.PressedState.Parent = Me.Guna2ImageButton2
-        Me.Guna2ImageButton2.ShadowDecoration.Parent = Me.Guna2ImageButton2
-        Me.Guna2ImageButton2.Size = New System.Drawing.Size(73, 67)
-        Me.Guna2ImageButton2.TabIndex = 0
         '
         'Guna2Button7
         '
@@ -266,7 +439,7 @@ Partial Class Changepwd
         Me.Guna2Button5.Font = New System.Drawing.Font("Ubuntu", 21.75!)
         Me.Guna2Button5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
         Me.Guna2Button5.HoverState.Parent = Me.Guna2Button5
-        Me.Guna2Button5.Image = CType(resources.GetObject("Guna2Button5.Image"), System.Drawing.Image)
+        Me.Guna2Button5.Image = Global.MyDu.My.Resources.Resources.menu__3__1
         Me.Guna2Button5.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.Guna2Button5.ImageOffset = New System.Drawing.Point(60, 0)
         Me.Guna2Button5.ImageSize = New System.Drawing.Size(40, 40)
@@ -301,29 +474,6 @@ Partial Class Changepwd
         Me.Guna2Button4.TabIndex = 4
         Me.Guna2Button4.Text = "Change Passoword"
         Me.Guna2Button4.TextOffset = New System.Drawing.Point(45, 0)
-        '
-        'Guna2Button3
-        '
-        Me.Guna2Button3.BorderRadius = 30
-        Me.Guna2Button3.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
-        Me.Guna2Button3.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
-        Me.Guna2Button3.CheckedState.Parent = Me.Guna2Button3
-        Me.Guna2Button3.CustomImages.Parent = Me.Guna2Button3
-        Me.Guna2Button3.DisabledState.Parent = Me.Guna2Button3
-        Me.Guna2Button3.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.Guna2Button3.Font = New System.Drawing.Font("Ubuntu", 21.75!)
-        Me.Guna2Button3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
-        Me.Guna2Button3.HoverState.Parent = Me.Guna2Button3
-        Me.Guna2Button3.Image = CType(resources.GetObject("Guna2Button3.Image"), System.Drawing.Image)
-        Me.Guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button3.ImageOffset = New System.Drawing.Point(60, 0)
-        Me.Guna2Button3.ImageSize = New System.Drawing.Size(40, 40)
-        Me.Guna2Button3.Location = New System.Drawing.Point(12, 417)
-        Me.Guna2Button3.Name = "Guna2Button3"
-        Me.Guna2Button3.ShadowDecoration.Parent = Me.Guna2Button3
-        Me.Guna2Button3.Size = New System.Drawing.Size(423, 87)
-        Me.Guna2Button3.TabIndex = 3
-        Me.Guna2Button3.Text = "Upload Data"
         '
         'Guna2Button2
         '
@@ -372,156 +522,6 @@ Partial Class Changepwd
         Me.Guna2Button1.TabIndex = 1
         Me.Guna2Button1.Text = "Dashboard"
         '
-        'Guna2Panel5
-        '
-        Me.Guna2Panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.Guna2Panel5.Controls.Add(Me.Guna2Button8)
-        Me.Guna2Panel5.Controls.Add(Me.Label4)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2TextBox3)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2TextBox4)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2TextBox2)
-        Me.Guna2Panel5.Controls.Add(Me.Guna2TextBox1)
-        Me.Guna2Panel5.Location = New System.Drawing.Point(43, 138)
-        Me.Guna2Panel5.Name = "Guna2Panel5"
-        Me.Guna2Panel5.ShadowDecoration.Parent = Me.Guna2Panel5
-        Me.Guna2Panel5.Size = New System.Drawing.Size(902, 778)
-        Me.Guna2Panel5.TabIndex = 1
-        '
-        'Guna2TextBox1
-        '
-        Me.Guna2TextBox1.BorderRadius = 20
-        Me.Guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2TextBox1.DefaultText = ""
-        Me.Guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.Guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.Guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox1.DisabledState.Parent = Me.Guna2TextBox1
-        Me.Guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox1.FocusedState.Parent = Me.Guna2TextBox1
-        Me.Guna2TextBox1.Font = New System.Drawing.Font("Ubuntu", 15.75!)
-        Me.Guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox1.HoverState.Parent = Me.Guna2TextBox1
-        Me.Guna2TextBox1.Location = New System.Drawing.Point(64, 129)
-        Me.Guna2TextBox1.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
-        Me.Guna2TextBox1.Name = "Guna2TextBox1"
-        Me.Guna2TextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.Guna2TextBox1.PlaceholderText = "Username Admin"
-        Me.Guna2TextBox1.SelectedText = ""
-        Me.Guna2TextBox1.ShadowDecoration.Parent = Me.Guna2TextBox1
-        Me.Guna2TextBox1.Size = New System.Drawing.Size(364, 53)
-        Me.Guna2TextBox1.TabIndex = 0
-        '
-        'Guna2TextBox2
-        '
-        Me.Guna2TextBox2.BorderRadius = 20
-        Me.Guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2TextBox2.DefaultText = ""
-        Me.Guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.Guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.Guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox2.DisabledState.Parent = Me.Guna2TextBox2
-        Me.Guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox2.FocusedState.Parent = Me.Guna2TextBox2
-        Me.Guna2TextBox2.Font = New System.Drawing.Font("Ubuntu", 15.75!)
-        Me.Guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox2.HoverState.Parent = Me.Guna2TextBox2
-        Me.Guna2TextBox2.Location = New System.Drawing.Point(483, 129)
-        Me.Guna2TextBox2.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
-        Me.Guna2TextBox2.Name = "Guna2TextBox2"
-        Me.Guna2TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.Guna2TextBox2.PlaceholderText = "Password Baru"
-        Me.Guna2TextBox2.SelectedText = ""
-        Me.Guna2TextBox2.ShadowDecoration.Parent = Me.Guna2TextBox2
-        Me.Guna2TextBox2.Size = New System.Drawing.Size(364, 53)
-        Me.Guna2TextBox2.TabIndex = 1
-        Me.Guna2TextBox2.UseSystemPasswordChar = True
-        '
-        'Guna2TextBox3
-        '
-        Me.Guna2TextBox3.BorderRadius = 20
-        Me.Guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2TextBox3.DefaultText = ""
-        Me.Guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.Guna2TextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.Guna2TextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox3.DisabledState.Parent = Me.Guna2TextBox3
-        Me.Guna2TextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox3.FocusedState.Parent = Me.Guna2TextBox3
-        Me.Guna2TextBox3.Font = New System.Drawing.Font("Ubuntu", 15.75!)
-        Me.Guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox3.HoverState.Parent = Me.Guna2TextBox3
-        Me.Guna2TextBox3.Location = New System.Drawing.Point(483, 220)
-        Me.Guna2TextBox3.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
-        Me.Guna2TextBox3.Name = "Guna2TextBox3"
-        Me.Guna2TextBox3.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.Guna2TextBox3.PlaceholderText = "Konfirmasi Password Baru"
-        Me.Guna2TextBox3.SelectedText = ""
-        Me.Guna2TextBox3.ShadowDecoration.Parent = Me.Guna2TextBox3
-        Me.Guna2TextBox3.Size = New System.Drawing.Size(364, 53)
-        Me.Guna2TextBox3.TabIndex = 3
-        Me.Guna2TextBox3.UseSystemPasswordChar = True
-        '
-        'Guna2TextBox4
-        '
-        Me.Guna2TextBox4.BorderRadius = 20
-        Me.Guna2TextBox4.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Guna2TextBox4.DefaultText = ""
-        Me.Guna2TextBox4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.Guna2TextBox4.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.Guna2TextBox4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox4.DisabledState.Parent = Me.Guna2TextBox4
-        Me.Guna2TextBox4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Guna2TextBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox4.FocusedState.Parent = Me.Guna2TextBox4
-        Me.Guna2TextBox4.Font = New System.Drawing.Font("Ubuntu", 15.75!)
-        Me.Guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2TextBox4.HoverState.Parent = Me.Guna2TextBox4
-        Me.Guna2TextBox4.Location = New System.Drawing.Point(64, 220)
-        Me.Guna2TextBox4.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
-        Me.Guna2TextBox4.Name = "Guna2TextBox4"
-        Me.Guna2TextBox4.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.Guna2TextBox4.PlaceholderText = "Password Lama"
-        Me.Guna2TextBox4.SelectedText = ""
-        Me.Guna2TextBox4.ShadowDecoration.Parent = Me.Guna2TextBox4
-        Me.Guna2TextBox4.Size = New System.Drawing.Size(364, 53)
-        Me.Guna2TextBox4.TabIndex = 2
-        Me.Guna2TextBox4.UseSystemPasswordChar = True
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Ubuntu Medium", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(58, 64)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(310, 34)
-        Me.Label4.TabIndex = 3
-        Me.Label4.Text = "Ubah Password Admin"
-        '
-        'Guna2Button8
-        '
-        Me.Guna2Button8.BorderRadius = 20
-        Me.Guna2Button8.CheckedState.Parent = Me.Guna2Button8
-        Me.Guna2Button8.CustomImages.Parent = Me.Guna2Button8
-        Me.Guna2Button8.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button8.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button8.DisabledState.Parent = Me.Guna2Button8
-        Me.Guna2Button8.FillColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
-        Me.Guna2Button8.Font = New System.Drawing.Font("Ubuntu", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button8.ForeColor = System.Drawing.Color.White
-        Me.Guna2Button8.HoverState.Parent = Me.Guna2Button8
-        Me.Guna2Button8.Location = New System.Drawing.Point(64, 325)
-        Me.Guna2Button8.Name = "Guna2Button8"
-        Me.Guna2Button8.ShadowDecoration.Parent = Me.Guna2Button8
-        Me.Guna2Button8.Size = New System.Drawing.Size(364, 50)
-        Me.Guna2Button8.TabIndex = 4
-        Me.Guna2Button8.Text = "Ubah Password"
-        '
         'Changepwd
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -536,6 +536,8 @@ Partial Class Changepwd
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.Panel1.ResumeLayout(False)
+        Me.Guna2Panel5.ResumeLayout(False)
+        Me.Guna2Panel5.PerformLayout()
         Me.Guna2Panel4.ResumeLayout(False)
         Me.Guna2Panel4.PerformLayout()
         Me.Guna2Panel6.ResumeLayout(False)
@@ -543,8 +545,6 @@ Partial Class Changepwd
         Me.Guna2Panel2.ResumeLayout(False)
         Me.Guna2Panel2.PerformLayout()
         Me.Guna2Panel1.ResumeLayout(False)
-        Me.Guna2Panel5.ResumeLayout(False)
-        Me.Guna2Panel5.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub

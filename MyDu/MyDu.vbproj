@@ -82,16 +82,40 @@
     <Compile Include="DashBoard.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="My Project\AssemblyInfo.vb" />
-    <Compile Include="My Project\Application.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Application.myapp</DependentUpon>
-    </Compile>
     <Compile Include="Login.Designer.vb">
       <DependentUpon>Login.vb</DependentUpon>
     </Compile>
     <Compile Include="Login.vb">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profile.designer.vb">
+      <DependentUpon>Profile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Changepwd.designer.vb">
+      <DependentUpon>Changepwd.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Changepwd.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.designer.vb">
+      <DependentUpon>Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="unggah.designer.vb">
+      <DependentUpon>unggah.vb</DependentUpon>
+    </Compile>
+    <Compile Include="unggah.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -102,12 +126,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
-    <Compile Include="Profile.designer.vb">
-      <DependentUpon>Profile.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Profile.vb">
-      <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -126,14 +144,14 @@
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Profile.resx">
+      <DependentUpon>Profile.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Profile.resx">
-      <DependentUpon>Profile.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -157,6 +175,57 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\view 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit %281%29 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frame 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frame 15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout %281%29 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifyingglass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\max.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu %281%29 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu %282%29 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu %283%29 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\min.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sharing 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upload %281%29 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %282%29 1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -149,5 +149,47 @@
   <ItemGroup>
     <None Include="Resources\view 1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit %281%29 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout %281%29 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\max.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu %281%29 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu %282%29 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu %283%29 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\min.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sharing 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upload %281%29 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %282%29 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frame 1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

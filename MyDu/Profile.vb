@@ -36,4 +36,8 @@
         Changepwd.Show()
         Me.Hide()
     End Sub
+
+    Private Sub SearchBox_TextChanged(sender As Object, e As EventArgs) Handles SearchBox.TextChanged
+
+    End Sub
 End Class

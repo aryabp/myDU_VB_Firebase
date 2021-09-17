@@ -207,6 +207,7 @@ Partial Class Profile
         '
         Me.Guna2Button2.BorderRadius = 30
         Me.Guna2Button2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
+        Me.Guna2Button2.Checked = True
         Me.Guna2Button2.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
         Me.Guna2Button2.CheckedState.Parent = Me.Guna2Button2
         Me.Guna2Button2.CustomImages.Parent = Me.Guna2Button2
@@ -230,7 +231,6 @@ Partial Class Profile
         '
         Me.Guna2Button1.BorderRadius = 30
         Me.Guna2Button1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
-        Me.Guna2Button1.Checked = True
         Me.Guna2Button1.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
         Me.Guna2Button1.CheckedState.Parent = Me.Guna2Button1
         Me.Guna2Button1.CustomImages.Parent = Me.Guna2Button1
@@ -386,6 +386,7 @@ Partial Class Profile
         Me.SearchBox.HoverState.Parent = Me.SearchBox
         Me.SearchBox.IconLeft = Global.MyDu.My.Resources.Resources.magnifyingglass
         Me.SearchBox.Location = New System.Drawing.Point(66, 84)
+        Me.SearchBox.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.SearchBox.Name = "SearchBox"
         Me.SearchBox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.SearchBox.PlaceholderForeColor = System.Drawing.Color.Silver

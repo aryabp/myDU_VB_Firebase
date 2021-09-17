@@ -64,7 +64,6 @@ Partial Class DashBoard
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2DragControl1 = New Guna.UI2.WinForms.Guna2DragControl(Me.components)
-        Me.Guna2HtmlLabel1 = New Guna.UI2.WinForms.Guna2HtmlLabel()
         Me.Guna2Elipse2 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2Elipse3 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2Elipse4 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
@@ -280,7 +279,7 @@ Partial Class DashBoard
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
         Me.Label1.Location = New System.Drawing.Point(137, 53)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(160, 56)
+        Me.Label1.Size = New System.Drawing.Size(159, 60)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "myDU"
         '
@@ -388,6 +387,7 @@ Partial Class DashBoard
         'Guna2Panel9
         '
         Me.Guna2Panel9.BackColor = System.Drawing.Color.FromArgb(CType(CType(212, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.Guna2Panel9.BorderRadius = 10
         Me.Guna2Panel9.Controls.Add(Me.Guna2Panel17)
         Me.Guna2Panel9.Controls.Add(Me.Label8)
         Me.Guna2Panel9.Controls.Add(Me.Label6)
@@ -432,6 +432,7 @@ Partial Class DashBoard
         'Guna2Panel8
         '
         Me.Guna2Panel8.BackColor = System.Drawing.Color.FromArgb(CType(CType(212, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.Guna2Panel8.BorderRadius = 10
         Me.Guna2Panel8.Controls.Add(Me.Guna2Panel16)
         Me.Guna2Panel8.Controls.Add(Me.Label9)
         Me.Guna2Panel8.Controls.Add(Me.Label5)
@@ -477,6 +478,7 @@ Partial Class DashBoard
         '
         Me.Guna2Panel7.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
         Me.Guna2Panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.Guna2Panel7.BorderRadius = 10
         Me.Guna2Panel7.Controls.Add(Me.Guna2Panel15)
         Me.Guna2Panel7.Controls.Add(Me.Label7)
         Me.Guna2Panel7.Controls.Add(Me.Label4)
@@ -611,25 +613,19 @@ Partial Class DashBoard
         '
         Me.Guna2DragControl1.TargetControl = Me
         '
-        'Guna2HtmlLabel1
-        '
-        Me.Guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2HtmlLabel1.Location = New System.Drawing.Point(0, 0)
-        Me.Guna2HtmlLabel1.Name = "Guna2HtmlLabel1"
-        Me.Guna2HtmlLabel1.Size = New System.Drawing.Size(88, 15)
-        Me.Guna2HtmlLabel1.TabIndex = 3
-        Me.Guna2HtmlLabel1.Text = "Guna2HtmlLabel1"
-        '
         'Guna2Elipse2
         '
+        Me.Guna2Elipse2.BorderRadius = 10
         Me.Guna2Elipse2.TargetControl = Me.Guna2Panel9
         '
         'Guna2Elipse3
         '
+        Me.Guna2Elipse3.BorderRadius = 10
         Me.Guna2Elipse3.TargetControl = Me.Guna2Panel8
         '
         'Guna2Elipse4
         '
+        Me.Guna2Elipse4.BorderRadius = 10
         Me.Guna2Elipse4.TargetControl = Me.Guna2Panel7
         '
         'Guna2Elipse5
@@ -642,7 +638,6 @@ Partial Class DashBoard
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1424, 985)
-        Me.Controls.Add(Me.Guna2HtmlLabel1)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Guna2Panel3)
         Me.Controls.Add(Me.Guna2Panel1)
@@ -669,18 +664,15 @@ Partial Class DashBoard
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Panel3 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Panel6 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Panel4 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Panel5 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents Label1 As Label
     Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Button6 As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Guna2Button5 As Guna.UI2.WinForms.Guna2Button
@@ -700,10 +692,6 @@ Partial Class DashBoard
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents Guna2HtmlLabel1 As Guna.UI2.WinForms.Guna2HtmlLabel
-    Friend WithEvents Guna2Elipse2 As Guna.UI2.WinForms.Guna2Elipse
-    Friend WithEvents Guna2Elipse3 As Guna.UI2.WinForms.Guna2Elipse
-    Friend WithEvents Guna2Elipse4 As Guna.UI2.WinForms.Guna2Elipse
     Friend WithEvents Label8 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents Label9 As Label
@@ -714,8 +702,13 @@ Partial Class DashBoard
     Friend WithEvents Guna2Panel11 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Panel10 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Label10 As Label
-    Friend WithEvents Guna2Elipse5 As Guna.UI2.WinForms.Guna2Elipse
     Friend WithEvents Guna2Panel17 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Panel16 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Panel15 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Guna2Elipse2 As Guna.UI2.WinForms.Guna2Elipse
+    Friend WithEvents Guna2Elipse3 As Guna.UI2.WinForms.Guna2Elipse
+    Friend WithEvents Guna2Elipse4 As Guna.UI2.WinForms.Guna2Elipse
+    Friend WithEvents Guna2Elipse5 As Guna.UI2.WinForms.Guna2Elipse
 End Class

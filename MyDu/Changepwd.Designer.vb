@@ -143,11 +143,11 @@ Partial Class Changepwd
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Ubuntu Medium", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
         Me.Label4.Location = New System.Drawing.Point(58, 64)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(310, 34)
+        Me.Label4.Size = New System.Drawing.Size(308, 31)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Ubah Password Admin"
         '
@@ -349,7 +349,7 @@ Partial Class Changepwd
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
         Me.Label1.Location = New System.Drawing.Point(137, 53)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(160, 56)
+        Me.Label1.Size = New System.Drawing.Size(159, 60)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "myDU"
         '
@@ -479,6 +479,7 @@ Partial Class Changepwd
         '
         Me.Guna2Button2.BorderRadius = 30
         Me.Guna2Button2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
+        Me.Guna2Button2.Checked = True
         Me.Guna2Button2.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
         Me.Guna2Button2.CheckedState.Parent = Me.Guna2Button2
         Me.Guna2Button2.CustomImages.Parent = Me.Guna2Button2
@@ -496,13 +497,12 @@ Partial Class Changepwd
         Me.Guna2Button2.ShadowDecoration.Parent = Me.Guna2Button2
         Me.Guna2Button2.Size = New System.Drawing.Size(423, 87)
         Me.Guna2Button2.TabIndex = 2
-        Me.Guna2Button2.Text = "User Form1"
+        Me.Guna2Button2.Text = "User Profile"
         '
         'Guna2Button1
         '
         Me.Guna2Button1.BorderRadius = 30
         Me.Guna2Button1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
-        Me.Guna2Button1.Checked = True
         Me.Guna2Button1.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
         Me.Guna2Button1.CheckedState.Parent = Me.Guna2Button1
         Me.Guna2Button1.CustomImages.Parent = Me.Guna2Button1

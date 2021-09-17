@@ -51,6 +51,7 @@ Partial Class unggah
         Me.Guna2DragControl1 = New Guna.UI2.WinForms.Guna2DragControl(Me.components)
         Me.ElipseUserTotal = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2Elipse3 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
+        Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Panel1.SuspendLayout()
         Me.Guna2Panel5.SuspendLayout()
         Me.Guna2Panel4.SuspendLayout()
@@ -95,11 +96,12 @@ Partial Class unggah
         'Guna2Panel5
         '
         Me.Guna2Panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.Guna2Panel5.BorderRadius = 10
         Me.Guna2Panel5.Controls.Add(Me.Guna2ImageButton1)
         Me.Guna2Panel5.Controls.Add(Me.Guna2Button8)
         Me.Guna2Panel5.Controls.Add(Me.Label4)
         Me.Guna2Panel5.Controls.Add(Me.Guna2TextBox1)
-        Me.Guna2Panel5.Location = New System.Drawing.Point(43, 138)
+        Me.Guna2Panel5.Location = New System.Drawing.Point(43, 137)
         Me.Guna2Panel5.Name = "Guna2Panel5"
         Me.Guna2Panel5.ShadowDecoration.Parent = Me.Guna2Panel5
         Me.Guna2Panel5.Size = New System.Drawing.Size(902, 778)
@@ -365,6 +367,7 @@ Partial Class unggah
         '
         Me.Guna2Button3.BorderRadius = 30
         Me.Guna2Button3.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
+        Me.Guna2Button3.Checked = True
         Me.Guna2Button3.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
         Me.Guna2Button3.CheckedState.Parent = Me.Guna2Button3
         Me.Guna2Button3.CustomImages.Parent = Me.Guna2Button3
@@ -405,13 +408,12 @@ Partial Class unggah
         Me.Guna2Button2.ShadowDecoration.Parent = Me.Guna2Button2
         Me.Guna2Button2.Size = New System.Drawing.Size(423, 87)
         Me.Guna2Button2.TabIndex = 2
-        Me.Guna2Button2.Text = "User Form1"
+        Me.Guna2Button2.Text = "User Profile"
         '
         'Guna2Button1
         '
         Me.Guna2Button1.BorderRadius = 30
         Me.Guna2Button1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
-        Me.Guna2Button1.Checked = True
         Me.Guna2Button1.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
         Me.Guna2Button1.CheckedState.Parent = Me.Guna2Button1
         Me.Guna2Button1.CustomImages.Parent = Me.Guna2Button1
@@ -455,6 +457,11 @@ Partial Class unggah
         'Guna2DragControl1
         '
         Me.Guna2DragControl1.TargetControl = Me.Guna2Button3
+        '
+        'Guna2Elipse3
+        '
+        Me.Guna2Elipse3.BorderRadius = 10
+        Me.Guna2Elipse3.TargetControl = Me.Guna2Panel5
         '
         'unggah
         '
@@ -510,4 +517,5 @@ Partial Class unggah
     Friend WithEvents ElipseUserTotal As Guna.UI2.WinForms.Guna2Elipse
     Friend WithEvents Guna2Elipse3 As Guna.UI2.WinForms.Guna2Elipse
     Friend WithEvents Guna2ImageButton1 As Guna.UI2.WinForms.Guna2ImageButton
+    Friend WithEvents Guna2Elipse1 As Guna.UI2.WinForms.Guna2Elipse
 End Class

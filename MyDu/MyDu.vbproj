@@ -236,5 +236,10 @@
   <ItemGroup>
     <None Include="Resources\user %282%29 1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RegistrasiUser-Gray.png" />
+    <Content Include="Resources\RegistrasiUser.png" />
+    <None Include="Resources\RegistrasiUser1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

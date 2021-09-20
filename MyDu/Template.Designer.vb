@@ -27,7 +27,6 @@ Partial Class Template
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Guna2Panel7 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2Panel15 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -40,14 +39,11 @@ Partial Class Template
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Guna2Panel5 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Panel9 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2Panel17 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Guna2Panel8 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2Panel16 = New Guna.UI2.WinForms.Guna2Panel()
         Me.UserPanel = New Guna.UI2.WinForms.Guna2Panel()
         Me.UserLabel = New System.Windows.Forms.Label()
-        Me.UserPhoto = New Guna.UI2.WinForms.Guna2ImageButton()
         Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2DragControl1 = New Guna.UI2.WinForms.Guna2DragControl(Me.components)
         Me.Guna2Elipse2 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
@@ -60,14 +56,18 @@ Partial Class Template
         Me.JudulPanel = New Guna.UI2.WinForms.Guna2Panel()
         Me.JudulLabel = New System.Windows.Forms.Label()
         Me.ListPanel = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Guna2Elipse4 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
+        Me.Guna2Elipse6 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
+        Me.Guna2Panel17 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Guna2Panel16 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Guna2Panel15 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.UserPhoto = New Guna.UI2.WinForms.Guna2ImageButton()
         Me.LogoutButton = New Guna.UI2.WinForms.Guna2Button()
         Me.RegistrasiAdminButton = New Guna.UI2.WinForms.Guna2Button()
         Me.RegistrasiUserButton = New Guna.UI2.WinForms.Guna2Button()
         Me.UploadJadwalButton = New Guna.UI2.WinForms.Guna2Button()
         Me.UserProfileButton = New Guna.UI2.WinForms.Guna2Button()
         Me.DashboardButton = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Elipse4 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
-        Me.Guna2Elipse6 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2Panel7.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.Guna2Panel5.SuspendLayout()
@@ -115,16 +115,6 @@ Partial Class Template
         Me.Guna2Panel7.ShadowDecoration.Parent = Me.Guna2Panel7
         Me.Guna2Panel7.Size = New System.Drawing.Size(292, 169)
         Me.Guna2Panel7.TabIndex = 3
-        '
-        'Guna2Panel15
-        '
-        Me.Guna2Panel15.BackgroundImage = Global.MyDu.My.Resources.Resources.group_11
-        Me.Guna2Panel15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.Guna2Panel15.Location = New System.Drawing.Point(185, 103)
-        Me.Guna2Panel15.Name = "Guna2Panel15"
-        Me.Guna2Panel15.ShadowDecoration.Parent = Me.Guna2Panel15
-        Me.Guna2Panel15.Size = New System.Drawing.Size(87, 52)
-        Me.Guna2Panel15.TabIndex = 2
         '
         'Label7
         '
@@ -258,16 +248,6 @@ Partial Class Template
         Me.Guna2Panel9.Size = New System.Drawing.Size(292, 169)
         Me.Guna2Panel9.TabIndex = 4
         '
-        'Guna2Panel17
-        '
-        Me.Guna2Panel17.BackgroundImage = Global.MyDu.My.Resources.Resources.sharing_1
-        Me.Guna2Panel17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.Guna2Panel17.Location = New System.Drawing.Point(188, 104)
-        Me.Guna2Panel17.Name = "Guna2Panel17"
-        Me.Guna2Panel17.ShadowDecoration.Parent = Me.Guna2Panel17
-        Me.Guna2Panel17.Size = New System.Drawing.Size(87, 52)
-        Me.Guna2Panel17.TabIndex = 4
-        '
         'Label8
         '
         Me.Label8.AutoSize = True
@@ -303,16 +283,6 @@ Partial Class Template
         Me.Guna2Panel8.Size = New System.Drawing.Size(292, 169)
         Me.Guna2Panel8.TabIndex = 4
         '
-        'Guna2Panel16
-        '
-        Me.Guna2Panel16.BackgroundImage = Global.MyDu.My.Resources.Resources.user__2__1
-        Me.Guna2Panel16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.Guna2Panel16.Location = New System.Drawing.Point(192, 103)
-        Me.Guna2Panel16.Name = "Guna2Panel16"
-        Me.Guna2Panel16.ShadowDecoration.Parent = Me.Guna2Panel16
-        Me.Guna2Panel16.Size = New System.Drawing.Size(87, 52)
-        Me.Guna2Panel16.TabIndex = 3
-        '
         'UserPanel
         '
         Me.UserPanel.Controls.Add(Me.UserLabel)
@@ -334,23 +304,6 @@ Partial Class Template
         Me.UserLabel.Size = New System.Drawing.Size(136, 24)
         Me.UserLabel.TabIndex = 3
         Me.UserLabel.Text = "Emirul Mukmin"
-        '
-        'UserPhoto
-        '
-        Me.UserPhoto.CheckedState.ImageSize = New System.Drawing.Size(60, 60)
-        Me.UserPhoto.CheckedState.Parent = Me.UserPhoto
-        Me.UserPhoto.HoverState.ImageSize = New System.Drawing.Size(60, 60)
-        Me.UserPhoto.HoverState.Parent = Me.UserPhoto
-        Me.UserPhoto.Image = CType(resources.GetObject("UserPhoto.Image"), System.Drawing.Image)
-        Me.UserPhoto.ImageOffset = New System.Drawing.Point(0, 0)
-        Me.UserPhoto.ImageRotate = 0!
-        Me.UserPhoto.ImageSize = New System.Drawing.Size(60, 60)
-        Me.UserPhoto.Location = New System.Drawing.Point(754, 15)
-        Me.UserPhoto.Name = "UserPhoto"
-        Me.UserPhoto.PressedState.Parent = Me.UserPhoto
-        Me.UserPhoto.ShadowDecoration.Parent = Me.UserPhoto
-        Me.UserPhoto.Size = New System.Drawing.Size(73, 67)
-        Me.UserPhoto.TabIndex = 0
         '
         'Guna2Elipse1
         '
@@ -457,6 +410,62 @@ Partial Class Template
         Me.ListPanel.Size = New System.Drawing.Size(441, 946)
         Me.ListPanel.TabIndex = 3
         '
+        'Guna2Elipse4
+        '
+        Me.Guna2Elipse4.BorderRadius = 10
+        Me.Guna2Elipse4.TargetControl = Me.Guna2Panel7
+        '
+        'Guna2Elipse6
+        '
+        Me.Guna2Elipse6.TargetControl = Me
+        '
+        'Guna2Panel17
+        '
+        Me.Guna2Panel17.BackgroundImage = Global.MyDu.My.Resources.Resources.sharing_1
+        Me.Guna2Panel17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.Guna2Panel17.Location = New System.Drawing.Point(188, 104)
+        Me.Guna2Panel17.Name = "Guna2Panel17"
+        Me.Guna2Panel17.ShadowDecoration.Parent = Me.Guna2Panel17
+        Me.Guna2Panel17.Size = New System.Drawing.Size(87, 52)
+        Me.Guna2Panel17.TabIndex = 4
+        '
+        'Guna2Panel16
+        '
+        Me.Guna2Panel16.BackgroundImage = Global.MyDu.My.Resources.Resources.user__2__1
+        Me.Guna2Panel16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.Guna2Panel16.Location = New System.Drawing.Point(192, 103)
+        Me.Guna2Panel16.Name = "Guna2Panel16"
+        Me.Guna2Panel16.ShadowDecoration.Parent = Me.Guna2Panel16
+        Me.Guna2Panel16.Size = New System.Drawing.Size(87, 52)
+        Me.Guna2Panel16.TabIndex = 3
+        '
+        'Guna2Panel15
+        '
+        Me.Guna2Panel15.BackgroundImage = Global.MyDu.My.Resources.Resources.group_11
+        Me.Guna2Panel15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.Guna2Panel15.Location = New System.Drawing.Point(185, 103)
+        Me.Guna2Panel15.Name = "Guna2Panel15"
+        Me.Guna2Panel15.ShadowDecoration.Parent = Me.Guna2Panel15
+        Me.Guna2Panel15.Size = New System.Drawing.Size(87, 52)
+        Me.Guna2Panel15.TabIndex = 2
+        '
+        'UserPhoto
+        '
+        Me.UserPhoto.CheckedState.ImageSize = New System.Drawing.Size(60, 60)
+        Me.UserPhoto.CheckedState.Parent = Me.UserPhoto
+        Me.UserPhoto.HoverState.ImageSize = New System.Drawing.Size(60, 60)
+        Me.UserPhoto.HoverState.Parent = Me.UserPhoto
+        Me.UserPhoto.Image = CType(resources.GetObject("UserPhoto.Image"), System.Drawing.Image)
+        Me.UserPhoto.ImageOffset = New System.Drawing.Point(0, 0)
+        Me.UserPhoto.ImageRotate = 0!
+        Me.UserPhoto.ImageSize = New System.Drawing.Size(60, 60)
+        Me.UserPhoto.Location = New System.Drawing.Point(754, 15)
+        Me.UserPhoto.Name = "UserPhoto"
+        Me.UserPhoto.PressedState.Parent = Me.UserPhoto
+        Me.UserPhoto.ShadowDecoration.Parent = Me.UserPhoto
+        Me.UserPhoto.Size = New System.Drawing.Size(73, 67)
+        Me.UserPhoto.TabIndex = 0
+        '
         'LogoutButton
         '
         Me.LogoutButton.BorderRadius = 30
@@ -516,12 +525,13 @@ Partial Class Template
         Me.RegistrasiUserButton.Font = New System.Drawing.Font("Ubuntu", 21.75!)
         Me.RegistrasiUserButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
         Me.RegistrasiUserButton.HoverState.Parent = Me.RegistrasiUserButton
-        Me.RegistrasiUserButton.Image = CType(resources.GetObject("RegistrasiUserButton.Image"), System.Drawing.Image)
+        Me.RegistrasiUserButton.Image = Global.MyDu.My.Resources.Resources.RegistrasiUser_Gray
         Me.RegistrasiUserButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.RegistrasiUserButton.ImageOffset = New System.Drawing.Point(60, 0)
         Me.RegistrasiUserButton.ImageSize = New System.Drawing.Size(40, 40)
         Me.RegistrasiUserButton.Location = New System.Drawing.Point(12, 510)
         Me.RegistrasiUserButton.Name = "RegistrasiUserButton"
+        Me.RegistrasiUserButton.PressedColor = System.Drawing.Color.Azure
         Me.RegistrasiUserButton.ShadowDecoration.Parent = Me.RegistrasiUserButton
         Me.RegistrasiUserButton.Size = New System.Drawing.Size(423, 87)
         Me.RegistrasiUserButton.TabIndex = 4
@@ -604,15 +614,6 @@ Partial Class Template
         Me.DashboardButton.Text = "Dashboard"
         Me.DashboardButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.DashboardButton.TextOffset = New System.Drawing.Point(75, 0)
-        '
-        'Guna2Elipse4
-        '
-        Me.Guna2Elipse4.BorderRadius = 10
-        Me.Guna2Elipse4.TargetControl = Me.Guna2Panel7
-        '
-        'Guna2Elipse6
-        '
-        Me.Guna2Elipse6.TargetControl = Me
         '
         'Template
         '

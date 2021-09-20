@@ -82,6 +82,12 @@
     <Compile Include="DashBoard.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Template.Designer.vb">
+      <DependentUpon>Template.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Template.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Login.Designer.vb">
       <DependentUpon>Login.vb</DependentUpon>
     </Compile>
@@ -134,6 +140,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DashBoard.resx">
       <DependentUpon>DashBoard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Template.resx">
+      <DependentUpon>Template.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="unggah.resx">
       <DependentUpon>unggah.vb</DependentUpon>

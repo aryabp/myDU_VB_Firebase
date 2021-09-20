@@ -83,7 +83,7 @@ Partial Class Profile
         Me.Guna2Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Guna2Panel1.Name = "Guna2Panel1"
         Me.Guna2Panel1.ShadowDecoration.Parent = Me.Guna2Panel1
-        Me.Guna2Panel1.Size = New System.Drawing.Size(441, 985)
+        Me.Guna2Panel1.Size = New System.Drawing.Size(441, 1024)
         Me.Guna2Panel1.TabIndex = 0
         '
         'Guna2Button7
@@ -279,7 +279,7 @@ Partial Class Profile
         Me.Guna2Panel3.Location = New System.Drawing.Point(441, 0)
         Me.Guna2Panel3.Name = "Guna2Panel3"
         Me.Guna2Panel3.ShadowDecoration.Parent = Me.Guna2Panel3
-        Me.Guna2Panel3.Size = New System.Drawing.Size(983, 47)
+        Me.Guna2Panel3.Size = New System.Drawing.Size(999, 47)
         Me.Guna2Panel3.TabIndex = 1
         '
         'Guna2Panel6
@@ -287,7 +287,7 @@ Partial Class Profile
         Me.Guna2Panel6.Controls.Add(Me.Guna2ControlBox2)
         Me.Guna2Panel6.Controls.Add(Me.Guna2ControlBox1)
         Me.Guna2Panel6.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Guna2Panel6.Location = New System.Drawing.Point(783, 0)
+        Me.Guna2Panel6.Location = New System.Drawing.Point(799, 0)
         Me.Guna2Panel6.Name = "Guna2Panel6"
         Me.Guna2Panel6.ShadowDecoration.Parent = Me.Guna2Panel6
         Me.Guna2Panel6.Size = New System.Drawing.Size(200, 47)
@@ -328,7 +328,7 @@ Partial Class Profile
         Me.Guna2Panel4.Location = New System.Drawing.Point(0, 0)
         Me.Guna2Panel4.Name = "Guna2Panel4"
         Me.Guna2Panel4.ShadowDecoration.Parent = Me.Guna2Panel4
-        Me.Guna2Panel4.Size = New System.Drawing.Size(983, 100)
+        Me.Guna2Panel4.Size = New System.Drawing.Size(999, 100)
         Me.Guna2Panel4.TabIndex = 0
         '
         'Label2
@@ -366,7 +366,7 @@ Partial Class Profile
         Me.Guna2Panel5.Location = New System.Drawing.Point(0, 100)
         Me.Guna2Panel5.Name = "Guna2Panel5"
         Me.Guna2Panel5.ShadowDecoration.Parent = Me.Guna2Panel5
-        Me.Guna2Panel5.Size = New System.Drawing.Size(983, 178)
+        Me.Guna2Panel5.Size = New System.Drawing.Size(999, 178)
         Me.Guna2Panel5.TabIndex = 1
         '
         'SearchBox
@@ -405,7 +405,7 @@ Partial Class Profile
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel1.Location = New System.Drawing.Point(441, 47)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(983, 938)
+        Me.Panel1.Size = New System.Drawing.Size(999, 977)
         Me.Panel1.TabIndex = 2
         '
         'Tabel
@@ -509,7 +509,7 @@ Partial Class Profile
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(1424, 985)
+        Me.ClientSize = New System.Drawing.Size(1440, 1024)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Guna2Panel3)
         Me.Controls.Add(Me.Guna2Panel1)

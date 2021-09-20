@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Template
+Partial Class Dashboard2
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -23,16 +23,7 @@ Partial Class Template
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Template))
-        Me.ContentPanel = New System.Windows.Forms.Panel()
-        Me.UserPanel = New Guna.UI2.WinForms.Guna2Panel()
-        Me.UserLabel = New System.Windows.Forms.Label()
-        Me.UserPhoto = New Guna.UI2.WinForms.Guna2ImageButton()
-        Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
-        Me.Guna2DragControl1 = New Guna.UI2.WinForms.Guna2DragControl(Me.components)
-        Me.Guna2Elipse2 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
-        Me.Guna2Elipse3 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
-        Me.Guna2Elipse5 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Dashboard2))
         Me.MinimazeControlBox = New Guna.UI2.WinForms.Guna2ControlBox()
         Me.CloseControlBox = New Guna.UI2.WinForms.Guna2ControlBox()
         Me.ControlPanel = New Guna.UI2.WinForms.Guna2Panel()
@@ -46,78 +37,48 @@ Partial Class Template
         Me.UploadJadwalButton = New Guna.UI2.WinForms.Guna2Button()
         Me.UserProfileButton = New Guna.UI2.WinForms.Guna2Button()
         Me.DashboardButton = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Elipse4 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
-        Me.Guna2Elipse6 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
+        Me.Guna2DragControl1 = New Guna.UI2.WinForms.Guna2DragControl(Me.components)
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
+        Me.Guna2Panel14 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Guna2Panel12 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Guna2Panel11 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Guna2Panel10 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.ContentPanel = New System.Windows.Forms.Panel()
+        Me.Guna2Panel13 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Label10 = New System.Windows.Forms.Label()
         Me.UpperContentPanel = New Guna.UI2.WinForms.Guna2Panel()
-        Me.ContentPanel.SuspendLayout()
-        Me.UserPanel.SuspendLayout()
+        Me.OnlineUserPanel = New Guna.UI2.WinForms.Guna2Panel()
+        Me.OnlineUserLogo = New Guna.UI2.WinForms.Guna2Panel()
+        Me.OnlineUserNumber = New System.Windows.Forms.Label()
+        Me.OnlineUserText = New System.Windows.Forms.Label()
+        Me.UserTodayPanel = New Guna.UI2.WinForms.Guna2Panel()
+        Me.UserTodayLogo = New Guna.UI2.WinForms.Guna2Panel()
+        Me.UserTodayNumber = New System.Windows.Forms.Label()
+        Me.UserTodayText = New System.Windows.Forms.Label()
+        Me.UserTotalPanel = New Guna.UI2.WinForms.Guna2Panel()
+        Me.UserTotalLogo = New Guna.UI2.WinForms.Guna2Panel()
+        Me.UserTotalNumber = New System.Windows.Forms.Label()
+        Me.UserTotalText = New System.Windows.Forms.Label()
+        Me.UpperContentJudul = New System.Windows.Forms.Label()
+        Me.UserPanel = New Guna.UI2.WinForms.Guna2Panel()
+        Me.UserNama = New System.Windows.Forms.Label()
+        Me.UserLabel = New System.Windows.Forms.Label()
+        Me.UserPhoto = New Guna.UI2.WinForms.Guna2ImageButton()
+        Me.UserTotalElipse = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
+        Me.UserTodayElipse = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
+        Me.OnlineUserElipse = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.ControlPanel.SuspendLayout()
         Me.TitleBarPanel.SuspendLayout()
         Me.JudulPanel.SuspendLayout()
         Me.ListPanel.SuspendLayout()
+        Me.ContentPanel.SuspendLayout()
+        Me.UpperContentPanel.SuspendLayout()
+        Me.OnlineUserPanel.SuspendLayout()
+        Me.UserTodayPanel.SuspendLayout()
+        Me.UserTotalPanel.SuspendLayout()
+        Me.UserPanel.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'ContentPanel
-        '
-        Me.ContentPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(229, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(229, Byte), Integer))
-        Me.ContentPanel.Controls.Add(Me.UpperContentPanel)
-        Me.ContentPanel.Controls.Add(Me.UserPanel)
-        Me.ContentPanel.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.ContentPanel.Location = New System.Drawing.Point(441, 47)
-        Me.ContentPanel.Name = "ContentPanel"
-        Me.ContentPanel.Size = New System.Drawing.Size(999, 977)
-        Me.ContentPanel.TabIndex = 5
-        '
-        'UserPanel
-        '
-        Me.UserPanel.Controls.Add(Me.UserLabel)
-        Me.UserPanel.Controls.Add(Me.UserPhoto)
-        Me.UserPanel.Dock = System.Windows.Forms.DockStyle.Top
-        Me.UserPanel.Location = New System.Drawing.Point(0, 0)
-        Me.UserPanel.Name = "UserPanel"
-        Me.UserPanel.ShadowDecoration.Parent = Me.UserPanel
-        Me.UserPanel.Size = New System.Drawing.Size(999, 100)
-        Me.UserPanel.TabIndex = 0
-        '
-        'UserLabel
-        '
-        Me.UserLabel.AutoSize = True
-        Me.UserLabel.Font = New System.Drawing.Font("Ubuntu", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.UserLabel.ForeColor = System.Drawing.Color.Black
-        Me.UserLabel.Location = New System.Drawing.Point(833, 35)
-        Me.UserLabel.Name = "UserLabel"
-        Me.UserLabel.Size = New System.Drawing.Size(136, 24)
-        Me.UserLabel.TabIndex = 3
-        Me.UserLabel.Text = "Emirul Mukmin"
-        '
-        'UserPhoto
-        '
-        Me.UserPhoto.CheckedState.ImageSize = New System.Drawing.Size(60, 60)
-        Me.UserPhoto.CheckedState.Parent = Me.UserPhoto
-        Me.UserPhoto.HoverState.ImageSize = New System.Drawing.Size(60, 60)
-        Me.UserPhoto.HoverState.Parent = Me.UserPhoto
-        Me.UserPhoto.Image = CType(resources.GetObject("UserPhoto.Image"), System.Drawing.Image)
-        Me.UserPhoto.ImageOffset = New System.Drawing.Point(0, 0)
-        Me.UserPhoto.ImageRotate = 0!
-        Me.UserPhoto.ImageSize = New System.Drawing.Size(60, 60)
-        Me.UserPhoto.Location = New System.Drawing.Point(754, 15)
-        Me.UserPhoto.Name = "UserPhoto"
-        Me.UserPhoto.PressedState.Parent = Me.UserPhoto
-        Me.UserPhoto.ShadowDecoration.Parent = Me.UserPhoto
-        Me.UserPhoto.Size = New System.Drawing.Size(73, 67)
-        Me.UserPhoto.TabIndex = 0
-        '
-        'Guna2Elipse1
-        '
-        Me.Guna2Elipse1.BorderRadius = 20
-        '
-        'Guna2Elipse2
-        '
-        Me.Guna2Elipse2.BorderRadius = 10
-        '
-        'Guna2Elipse3
-        '
-        Me.Guna2Elipse3.BorderRadius = 10
         '
         'MinimazeControlBox
         '
@@ -166,7 +127,7 @@ Partial Class Template
         Me.TitleBarPanel.Name = "TitleBarPanel"
         Me.TitleBarPanel.ShadowDecoration.Parent = Me.TitleBarPanel
         Me.TitleBarPanel.Size = New System.Drawing.Size(999, 47)
-        Me.TitleBarPanel.TabIndex = 4
+        Me.TitleBarPanel.TabIndex = 7
         '
         'JudulPanel
         '
@@ -204,7 +165,7 @@ Partial Class Template
         Me.ListPanel.Name = "ListPanel"
         Me.ListPanel.ShadowDecoration.Parent = Me.ListPanel
         Me.ListPanel.Size = New System.Drawing.Size(441, 1024)
-        Me.ListPanel.TabIndex = 3
+        Me.ListPanel.TabIndex = 6
         '
         'LogoutButton
         '
@@ -355,16 +316,99 @@ Partial Class Template
         Me.DashboardButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.DashboardButton.TextOffset = New System.Drawing.Point(75, 0)
         '
-        'Guna2Elipse4
+        'Panel1
         '
-        Me.Guna2Elipse4.BorderRadius = 10
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(229, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(229, Byte), Integer))
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(1440, 1024)
+        Me.Panel1.TabIndex = 8
         '
-        'Guna2Elipse6
+        'Guna2Elipse1
         '
-        Me.Guna2Elipse6.TargetControl = Me
+        Me.Guna2Elipse1.BorderRadius = 20
+        Me.Guna2Elipse1.TargetControl = Me
+        '
+        'Guna2Panel14
+        '
+        Me.Guna2Panel14.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
+        Me.Guna2Panel14.Location = New System.Drawing.Point(49, 865)
+        Me.Guna2Panel14.Name = "Guna2Panel14"
+        Me.Guna2Panel14.ShadowDecoration.Parent = Me.Guna2Panel14
+        Me.Guna2Panel14.Size = New System.Drawing.Size(909, 60)
+        Me.Guna2Panel14.TabIndex = 7
+        '
+        'Guna2Panel12
+        '
+        Me.Guna2Panel12.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
+        Me.Guna2Panel12.Location = New System.Drawing.Point(49, 715)
+        Me.Guna2Panel12.Name = "Guna2Panel12"
+        Me.Guna2Panel12.ShadowDecoration.Parent = Me.Guna2Panel12
+        Me.Guna2Panel12.Size = New System.Drawing.Size(909, 60)
+        Me.Guna2Panel12.TabIndex = 5
+        '
+        'Guna2Panel11
+        '
+        Me.Guna2Panel11.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
+        Me.Guna2Panel11.Location = New System.Drawing.Point(49, 639)
+        Me.Guna2Panel11.Name = "Guna2Panel11"
+        Me.Guna2Panel11.ShadowDecoration.Parent = Me.Guna2Panel11
+        Me.Guna2Panel11.Size = New System.Drawing.Size(909, 60)
+        Me.Guna2Panel11.TabIndex = 5
+        '
+        'Guna2Panel10
+        '
+        Me.Guna2Panel10.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
+        Me.Guna2Panel10.Location = New System.Drawing.Point(49, 567)
+        Me.Guna2Panel10.Name = "Guna2Panel10"
+        Me.Guna2Panel10.ShadowDecoration.Parent = Me.Guna2Panel10
+        Me.Guna2Panel10.Size = New System.Drawing.Size(909, 60)
+        Me.Guna2Panel10.TabIndex = 4
+        '
+        'ContentPanel
+        '
+        Me.ContentPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(229, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(229, Byte), Integer))
+        Me.ContentPanel.Controls.Add(Me.Guna2Panel14)
+        Me.ContentPanel.Controls.Add(Me.Guna2Panel13)
+        Me.ContentPanel.Controls.Add(Me.Guna2Panel12)
+        Me.ContentPanel.Controls.Add(Me.Guna2Panel11)
+        Me.ContentPanel.Controls.Add(Me.Guna2Panel10)
+        Me.ContentPanel.Controls.Add(Me.Label10)
+        Me.ContentPanel.Controls.Add(Me.UpperContentPanel)
+        Me.ContentPanel.Controls.Add(Me.UserPanel)
+        Me.ContentPanel.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.ContentPanel.Location = New System.Drawing.Point(441, 47)
+        Me.ContentPanel.Name = "ContentPanel"
+        Me.ContentPanel.Size = New System.Drawing.Size(999, 977)
+        Me.ContentPanel.TabIndex = 9
+        '
+        'Guna2Panel13
+        '
+        Me.Guna2Panel13.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
+        Me.Guna2Panel13.Location = New System.Drawing.Point(49, 791)
+        Me.Guna2Panel13.Name = "Guna2Panel13"
+        Me.Guna2Panel13.ShadowDecoration.Parent = Me.Guna2Panel13
+        Me.Guna2Panel13.Size = New System.Drawing.Size(909, 60)
+        Me.Guna2Panel13.TabIndex = 7
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Ubuntu", 24.0!)
+        Me.Label10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
+        Me.Label10.Location = New System.Drawing.Point(42, 501)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(279, 39)
+        Me.Label10.TabIndex = 5
+        Me.Label10.Text = "Recently Updated"
         '
         'UpperContentPanel
         '
+        Me.UpperContentPanel.Controls.Add(Me.OnlineUserPanel)
+        Me.UpperContentPanel.Controls.Add(Me.UserTodayPanel)
+        Me.UpperContentPanel.Controls.Add(Me.UserTotalPanel)
+        Me.UpperContentPanel.Controls.Add(Me.UpperContentJudul)
         Me.UpperContentPanel.Dock = System.Windows.Forms.DockStyle.Top
         Me.UpperContentPanel.Location = New System.Drawing.Point(0, 100)
         Me.UpperContentPanel.Name = "UpperContentPanel"
@@ -372,7 +416,220 @@ Partial Class Template
         Me.UpperContentPanel.Size = New System.Drawing.Size(999, 343)
         Me.UpperContentPanel.TabIndex = 1
         '
-        'Template
+        'OnlineUserPanel
+        '
+        Me.OnlineUserPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(212, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.OnlineUserPanel.BorderRadius = 10
+        Me.OnlineUserPanel.Controls.Add(Me.OnlineUserLogo)
+        Me.OnlineUserPanel.Controls.Add(Me.OnlineUserNumber)
+        Me.OnlineUserPanel.Controls.Add(Me.OnlineUserText)
+        Me.OnlineUserPanel.Location = New System.Drawing.Point(666, 123)
+        Me.OnlineUserPanel.Name = "OnlineUserPanel"
+        Me.OnlineUserPanel.ShadowDecoration.Parent = Me.OnlineUserPanel
+        Me.OnlineUserPanel.Size = New System.Drawing.Size(292, 169)
+        Me.OnlineUserPanel.TabIndex = 4
+        '
+        'OnlineUserLogo
+        '
+        Me.OnlineUserLogo.BackgroundImage = Global.MyDu.My.Resources.Resources.sharing_1
+        Me.OnlineUserLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.OnlineUserLogo.Location = New System.Drawing.Point(188, 104)
+        Me.OnlineUserLogo.Name = "OnlineUserLogo"
+        Me.OnlineUserLogo.ShadowDecoration.Parent = Me.OnlineUserLogo
+        Me.OnlineUserLogo.Size = New System.Drawing.Size(87, 52)
+        Me.OnlineUserLogo.TabIndex = 4
+        '
+        'OnlineUserNumber
+        '
+        Me.OnlineUserNumber.AutoSize = True
+        Me.OnlineUserNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 32.0!, System.Drawing.FontStyle.Bold)
+        Me.OnlineUserNumber.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
+        Me.OnlineUserNumber.Location = New System.Drawing.Point(22, 103)
+        Me.OnlineUserNumber.Name = "OnlineUserNumber"
+        Me.OnlineUserNumber.Size = New System.Drawing.Size(97, 51)
+        Me.OnlineUserNumber.TabIndex = 2
+        Me.OnlineUserNumber.Text = "142"
+        '
+        'OnlineUserText
+        '
+        Me.OnlineUserText.AutoSize = True
+        Me.OnlineUserText.Font = New System.Drawing.Font("Ubuntu", 12.0!)
+        Me.OnlineUserText.ForeColor = System.Drawing.Color.White
+        Me.OnlineUserText.Location = New System.Drawing.Point(27, 28)
+        Me.OnlineUserText.Name = "OnlineUserText"
+        Me.OnlineUserText.Size = New System.Drawing.Size(90, 20)
+        Me.OnlineUserText.TabIndex = 2
+        Me.OnlineUserText.Text = "Online user"
+        '
+        'UserTodayPanel
+        '
+        Me.UserTodayPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(212, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.UserTodayPanel.BorderRadius = 10
+        Me.UserTodayPanel.Controls.Add(Me.UserTodayLogo)
+        Me.UserTodayPanel.Controls.Add(Me.UserTodayNumber)
+        Me.UserTodayPanel.Controls.Add(Me.UserTodayText)
+        Me.UserTodayPanel.Location = New System.Drawing.Point(358, 123)
+        Me.UserTodayPanel.Name = "UserTodayPanel"
+        Me.UserTodayPanel.ShadowDecoration.Parent = Me.UserTodayPanel
+        Me.UserTodayPanel.Size = New System.Drawing.Size(292, 169)
+        Me.UserTodayPanel.TabIndex = 4
+        '
+        'UserTodayLogo
+        '
+        Me.UserTodayLogo.BackgroundImage = Global.MyDu.My.Resources.Resources.user__2__1
+        Me.UserTodayLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.UserTodayLogo.Location = New System.Drawing.Point(192, 103)
+        Me.UserTodayLogo.Name = "UserTodayLogo"
+        Me.UserTodayLogo.ShadowDecoration.Parent = Me.UserTodayLogo
+        Me.UserTodayLogo.Size = New System.Drawing.Size(87, 52)
+        Me.UserTodayLogo.TabIndex = 3
+        '
+        'UserTodayNumber
+        '
+        Me.UserTodayNumber.AutoSize = True
+        Me.UserTodayNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 32.0!, System.Drawing.FontStyle.Bold)
+        Me.UserTodayNumber.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
+        Me.UserTodayNumber.Location = New System.Drawing.Point(18, 103)
+        Me.UserTodayNumber.Name = "UserTodayNumber"
+        Me.UserTodayNumber.Size = New System.Drawing.Size(97, 51)
+        Me.UserTodayNumber.TabIndex = 3
+        Me.UserTodayNumber.Text = "203"
+        '
+        'UserTodayText
+        '
+        Me.UserTodayText.AutoSize = True
+        Me.UserTodayText.Font = New System.Drawing.Font("Ubuntu", 12.0!)
+        Me.UserTodayText.ForeColor = System.Drawing.Color.White
+        Me.UserTodayText.Location = New System.Drawing.Point(23, 28)
+        Me.UserTodayText.Name = "UserTodayText"
+        Me.UserTodayText.Size = New System.Drawing.Size(236, 20)
+        Me.UserTodayText.TabIndex = 1
+        Me.UserTodayText.Text = "User today accessed application"
+        '
+        'UserTotalPanel
+        '
+        Me.UserTotalPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
+        Me.UserTotalPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.UserTotalPanel.BorderRadius = 10
+        Me.UserTotalPanel.Controls.Add(Me.UserTotalLogo)
+        Me.UserTotalPanel.Controls.Add(Me.UserTotalNumber)
+        Me.UserTotalPanel.Controls.Add(Me.UserTotalText)
+        Me.UserTotalPanel.Location = New System.Drawing.Point(49, 123)
+        Me.UserTotalPanel.Name = "UserTotalPanel"
+        Me.UserTotalPanel.ShadowDecoration.Parent = Me.UserTotalPanel
+        Me.UserTotalPanel.Size = New System.Drawing.Size(292, 169)
+        Me.UserTotalPanel.TabIndex = 3
+        '
+        'UserTotalLogo
+        '
+        Me.UserTotalLogo.BackgroundImage = Global.MyDu.My.Resources.Resources.group_11
+        Me.UserTotalLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.UserTotalLogo.Location = New System.Drawing.Point(185, 103)
+        Me.UserTotalLogo.Name = "UserTotalLogo"
+        Me.UserTotalLogo.ShadowDecoration.Parent = Me.UserTotalLogo
+        Me.UserTotalLogo.Size = New System.Drawing.Size(87, 52)
+        Me.UserTotalLogo.TabIndex = 2
+        '
+        'UserTotalNumber
+        '
+        Me.UserTotalNumber.AutoSize = True
+        Me.UserTotalNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 32.0!, System.Drawing.FontStyle.Bold)
+        Me.UserTotalNumber.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
+        Me.UserTotalNumber.Location = New System.Drawing.Point(11, 103)
+        Me.UserTotalNumber.Name = "UserTotalNumber"
+        Me.UserTotalNumber.Size = New System.Drawing.Size(122, 51)
+        Me.UserTotalNumber.TabIndex = 1
+        Me.UserTotalNumber.Text = "2393"
+        '
+        'UserTotalText
+        '
+        Me.UserTotalText.AutoSize = True
+        Me.UserTotalText.Font = New System.Drawing.Font("Ubuntu", 12.0!)
+        Me.UserTotalText.ForeColor = System.Drawing.Color.White
+        Me.UserTotalText.Location = New System.Drawing.Point(16, 28)
+        Me.UserTotalText.Name = "UserTotalText"
+        Me.UserTotalText.Size = New System.Drawing.Size(230, 20)
+        Me.UserTotalText.TabIndex = 0
+        Me.UserTotalText.Text = "User total accessed application"
+        '
+        'UpperContentJudul
+        '
+        Me.UpperContentJudul.AutoSize = True
+        Me.UpperContentJudul.Font = New System.Drawing.Font("Ubuntu", 24.0!)
+        Me.UpperContentJudul.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
+        Me.UpperContentJudul.Location = New System.Drawing.Point(42, 41)
+        Me.UpperContentJudul.Name = "UpperContentJudul"
+        Me.UpperContentJudul.Size = New System.Drawing.Size(299, 39)
+        Me.UpperContentJudul.TabIndex = 2
+        Me.UpperContentJudul.Text = "Analytics Overview"
+        '
+        'UserPanel
+        '
+        Me.UserPanel.Controls.Add(Me.UserNama)
+        Me.UserPanel.Controls.Add(Me.UserLabel)
+        Me.UserPanel.Controls.Add(Me.UserPhoto)
+        Me.UserPanel.Dock = System.Windows.Forms.DockStyle.Top
+        Me.UserPanel.Location = New System.Drawing.Point(0, 0)
+        Me.UserPanel.Name = "UserPanel"
+        Me.UserPanel.ShadowDecoration.Parent = Me.UserPanel
+        Me.UserPanel.Size = New System.Drawing.Size(999, 100)
+        Me.UserPanel.TabIndex = 0
+        '
+        'UserNama
+        '
+        Me.UserNama.AutoSize = True
+        Me.UserNama.Font = New System.Drawing.Font("Ubuntu", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UserNama.ForeColor = System.Drawing.Color.Black
+        Me.UserNama.Location = New System.Drawing.Point(833, 35)
+        Me.UserNama.Name = "UserNama"
+        Me.UserNama.Size = New System.Drawing.Size(136, 24)
+        Me.UserNama.TabIndex = 3
+        Me.UserNama.Text = "Emirul Mukmin"
+        '
+        'UserLabel
+        '
+        Me.UserLabel.AutoSize = True
+        Me.UserLabel.Font = New System.Drawing.Font("Ubuntu", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UserLabel.ForeColor = System.Drawing.Color.Black
+        Me.UserLabel.Location = New System.Drawing.Point(833, 35)
+        Me.UserLabel.Name = "UserLabel"
+        Me.UserLabel.Size = New System.Drawing.Size(136, 24)
+        Me.UserLabel.TabIndex = 3
+        Me.UserLabel.Text = "Emirul Mukmin"
+        '
+        'UserPhoto
+        '
+        Me.UserPhoto.CheckedState.ImageSize = New System.Drawing.Size(60, 60)
+        Me.UserPhoto.CheckedState.Parent = Me.UserPhoto
+        Me.UserPhoto.HoverState.ImageSize = New System.Drawing.Size(60, 60)
+        Me.UserPhoto.HoverState.Parent = Me.UserPhoto
+        Me.UserPhoto.Image = CType(resources.GetObject("UserPhoto.Image"), System.Drawing.Image)
+        Me.UserPhoto.ImageOffset = New System.Drawing.Point(0, 0)
+        Me.UserPhoto.ImageRotate = 0!
+        Me.UserPhoto.ImageSize = New System.Drawing.Size(60, 60)
+        Me.UserPhoto.Location = New System.Drawing.Point(754, 15)
+        Me.UserPhoto.Name = "UserPhoto"
+        Me.UserPhoto.PressedState.Parent = Me.UserPhoto
+        Me.UserPhoto.ShadowDecoration.Parent = Me.UserPhoto
+        Me.UserPhoto.Size = New System.Drawing.Size(73, 67)
+        Me.UserPhoto.TabIndex = 0
+        '
+        'UserTotalElipse
+        '
+        Me.UserTotalElipse.BorderRadius = 10
+        Me.UserTotalElipse.TargetControl = Me.UserTotalPanel
+        '
+        'UserTodayElipse
+        '
+        Me.UserTodayElipse.BorderRadius = 10
+        Me.UserTodayElipse.TargetControl = Me.UserTodayPanel
+        '
+        'OnlineUserElipse
+        '
+        Me.OnlineUserElipse.BorderRadius = 10
+        Me.OnlineUserElipse.TargetControl = Me.OnlineUserPanel
+        '
+        'Dashboard2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -380,43 +637,72 @@ Partial Class Template
         Me.Controls.Add(Me.ContentPanel)
         Me.Controls.Add(Me.TitleBarPanel)
         Me.Controls.Add(Me.ListPanel)
+        Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Name = "Template"
+        Me.Name = "Dashboard2"
         Me.Text = "Form1"
-        Me.ContentPanel.ResumeLayout(False)
-        Me.UserPanel.ResumeLayout(False)
-        Me.UserPanel.PerformLayout()
         Me.ControlPanel.ResumeLayout(False)
         Me.TitleBarPanel.ResumeLayout(False)
         Me.JudulPanel.ResumeLayout(False)
         Me.JudulPanel.PerformLayout()
         Me.ListPanel.ResumeLayout(False)
+        Me.ContentPanel.ResumeLayout(False)
+        Me.ContentPanel.PerformLayout()
+        Me.UpperContentPanel.ResumeLayout(False)
+        Me.UpperContentPanel.PerformLayout()
+        Me.OnlineUserPanel.ResumeLayout(False)
+        Me.OnlineUserPanel.PerformLayout()
+        Me.UserTodayPanel.ResumeLayout(False)
+        Me.UserTodayPanel.PerformLayout()
+        Me.UserTotalPanel.ResumeLayout(False)
+        Me.UserTotalPanel.PerformLayout()
+        Me.UserPanel.ResumeLayout(False)
+        Me.UserPanel.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents ContentPanel As Panel
-    Friend WithEvents UserPanel As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents UserLabel As Label
-    Friend WithEvents UserPhoto As Guna.UI2.WinForms.Guna2ImageButton
-    Friend WithEvents Guna2Elipse1 As Guna.UI2.WinForms.Guna2Elipse
-    Friend WithEvents Guna2DragControl1 As Guna.UI2.WinForms.Guna2DragControl
-    Friend WithEvents Guna2Elipse2 As Guna.UI2.WinForms.Guna2Elipse
-    Friend WithEvents Guna2Elipse3 As Guna.UI2.WinForms.Guna2Elipse
-    Friend WithEvents Guna2Elipse5 As Guna.UI2.WinForms.Guna2Elipse
     Friend WithEvents MinimazeControlBox As Guna.UI2.WinForms.Guna2ControlBox
     Friend WithEvents CloseControlBox As Guna.UI2.WinForms.Guna2ControlBox
     Friend WithEvents ControlPanel As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents TitleBarPanel As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents JudulPanel As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents JudulLabel As Label
-    Friend WithEvents DashboardButton As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents ListPanel As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents LogoutButton As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents RegistrasiAdminButton As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents RegistrasiUserButton As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents UploadJadwalButton As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents UserProfileButton As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Elipse4 As Guna.UI2.WinForms.Guna2Elipse
-    Friend WithEvents Guna2Elipse6 As Guna.UI2.WinForms.Guna2Elipse
+    Friend WithEvents DashboardButton As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2DragControl1 As Guna.UI2.WinForms.Guna2DragControl
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents Guna2Elipse1 As Guna.UI2.WinForms.Guna2Elipse
+    Friend WithEvents ContentPanel As Panel
+    Friend WithEvents Guna2Panel14 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Guna2Panel13 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Guna2Panel12 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Guna2Panel11 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Guna2Panel10 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Label10 As Label
     Friend WithEvents UpperContentPanel As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents OnlineUserPanel As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents OnlineUserLogo As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents OnlineUserNumber As Label
+    Friend WithEvents OnlineUserText As Label
+    Friend WithEvents UserTodayPanel As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents UserTodayLogo As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents UserTodayNumber As Label
+    Friend WithEvents UserTodayText As Label
+    Friend WithEvents UserTotalPanel As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents UserTotalLogo As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents UserTotalNumber As Label
+    Friend WithEvents UserTotalText As Label
+    Friend WithEvents UpperContentJudul As Label
+    Friend WithEvents UserPanel As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents UserNama As Label
+    Friend WithEvents UserLabel As Label
+    Friend WithEvents UserPhoto As Guna.UI2.WinForms.Guna2ImageButton
+    Friend WithEvents UserTotalElipse As Guna.UI2.WinForms.Guna2Elipse
+    Friend WithEvents UserTodayElipse As Guna.UI2.WinForms.Guna2Elipse
+    Friend WithEvents OnlineUserElipse As Guna.UI2.WinForms.Guna2Elipse
 End Class

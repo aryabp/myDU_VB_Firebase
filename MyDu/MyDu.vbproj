@@ -88,6 +88,12 @@
     <Compile Include="Dashboard2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Profile2.Designer.vb">
+      <DependentUpon>Profile2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Profile2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Template.Designer.vb">
       <DependentUpon>Template.vb</DependentUpon>
     </Compile>
@@ -106,18 +112,6 @@
     <Compile Include="Profile.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Changepwd.designer.vb">
-      <DependentUpon>Changepwd.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Changepwd.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Menu.designer.vb">
-      <DependentUpon>Menu.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Menu.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="unggah.designer.vb">
       <DependentUpon>unggah.vb</DependentUpon>
     </Compile>
@@ -128,6 +122,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -141,14 +136,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Changepwd.resx">
-      <DependentUpon>Changepwd.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="DashBoard.resx">
       <DependentUpon>DashBoard.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard2.resx">
       <DependentUpon>Dashboard2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profile2.resx">
+      <DependentUpon>Profile2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Template.resx">
       <DependentUpon>Template.vb</DependentUpon>
@@ -158,9 +153,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Menu.resx">
-      <DependentUpon>Menu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Profile.resx">
       <DependentUpon>Profile.vb</DependentUpon>
@@ -246,7 +238,43 @@
     <None Include="Resources\user %282%29 1.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\view.png" />
+    <None Include="Resources\verification.png" />
+    <None Include="Resources\verification %283%29.png" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\user %283%29.png" />
+    <None Include="Resources\user %281%29.png" />
+    <None Include="Resources\upload.png" />
+    <None Include="Resources\upload %281%29.png" />
+    <None Include="Resources\telephone.png" />
+    <None Include="Resources\sharing.png" />
+    <None Include="Resources\S5_Remote Work.jpg" />
+    <None Include="Resources\S5_Puzzle.jpg" />
+    <None Include="Resources\S5_Marketing.jpg" />
+    <None Include="Resources\S5_Freelance.jpg" />
+    <None Include="Resources\S5_Business.jpg" />
+    <None Include="Resources\remove-button.png" />
     <None Include="Resources\RegistrasiUser-Gray.png" />
+    <None Include="Resources\admin %281%29.png" />
+    <None Include="Resources\admin.png" />
+    <None Include="Resources\edit %281%29.png" />
+    <None Include="Resources\edit %283%29.png" />
+    <None Include="Resources\email.png" />
+    <None Include="Resources\exit.png" />
+    <None Include="Resources\file %281%29.png" />
+    <None Include="Resources\file.png" />
+    <None Include="Resources\group.png" />
+    <None Include="Resources\locked.png" />
+    <None Include="Resources\logout %281%29.png" />
+    <None Include="Resources\menu %281%29.png" />
+    <None Include="Resources\menu %282%29.png" />
+    <None Include="Resources\menu %283%29.png" />
+    <None Include="Resources\menu %284%29.png" />
+    <None Include="Resources\menu %285%29.png" />
+    <None Include="Resources\menu.png" />
+    <None Include="Resources\password %281%29.png" />
+    <None Include="Resources\password.png" />
+    <None Include="Resources\placeholder.png" />
     <Content Include="Resources\RegistrasiUser.png" />
     <None Include="Resources\RegistrasiUser1.png" />
   </ItemGroup>

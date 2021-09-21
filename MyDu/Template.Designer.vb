@@ -25,6 +25,7 @@ Partial Class Template
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Template))
         Me.ContentPanel = New System.Windows.Forms.Panel()
+        Me.UpperContentPanel = New Guna.UI2.WinForms.Guna2Panel()
         Me.UserPanel = New Guna.UI2.WinForms.Guna2Panel()
         Me.UserLabel = New System.Windows.Forms.Label()
         Me.UserPhoto = New Guna.UI2.WinForms.Guna2ImageButton()
@@ -48,7 +49,6 @@ Partial Class Template
         Me.DashboardButton = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Elipse4 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2Elipse6 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
-        Me.UpperContentPanel = New Guna.UI2.WinForms.Guna2Panel()
         Me.ContentPanel.SuspendLayout()
         Me.UserPanel.SuspendLayout()
         Me.ControlPanel.SuspendLayout()
@@ -67,6 +67,15 @@ Partial Class Template
         Me.ContentPanel.Name = "ContentPanel"
         Me.ContentPanel.Size = New System.Drawing.Size(999, 977)
         Me.ContentPanel.TabIndex = 5
+        '
+        'UpperContentPanel
+        '
+        Me.UpperContentPanel.Dock = System.Windows.Forms.DockStyle.Top
+        Me.UpperContentPanel.Location = New System.Drawing.Point(0, 100)
+        Me.UpperContentPanel.Name = "UpperContentPanel"
+        Me.UpperContentPanel.ShadowDecoration.Parent = Me.UpperContentPanel
+        Me.UpperContentPanel.Size = New System.Drawing.Size(999, 343)
+        Me.UpperContentPanel.TabIndex = 1
         '
         'UserPanel
         '
@@ -240,7 +249,7 @@ Partial Class Template
         Me.RegistrasiAdminButton.Font = New System.Drawing.Font("Ubuntu", 21.75!)
         Me.RegistrasiAdminButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
         Me.RegistrasiAdminButton.HoverState.Parent = Me.RegistrasiAdminButton
-        Me.RegistrasiAdminButton.Image = CType(resources.GetObject("RegistrasiAdminButton.Image"), System.Drawing.Image)
+        Me.RegistrasiAdminButton.Image = Global.MyDu.My.Resources.Resources.admin__1_
         Me.RegistrasiAdminButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.RegistrasiAdminButton.ImageOffset = New System.Drawing.Point(60, 0)
         Me.RegistrasiAdminButton.ImageSize = New System.Drawing.Size(40, 40)
@@ -265,7 +274,7 @@ Partial Class Template
         Me.RegistrasiUserButton.Font = New System.Drawing.Font("Ubuntu", 21.75!)
         Me.RegistrasiUserButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
         Me.RegistrasiUserButton.HoverState.Parent = Me.RegistrasiUserButton
-        Me.RegistrasiUserButton.Image = Global.MyDu.My.Resources.Resources.RegistrasiUser_Gray
+        Me.RegistrasiUserButton.Image = Global.MyDu.My.Resources.Resources.edit__1_
         Me.RegistrasiUserButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.RegistrasiUserButton.ImageOffset = New System.Drawing.Point(60, 0)
         Me.RegistrasiUserButton.ImageSize = New System.Drawing.Size(40, 40)
@@ -309,6 +318,7 @@ Partial Class Template
         Me.UserProfileButton.BorderRadius = 30
         Me.UserProfileButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
         Me.UserProfileButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
+        Me.UserProfileButton.CheckedState.Image = Global.MyDu.My.Resources.Resources.user__3_
         Me.UserProfileButton.CheckedState.Parent = Me.UserProfileButton
         Me.UserProfileButton.CustomImages.Parent = Me.UserProfileButton
         Me.UserProfileButton.DisabledState.Parent = Me.UserProfileButton
@@ -362,15 +372,6 @@ Partial Class Template
         'Guna2Elipse6
         '
         Me.Guna2Elipse6.TargetControl = Me
-        '
-        'UpperContentPanel
-        '
-        Me.UpperContentPanel.Dock = System.Windows.Forms.DockStyle.Top
-        Me.UpperContentPanel.Location = New System.Drawing.Point(0, 100)
-        Me.UpperContentPanel.Name = "UpperContentPanel"
-        Me.UpperContentPanel.ShadowDecoration.Parent = Me.UpperContentPanel
-        Me.UpperContentPanel.Size = New System.Drawing.Size(999, 343)
-        Me.UpperContentPanel.TabIndex = 1
         '
         'Template
         '

@@ -76,22 +76,28 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DashBoard.designer.vb">
-      <DependentUpon>DashBoard.vb</DependentUpon>
+    <Compile Include="Dashboard.Designer.vb">
+      <DependentUpon>Dashboard.vb</DependentUpon>
     </Compile>
-    <Compile Include="DashBoard.vb">
+    <Compile Include="Dashboard.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Dashboard2.Designer.vb">
-      <DependentUpon>Dashboard2.vb</DependentUpon>
+    <Compile Include="Profile.Designer.vb">
+      <DependentUpon>Profile.vb</DependentUpon>
     </Compile>
-    <Compile Include="Dashboard2.vb">
+    <Compile Include="Profile.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Profile2.Designer.vb">
-      <DependentUpon>Profile2.vb</DependentUpon>
+    <Compile Include="RegistrasiAdmin.Designer.vb">
+      <DependentUpon>RegistrasiAdmin.vb</DependentUpon>
     </Compile>
-    <Compile Include="Profile2.vb">
+    <Compile Include="RegistrasiAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrasiUser.Designer.vb">
+      <DependentUpon>RegistrasiUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrasiUser.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Template.Designer.vb">
@@ -106,16 +112,10 @@
     <Compile Include="Login.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Profile.designer.vb">
-      <DependentUpon>Profile.vb</DependentUpon>
+    <Compile Include="UploadJadwal.designer.vb">
+      <DependentUpon>UploadJadwal.vb</DependentUpon>
     </Compile>
-    <Compile Include="Profile.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="unggah.designer.vb">
-      <DependentUpon>unggah.vb</DependentUpon>
-    </Compile>
-    <Compile Include="unggah.vb">
+    <Compile Include="UploadJadwal.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -136,26 +136,26 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="DashBoard.resx">
-      <DependentUpon>DashBoard.vb</DependentUpon>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Dashboard2.resx">
-      <DependentUpon>Dashboard2.vb</DependentUpon>
+    <EmbeddedResource Include="Profile.resx">
+      <DependentUpon>Profile.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Profile2.resx">
-      <DependentUpon>Profile2.vb</DependentUpon>
+    <EmbeddedResource Include="RegistrasiAdmin.resx">
+      <DependentUpon>RegistrasiAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrasiUser.resx">
+      <DependentUpon>RegistrasiUser.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Template.resx">
       <DependentUpon>Template.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="unggah.resx">
-      <DependentUpon>unggah.vb</DependentUpon>
+    <EmbeddedResource Include="UploadJadwal.resx">
+      <DependentUpon>UploadJadwal.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Profile.resx">
-      <DependentUpon>Profile.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

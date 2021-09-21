@@ -27,386 +27,241 @@ Partial Class Profile
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2Button7 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button6 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button5 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2Panel6 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2ControlBox2 = New Guna.UI2.WinForms.Guna2ControlBox()
-        Me.Guna2ControlBox1 = New Guna.UI2.WinForms.Guna2ControlBox()
-        Me.Guna2Panel4 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Guna2ImageButton2 = New Guna.UI2.WinForms.Guna2ImageButton()
-        Me.Guna2Panel5 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.SearchBox = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.RegistrasiAdminButton = New Guna.UI2.WinForms.Guna2Button()
+        Me.RegistrasiUserButton = New Guna.UI2.WinForms.Guna2Button()
+        Me.UploadJadwalButton = New Guna.UI2.WinForms.Guna2Button()
+        Me.UserProfileButton = New Guna.UI2.WinForms.Guna2Button()
+        Me.DashboardButton = New Guna.UI2.WinForms.Guna2Button()
+        Me.ListPanel = New Guna.UI2.WinForms.Guna2Panel()
+        Me.LogoutButton = New Guna.UI2.WinForms.Guna2Button()
+        Me.JudulPanel = New Guna.UI2.WinForms.Guna2Panel()
+        Me.JudulLabel = New System.Windows.Forms.Label()
+        Me.ContentPanel = New System.Windows.Forms.Panel()
         Me.Tabel = New Guna.UI2.WinForms.Guna2DataGridView()
         Me.ColumnFullName = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.ColumnUsername = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.ColumnPassword = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.ColumnPekerjaan = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.ColumnStatus = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.UpperContentPanel = New Guna.UI2.WinForms.Guna2Panel()
+        Me.SearchBox = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.UserPanel = New Guna.UI2.WinForms.Guna2Panel()
+        Me.UserLabel = New System.Windows.Forms.Label()
+        Me.UserPhoto = New Guna.UI2.WinForms.Guna2ImageButton()
         Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
-        Me.Guna2DragControl1 = New Guna.UI2.WinForms.Guna2DragControl(Me.components)
-        Me.ElipseUserTotal = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
+        Me.TitleBarPanel = New Guna.UI2.WinForms.Guna2Panel()
+        Me.ControlPanel = New Guna.UI2.WinForms.Guna2Panel()
+        Me.MinimazeControlBox = New Guna.UI2.WinForms.Guna2ControlBox()
+        Me.CloseControlBox = New Guna.UI2.WinForms.Guna2ControlBox()
         Me.Guna2Elipse2 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
-        Me.Guna2Elipse3 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
-        Me.Guna2Panel1.SuspendLayout()
-        Me.Guna2Panel2.SuspendLayout()
-        Me.Guna2Panel3.SuspendLayout()
-        Me.Guna2Panel6.SuspendLayout()
-        Me.Guna2Panel4.SuspendLayout()
-        Me.Guna2Panel5.SuspendLayout()
-        Me.Panel1.SuspendLayout()
+        Me.ListPanel.SuspendLayout()
+        Me.JudulPanel.SuspendLayout()
+        Me.ContentPanel.SuspendLayout()
         CType(Me.Tabel, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.UpperContentPanel.SuspendLayout()
+        Me.UserPanel.SuspendLayout()
+        Me.TitleBarPanel.SuspendLayout()
+        Me.ControlPanel.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Guna2Panel1
+        'RegistrasiAdminButton
         '
-        Me.Guna2Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.Guna2Panel1.Controls.Add(Me.Guna2Button7)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2Button6)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2Button5)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2Button4)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2Button3)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2Button2)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2Button1)
-        Me.Guna2Panel1.Controls.Add(Me.Guna2Panel2)
-        Me.Guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Guna2Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Guna2Panel1.Name = "Guna2Panel1"
-        Me.Guna2Panel1.ShadowDecoration.Parent = Me.Guna2Panel1
-        Me.Guna2Panel1.Size = New System.Drawing.Size(441, 1024)
-        Me.Guna2Panel1.TabIndex = 0
+        Me.RegistrasiAdminButton.BorderRadius = 30
+        Me.RegistrasiAdminButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
+        Me.RegistrasiAdminButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
+        Me.RegistrasiAdminButton.CheckedState.Parent = Me.RegistrasiAdminButton
+        Me.RegistrasiAdminButton.CustomImages.Parent = Me.RegistrasiAdminButton
+        Me.RegistrasiAdminButton.DisabledState.Parent = Me.RegistrasiAdminButton
+        Me.RegistrasiAdminButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.RegistrasiAdminButton.Font = New System.Drawing.Font("Ubuntu", 21.75!)
+        Me.RegistrasiAdminButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
+        Me.RegistrasiAdminButton.HoverState.Parent = Me.RegistrasiAdminButton
+        Me.RegistrasiAdminButton.Image = Global.MyDu.My.Resources.Resources.admin__1_
+        Me.RegistrasiAdminButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.RegistrasiAdminButton.ImageOffset = New System.Drawing.Point(60, 0)
+        Me.RegistrasiAdminButton.ImageSize = New System.Drawing.Size(40, 40)
+        Me.RegistrasiAdminButton.Location = New System.Drawing.Point(12, 609)
+        Me.RegistrasiAdminButton.Name = "RegistrasiAdminButton"
+        Me.RegistrasiAdminButton.ShadowDecoration.Parent = Me.RegistrasiAdminButton
+        Me.RegistrasiAdminButton.Size = New System.Drawing.Size(423, 87)
+        Me.RegistrasiAdminButton.TabIndex = 5
+        Me.RegistrasiAdminButton.Text = "Registrasi Admin"
+        Me.RegistrasiAdminButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.RegistrasiAdminButton.TextOffset = New System.Drawing.Point(75, 0)
         '
-        'Guna2Button7
+        'RegistrasiUserButton
         '
-        Me.Guna2Button7.BorderRadius = 30
-        Me.Guna2Button7.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
-        Me.Guna2Button7.CheckedState.Parent = Me.Guna2Button7
-        Me.Guna2Button7.CustomImages.Parent = Me.Guna2Button7
-        Me.Guna2Button7.DisabledState.Parent = Me.Guna2Button7
-        Me.Guna2Button7.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.Guna2Button7.Font = New System.Drawing.Font("Ubuntu", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
-        Me.Guna2Button7.HoverState.Parent = Me.Guna2Button7
-        Me.Guna2Button7.Image = CType(resources.GetObject("Guna2Button7.Image"), System.Drawing.Image)
-        Me.Guna2Button7.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button7.ImageSize = New System.Drawing.Size(40, 40)
-        Me.Guna2Button7.Location = New System.Drawing.Point(130, 880)
-        Me.Guna2Button7.Name = "Guna2Button7"
-        Me.Guna2Button7.ShadowDecoration.Parent = Me.Guna2Button7
-        Me.Guna2Button7.Size = New System.Drawing.Size(143, 59)
-        Me.Guna2Button7.TabIndex = 7
-        Me.Guna2Button7.Text = "Logout"
-        Me.Guna2Button7.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.RegistrasiUserButton.BorderRadius = 30
+        Me.RegistrasiUserButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
+        Me.RegistrasiUserButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
+        Me.RegistrasiUserButton.CheckedState.Parent = Me.RegistrasiUserButton
+        Me.RegistrasiUserButton.CustomImages.Parent = Me.RegistrasiUserButton
+        Me.RegistrasiUserButton.DisabledState.Parent = Me.RegistrasiUserButton
+        Me.RegistrasiUserButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.RegistrasiUserButton.Font = New System.Drawing.Font("Ubuntu", 21.75!)
+        Me.RegistrasiUserButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
+        Me.RegistrasiUserButton.HoverState.Parent = Me.RegistrasiUserButton
+        Me.RegistrasiUserButton.Image = Global.MyDu.My.Resources.Resources.edit__1_
+        Me.RegistrasiUserButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.RegistrasiUserButton.ImageOffset = New System.Drawing.Point(60, 0)
+        Me.RegistrasiUserButton.ImageSize = New System.Drawing.Size(40, 40)
+        Me.RegistrasiUserButton.Location = New System.Drawing.Point(12, 516)
+        Me.RegistrasiUserButton.Name = "RegistrasiUserButton"
+        Me.RegistrasiUserButton.PressedColor = System.Drawing.Color.Azure
+        Me.RegistrasiUserButton.ShadowDecoration.Parent = Me.RegistrasiUserButton
+        Me.RegistrasiUserButton.Size = New System.Drawing.Size(423, 87)
+        Me.RegistrasiUserButton.TabIndex = 4
+        Me.RegistrasiUserButton.Text = "Registrasi User"
+        Me.RegistrasiUserButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.RegistrasiUserButton.TextOffset = New System.Drawing.Point(75, 0)
         '
-        'Guna2Button6
+        'UploadJadwalButton
         '
-        Me.Guna2Button6.BorderRadius = 30
-        Me.Guna2Button6.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
-        Me.Guna2Button6.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
-        Me.Guna2Button6.CheckedState.Parent = Me.Guna2Button6
-        Me.Guna2Button6.CustomImages.Parent = Me.Guna2Button6
-        Me.Guna2Button6.DisabledState.Parent = Me.Guna2Button6
-        Me.Guna2Button6.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.Guna2Button6.Font = New System.Drawing.Font("Ubuntu", 21.75!)
-        Me.Guna2Button6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
-        Me.Guna2Button6.HoverState.Parent = Me.Guna2Button6
-        Me.Guna2Button6.Image = CType(resources.GetObject("Guna2Button6.Image"), System.Drawing.Image)
-        Me.Guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button6.ImageOffset = New System.Drawing.Point(60, 0)
-        Me.Guna2Button6.ImageSize = New System.Drawing.Size(40, 40)
-        Me.Guna2Button6.Location = New System.Drawing.Point(12, 696)
-        Me.Guna2Button6.Name = "Guna2Button6"
-        Me.Guna2Button6.ShadowDecoration.Parent = Me.Guna2Button6
-        Me.Guna2Button6.Size = New System.Drawing.Size(423, 87)
-        Me.Guna2Button6.TabIndex = 6
-        Me.Guna2Button6.Text = "Submenu Management"
-        Me.Guna2Button6.TextOffset = New System.Drawing.Point(60, 0)
+        Me.UploadJadwalButton.BorderRadius = 30
+        Me.UploadJadwalButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
+        Me.UploadJadwalButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
+        Me.UploadJadwalButton.CheckedState.Parent = Me.UploadJadwalButton
+        Me.UploadJadwalButton.CustomImages.Parent = Me.UploadJadwalButton
+        Me.UploadJadwalButton.DisabledState.Parent = Me.UploadJadwalButton
+        Me.UploadJadwalButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.UploadJadwalButton.Font = New System.Drawing.Font("Ubuntu", 21.75!)
+        Me.UploadJadwalButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
+        Me.UploadJadwalButton.HoverState.Parent = Me.UploadJadwalButton
+        Me.UploadJadwalButton.Image = CType(resources.GetObject("UploadJadwalButton.Image"), System.Drawing.Image)
+        Me.UploadJadwalButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.UploadJadwalButton.ImageOffset = New System.Drawing.Point(60, 0)
+        Me.UploadJadwalButton.ImageSize = New System.Drawing.Size(40, 40)
+        Me.UploadJadwalButton.Location = New System.Drawing.Point(12, 423)
+        Me.UploadJadwalButton.Name = "UploadJadwalButton"
+        Me.UploadJadwalButton.ShadowDecoration.Parent = Me.UploadJadwalButton
+        Me.UploadJadwalButton.Size = New System.Drawing.Size(423, 87)
+        Me.UploadJadwalButton.TabIndex = 3
+        Me.UploadJadwalButton.Text = "Upload Jadwal"
+        Me.UploadJadwalButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.UploadJadwalButton.TextOffset = New System.Drawing.Point(75, 0)
         '
-        'Guna2Button5
+        'UserProfileButton
         '
-        Me.Guna2Button5.BorderRadius = 30
-        Me.Guna2Button5.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
-        Me.Guna2Button5.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
-        Me.Guna2Button5.CheckedState.Parent = Me.Guna2Button5
-        Me.Guna2Button5.CustomImages.Parent = Me.Guna2Button5
-        Me.Guna2Button5.DisabledState.Parent = Me.Guna2Button5
-        Me.Guna2Button5.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.Guna2Button5.Font = New System.Drawing.Font("Ubuntu", 21.75!)
-        Me.Guna2Button5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
-        Me.Guna2Button5.HoverState.Parent = Me.Guna2Button5
-        Me.Guna2Button5.Image = CType(resources.GetObject("Guna2Button5.Image"), System.Drawing.Image)
-        Me.Guna2Button5.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button5.ImageOffset = New System.Drawing.Point(60, 0)
-        Me.Guna2Button5.ImageSize = New System.Drawing.Size(40, 40)
-        Me.Guna2Button5.Location = New System.Drawing.Point(12, 603)
-        Me.Guna2Button5.Name = "Guna2Button5"
-        Me.Guna2Button5.ShadowDecoration.Parent = Me.Guna2Button5
-        Me.Guna2Button5.Size = New System.Drawing.Size(423, 87)
-        Me.Guna2Button5.TabIndex = 5
-        Me.Guna2Button5.Text = "Menu Management"
-        Me.Guna2Button5.TextOffset = New System.Drawing.Point(50, 0)
+        Me.UserProfileButton.BorderRadius = 30
+        Me.UserProfileButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
+        Me.UserProfileButton.Checked = True
+        Me.UserProfileButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
+        Me.UserProfileButton.CheckedState.Parent = Me.UserProfileButton
+        Me.UserProfileButton.CustomImages.Parent = Me.UserProfileButton
+        Me.UserProfileButton.DisabledState.Parent = Me.UserProfileButton
+        Me.UserProfileButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.UserProfileButton.Font = New System.Drawing.Font("Ubuntu", 22.0!)
+        Me.UserProfileButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
+        Me.UserProfileButton.HoverState.Parent = Me.UserProfileButton
+        Me.UserProfileButton.Image = CType(resources.GetObject("UserProfileButton.Image"), System.Drawing.Image)
+        Me.UserProfileButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.UserProfileButton.ImageOffset = New System.Drawing.Point(60, 0)
+        Me.UserProfileButton.ImageSize = New System.Drawing.Size(40, 40)
+        Me.UserProfileButton.Location = New System.Drawing.Point(12, 330)
+        Me.UserProfileButton.Name = "UserProfileButton"
+        Me.UserProfileButton.ShadowDecoration.Parent = Me.UserProfileButton
+        Me.UserProfileButton.Size = New System.Drawing.Size(423, 87)
+        Me.UserProfileButton.TabIndex = 2
+        Me.UserProfileButton.Text = "User Profile"
+        Me.UserProfileButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.UserProfileButton.TextOffset = New System.Drawing.Point(75, 0)
         '
-        'Guna2Button4
+        'DashboardButton
         '
-        Me.Guna2Button4.BorderRadius = 30
-        Me.Guna2Button4.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
-        Me.Guna2Button4.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
-        Me.Guna2Button4.CheckedState.Parent = Me.Guna2Button4
-        Me.Guna2Button4.CustomImages.Parent = Me.Guna2Button4
-        Me.Guna2Button4.DisabledState.Parent = Me.Guna2Button4
-        Me.Guna2Button4.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.Guna2Button4.Font = New System.Drawing.Font("Ubuntu", 21.75!)
-        Me.Guna2Button4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
-        Me.Guna2Button4.HoverState.Parent = Me.Guna2Button4
-        Me.Guna2Button4.Image = CType(resources.GetObject("Guna2Button4.Image"), System.Drawing.Image)
-        Me.Guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button4.ImageOffset = New System.Drawing.Point(60, 0)
-        Me.Guna2Button4.ImageSize = New System.Drawing.Size(40, 40)
-        Me.Guna2Button4.Location = New System.Drawing.Point(12, 510)
-        Me.Guna2Button4.Name = "Guna2Button4"
-        Me.Guna2Button4.ShadowDecoration.Parent = Me.Guna2Button4
-        Me.Guna2Button4.Size = New System.Drawing.Size(423, 87)
-        Me.Guna2Button4.TabIndex = 4
-        Me.Guna2Button4.Text = "Change Passoword"
-        Me.Guna2Button4.TextOffset = New System.Drawing.Point(45, 0)
+        Me.DashboardButton.BorderRadius = 30
+        Me.DashboardButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
+        Me.DashboardButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
+        Me.DashboardButton.CheckedState.Parent = Me.DashboardButton
+        Me.DashboardButton.CustomImages.Parent = Me.DashboardButton
+        Me.DashboardButton.DisabledState.Parent = Me.DashboardButton
+        Me.DashboardButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.DashboardButton.Font = New System.Drawing.Font("Ubuntu", 21.75!)
+        Me.DashboardButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
+        Me.DashboardButton.HoverState.Parent = Me.DashboardButton
+        Me.DashboardButton.Image = CType(resources.GetObject("DashboardButton.Image"), System.Drawing.Image)
+        Me.DashboardButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.DashboardButton.ImageOffset = New System.Drawing.Point(60, 0)
+        Me.DashboardButton.ImageSize = New System.Drawing.Size(40, 40)
+        Me.DashboardButton.Location = New System.Drawing.Point(12, 237)
+        Me.DashboardButton.Name = "DashboardButton"
+        Me.DashboardButton.ShadowDecoration.Parent = Me.DashboardButton
+        Me.DashboardButton.Size = New System.Drawing.Size(423, 87)
+        Me.DashboardButton.TabIndex = 1
+        Me.DashboardButton.Text = "Dashboard"
+        Me.DashboardButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.DashboardButton.TextOffset = New System.Drawing.Point(75, 0)
         '
-        'Guna2Button3
+        'ListPanel
         '
-        Me.Guna2Button3.BorderRadius = 30
-        Me.Guna2Button3.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
-        Me.Guna2Button3.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
-        Me.Guna2Button3.CheckedState.Parent = Me.Guna2Button3
-        Me.Guna2Button3.CustomImages.Parent = Me.Guna2Button3
-        Me.Guna2Button3.DisabledState.Parent = Me.Guna2Button3
-        Me.Guna2Button3.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.Guna2Button3.Font = New System.Drawing.Font("Ubuntu", 21.75!)
-        Me.Guna2Button3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
-        Me.Guna2Button3.HoverState.Parent = Me.Guna2Button3
-        Me.Guna2Button3.Image = CType(resources.GetObject("Guna2Button3.Image"), System.Drawing.Image)
-        Me.Guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button3.ImageOffset = New System.Drawing.Point(60, 0)
-        Me.Guna2Button3.ImageSize = New System.Drawing.Size(40, 40)
-        Me.Guna2Button3.Location = New System.Drawing.Point(12, 417)
-        Me.Guna2Button3.Name = "Guna2Button3"
-        Me.Guna2Button3.ShadowDecoration.Parent = Me.Guna2Button3
-        Me.Guna2Button3.Size = New System.Drawing.Size(423, 87)
-        Me.Guna2Button3.TabIndex = 3
-        Me.Guna2Button3.Text = "Upload Data"
+        Me.ListPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.ListPanel.Controls.Add(Me.LogoutButton)
+        Me.ListPanel.Controls.Add(Me.RegistrasiAdminButton)
+        Me.ListPanel.Controls.Add(Me.RegistrasiUserButton)
+        Me.ListPanel.Controls.Add(Me.UploadJadwalButton)
+        Me.ListPanel.Controls.Add(Me.UserProfileButton)
+        Me.ListPanel.Controls.Add(Me.DashboardButton)
+        Me.ListPanel.Controls.Add(Me.JudulPanel)
+        Me.ListPanel.Dock = System.Windows.Forms.DockStyle.Left
+        Me.ListPanel.Location = New System.Drawing.Point(0, 0)
+        Me.ListPanel.Name = "ListPanel"
+        Me.ListPanel.ShadowDecoration.Parent = Me.ListPanel
+        Me.ListPanel.Size = New System.Drawing.Size(441, 1024)
+        Me.ListPanel.TabIndex = 6
         '
-        'Guna2Button2
+        'LogoutButton
         '
-        Me.Guna2Button2.BorderRadius = 30
-        Me.Guna2Button2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
-        Me.Guna2Button2.Checked = True
-        Me.Guna2Button2.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
-        Me.Guna2Button2.CheckedState.Parent = Me.Guna2Button2
-        Me.Guna2Button2.CustomImages.Parent = Me.Guna2Button2
-        Me.Guna2Button2.DisabledState.Parent = Me.Guna2Button2
-        Me.Guna2Button2.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.Guna2Button2.Font = New System.Drawing.Font("Ubuntu", 21.75!)
-        Me.Guna2Button2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
-        Me.Guna2Button2.HoverState.Parent = Me.Guna2Button2
-        Me.Guna2Button2.Image = CType(resources.GetObject("Guna2Button2.Image"), System.Drawing.Image)
-        Me.Guna2Button2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button2.ImageOffset = New System.Drawing.Point(60, 0)
-        Me.Guna2Button2.ImageSize = New System.Drawing.Size(40, 40)
-        Me.Guna2Button2.Location = New System.Drawing.Point(15, 324)
-        Me.Guna2Button2.Name = "Guna2Button2"
-        Me.Guna2Button2.ShadowDecoration.Parent = Me.Guna2Button2
-        Me.Guna2Button2.Size = New System.Drawing.Size(423, 87)
-        Me.Guna2Button2.TabIndex = 2
-        Me.Guna2Button2.Text = "User Profile"
+        Me.LogoutButton.BorderRadius = 30
+        Me.LogoutButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
+        Me.LogoutButton.CheckedState.Parent = Me.LogoutButton
+        Me.LogoutButton.CustomImages.Parent = Me.LogoutButton
+        Me.LogoutButton.DisabledState.Parent = Me.LogoutButton
+        Me.LogoutButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.LogoutButton.Font = New System.Drawing.Font("Ubuntu", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LogoutButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
+        Me.LogoutButton.HoverState.Parent = Me.LogoutButton
+        Me.LogoutButton.Image = CType(resources.GetObject("LogoutButton.Image"), System.Drawing.Image)
+        Me.LogoutButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.LogoutButton.ImageSize = New System.Drawing.Size(40, 40)
+        Me.LogoutButton.Location = New System.Drawing.Point(130, 880)
+        Me.LogoutButton.Name = "LogoutButton"
+        Me.LogoutButton.ShadowDecoration.Parent = Me.LogoutButton
+        Me.LogoutButton.Size = New System.Drawing.Size(143, 59)
+        Me.LogoutButton.TabIndex = 7
+        Me.LogoutButton.Text = "Logout"
+        Me.LogoutButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
-        'Guna2Button1
+        'JudulPanel
         '
-        Me.Guna2Button1.BorderRadius = 30
-        Me.Guna2Button1.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
-        Me.Guna2Button1.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
-        Me.Guna2Button1.CheckedState.Parent = Me.Guna2Button1
-        Me.Guna2Button1.CustomImages.Parent = Me.Guna2Button1
-        Me.Guna2Button1.DisabledState.Parent = Me.Guna2Button1
-        Me.Guna2Button1.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.Guna2Button1.Font = New System.Drawing.Font("Ubuntu", 21.75!)
-        Me.Guna2Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
-        Me.Guna2Button1.HoverState.Parent = Me.Guna2Button1
-        Me.Guna2Button1.Image = CType(resources.GetObject("Guna2Button1.Image"), System.Drawing.Image)
-        Me.Guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.Guna2Button1.ImageOffset = New System.Drawing.Point(60, 0)
-        Me.Guna2Button1.ImageSize = New System.Drawing.Size(40, 40)
-        Me.Guna2Button1.Location = New System.Drawing.Point(12, 231)
-        Me.Guna2Button1.Name = "Guna2Button1"
-        Me.Guna2Button1.ShadowDecoration.Parent = Me.Guna2Button1
-        Me.Guna2Button1.Size = New System.Drawing.Size(423, 87)
-        Me.Guna2Button1.TabIndex = 1
-        Me.Guna2Button1.Text = "Dashboard"
+        Me.JudulPanel.Controls.Add(Me.JudulLabel)
+        Me.JudulPanel.Dock = System.Windows.Forms.DockStyle.Top
+        Me.JudulPanel.Location = New System.Drawing.Point(0, 0)
+        Me.JudulPanel.Name = "JudulPanel"
+        Me.JudulPanel.ShadowDecoration.Parent = Me.JudulPanel
+        Me.JudulPanel.Size = New System.Drawing.Size(441, 178)
+        Me.JudulPanel.TabIndex = 0
         '
-        'Guna2Panel2
+        'JudulLabel
         '
-        Me.Guna2Panel2.Controls.Add(Me.Label1)
-        Me.Guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Guna2Panel2.Location = New System.Drawing.Point(0, 0)
-        Me.Guna2Panel2.Name = "Guna2Panel2"
-        Me.Guna2Panel2.ShadowDecoration.Parent = Me.Guna2Panel2
-        Me.Guna2Panel2.Size = New System.Drawing.Size(441, 178)
-        Me.Guna2Panel2.TabIndex = 0
+        Me.JudulLabel.AutoSize = True
+        Me.JudulLabel.Font = New System.Drawing.Font("Ubuntu", 36.0!, System.Drawing.FontStyle.Bold)
+        Me.JudulLabel.ForeColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
+        Me.JudulLabel.Location = New System.Drawing.Point(137, 53)
+        Me.JudulLabel.Name = "JudulLabel"
+        Me.JudulLabel.Size = New System.Drawing.Size(159, 60)
+        Me.JudulLabel.TabIndex = 2
+        Me.JudulLabel.Text = "myDU"
         '
-        'Label1
+        'ContentPanel
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Ubuntu", 36.0!, System.Drawing.FontStyle.Bold)
-        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(137, 53)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(159, 60)
-        Me.Label1.TabIndex = 2
-        Me.Label1.Text = "myDU"
-        '
-        'Guna2Panel3
-        '
-        Me.Guna2Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.Guna2Panel3.Controls.Add(Me.Guna2Panel6)
-        Me.Guna2Panel3.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Guna2Panel3.Location = New System.Drawing.Point(441, 0)
-        Me.Guna2Panel3.Name = "Guna2Panel3"
-        Me.Guna2Panel3.ShadowDecoration.Parent = Me.Guna2Panel3
-        Me.Guna2Panel3.Size = New System.Drawing.Size(999, 47)
-        Me.Guna2Panel3.TabIndex = 1
-        '
-        'Guna2Panel6
-        '
-        Me.Guna2Panel6.Controls.Add(Me.Guna2ControlBox2)
-        Me.Guna2Panel6.Controls.Add(Me.Guna2ControlBox1)
-        Me.Guna2Panel6.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Guna2Panel6.Location = New System.Drawing.Point(799, 0)
-        Me.Guna2Panel6.Name = "Guna2Panel6"
-        Me.Guna2Panel6.ShadowDecoration.Parent = Me.Guna2Panel6
-        Me.Guna2Panel6.Size = New System.Drawing.Size(200, 47)
-        Me.Guna2Panel6.TabIndex = 0
-        '
-        'Guna2ControlBox2
-        '
-        Me.Guna2ControlBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2ControlBox2.BorderRadius = 20
-        Me.Guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox
-        Me.Guna2ControlBox2.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.Guna2ControlBox2.HoverState.Parent = Me.Guna2ControlBox2
-        Me.Guna2ControlBox2.IconColor = System.Drawing.Color.Olive
-        Me.Guna2ControlBox2.Location = New System.Drawing.Point(110, 3)
-        Me.Guna2ControlBox2.Name = "Guna2ControlBox2"
-        Me.Guna2ControlBox2.ShadowDecoration.Parent = Me.Guna2ControlBox2
-        Me.Guna2ControlBox2.Size = New System.Drawing.Size(36, 38)
-        Me.Guna2ControlBox2.TabIndex = 1
-        '
-        'Guna2ControlBox1
-        '
-        Me.Guna2ControlBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Guna2ControlBox1.BorderRadius = 20
-        Me.Guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.Guna2ControlBox1.HoverState.Parent = Me.Guna2ControlBox1
-        Me.Guna2ControlBox1.IconColor = System.Drawing.Color.Red
-        Me.Guna2ControlBox1.Location = New System.Drawing.Point(152, 3)
-        Me.Guna2ControlBox1.Name = "Guna2ControlBox1"
-        Me.Guna2ControlBox1.ShadowDecoration.Parent = Me.Guna2ControlBox1
-        Me.Guna2ControlBox1.Size = New System.Drawing.Size(36, 38)
-        Me.Guna2ControlBox1.TabIndex = 0
-        '
-        'Guna2Panel4
-        '
-        Me.Guna2Panel4.Controls.Add(Me.Label2)
-        Me.Guna2Panel4.Controls.Add(Me.Guna2ImageButton2)
-        Me.Guna2Panel4.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Guna2Panel4.Location = New System.Drawing.Point(0, 0)
-        Me.Guna2Panel4.Name = "Guna2Panel4"
-        Me.Guna2Panel4.ShadowDecoration.Parent = Me.Guna2Panel4
-        Me.Guna2Panel4.Size = New System.Drawing.Size(999, 100)
-        Me.Guna2Panel4.TabIndex = 0
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Ubuntu", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.Black
-        Me.Label2.Location = New System.Drawing.Point(833, 35)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(136, 24)
-        Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Emirul Mukmin"
-        '
-        'Guna2ImageButton2
-        '
-        Me.Guna2ImageButton2.CheckedState.ImageSize = New System.Drawing.Size(60, 60)
-        Me.Guna2ImageButton2.CheckedState.Parent = Me.Guna2ImageButton2
-        Me.Guna2ImageButton2.HoverState.ImageSize = New System.Drawing.Size(60, 60)
-        Me.Guna2ImageButton2.HoverState.Parent = Me.Guna2ImageButton2
-        Me.Guna2ImageButton2.Image = CType(resources.GetObject("Guna2ImageButton2.Image"), System.Drawing.Image)
-        Me.Guna2ImageButton2.ImageOffset = New System.Drawing.Point(0, 0)
-        Me.Guna2ImageButton2.ImageRotate = 0!
-        Me.Guna2ImageButton2.ImageSize = New System.Drawing.Size(60, 60)
-        Me.Guna2ImageButton2.Location = New System.Drawing.Point(754, 15)
-        Me.Guna2ImageButton2.Name = "Guna2ImageButton2"
-        Me.Guna2ImageButton2.PressedState.Parent = Me.Guna2ImageButton2
-        Me.Guna2ImageButton2.ShadowDecoration.Parent = Me.Guna2ImageButton2
-        Me.Guna2ImageButton2.Size = New System.Drawing.Size(73, 67)
-        Me.Guna2ImageButton2.TabIndex = 0
-        '
-        'Guna2Panel5
-        '
-        Me.Guna2Panel5.Controls.Add(Me.SearchBox)
-        Me.Guna2Panel5.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Guna2Panel5.Location = New System.Drawing.Point(0, 100)
-        Me.Guna2Panel5.Name = "Guna2Panel5"
-        Me.Guna2Panel5.ShadowDecoration.Parent = Me.Guna2Panel5
-        Me.Guna2Panel5.Size = New System.Drawing.Size(999, 178)
-        Me.Guna2Panel5.TabIndex = 1
-        '
-        'SearchBox
-        '
-        Me.SearchBox.BorderRadius = 20
-        Me.SearchBox.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.SearchBox.DefaultText = ""
-        Me.SearchBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.SearchBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.SearchBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.SearchBox.DisabledState.Parent = Me.SearchBox
-        Me.SearchBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.SearchBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.SearchBox.FocusedState.Parent = Me.SearchBox
-        Me.SearchBox.Font = New System.Drawing.Font("Ubuntu", 16.0!)
-        Me.SearchBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.SearchBox.HoverState.Parent = Me.SearchBox
-        Me.SearchBox.IconLeft = Global.MyDu.My.Resources.Resources.magnifyingglass
-        Me.SearchBox.Location = New System.Drawing.Point(66, 84)
-        Me.SearchBox.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
-        Me.SearchBox.Name = "SearchBox"
-        Me.SearchBox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.SearchBox.PlaceholderForeColor = System.Drawing.Color.Silver
-        Me.SearchBox.PlaceholderText = "Search"
-        Me.SearchBox.SelectedText = ""
-        Me.SearchBox.ShadowDecoration.Parent = Me.SearchBox
-        Me.SearchBox.Size = New System.Drawing.Size(364, 53)
-        Me.SearchBox.TabIndex = 0
-        '
-        'Panel1
-        '
-        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(229, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(229, Byte), Integer))
-        Me.Panel1.Controls.Add(Me.Tabel)
-        Me.Panel1.Controls.Add(Me.Guna2Panel5)
-        Me.Panel1.Controls.Add(Me.Guna2Panel4)
-        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel1.Location = New System.Drawing.Point(441, 47)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(999, 977)
-        Me.Panel1.TabIndex = 2
+        Me.ContentPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(229, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(229, Byte), Integer))
+        Me.ContentPanel.Controls.Add(Me.Tabel)
+        Me.ContentPanel.Controls.Add(Me.UpperContentPanel)
+        Me.ContentPanel.Controls.Add(Me.UserPanel)
+        Me.ContentPanel.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.ContentPanel.Location = New System.Drawing.Point(441, 47)
+        Me.ContentPanel.Name = "ContentPanel"
+        Me.ContentPanel.Size = New System.Drawing.Size(999, 977)
+        Me.ContentPanel.TabIndex = 8
         '
         'Tabel
         '
@@ -437,12 +292,12 @@ Partial Class Profile
         Me.Tabel.DefaultCellStyle = DataGridViewCellStyle3
         Me.Tabel.EnableHeadersVisualStyles = False
         Me.Tabel.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Tabel.Location = New System.Drawing.Point(66, 277)
+        Me.Tabel.Location = New System.Drawing.Point(80, 268)
         Me.Tabel.Name = "Tabel"
         Me.Tabel.RowHeadersVisible = False
         Me.Tabel.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.Tabel.Size = New System.Drawing.Size(863, 366)
-        Me.Tabel.TabIndex = 2
+        Me.Tabel.TabIndex = 12
         Me.Tabel.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White
         Me.Tabel.ThemeStyle.AlternatingRowsStyle.Font = Nothing
         Me.Tabel.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty
@@ -490,72 +345,184 @@ Partial Class Profile
         Me.ColumnStatus.HeaderText = "Status"
         Me.ColumnStatus.Name = "ColumnStatus"
         '
+        'UpperContentPanel
+        '
+        Me.UpperContentPanel.Controls.Add(Me.SearchBox)
+        Me.UpperContentPanel.Dock = System.Windows.Forms.DockStyle.Top
+        Me.UpperContentPanel.Location = New System.Drawing.Point(0, 100)
+        Me.UpperContentPanel.Name = "UpperContentPanel"
+        Me.UpperContentPanel.ShadowDecoration.Parent = Me.UpperContentPanel
+        Me.UpperContentPanel.Size = New System.Drawing.Size(999, 171)
+        Me.UpperContentPanel.TabIndex = 11
+        '
+        'SearchBox
+        '
+        Me.SearchBox.BorderRadius = 20
+        Me.SearchBox.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.SearchBox.DefaultText = ""
+        Me.SearchBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.SearchBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.SearchBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.SearchBox.DisabledState.Parent = Me.SearchBox
+        Me.SearchBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.SearchBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.SearchBox.FocusedState.Parent = Me.SearchBox
+        Me.SearchBox.Font = New System.Drawing.Font("Ubuntu", 16.0!)
+        Me.SearchBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.SearchBox.HoverState.Parent = Me.SearchBox
+        Me.SearchBox.IconLeft = Global.MyDu.My.Resources.Resources.magnifyingglass
+        Me.SearchBox.Location = New System.Drawing.Point(80, 84)
+        Me.SearchBox.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
+        Me.SearchBox.Name = "SearchBox"
+        Me.SearchBox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.SearchBox.PlaceholderForeColor = System.Drawing.Color.Silver
+        Me.SearchBox.PlaceholderText = "Search"
+        Me.SearchBox.SelectedText = ""
+        Me.SearchBox.ShadowDecoration.Parent = Me.SearchBox
+        Me.SearchBox.Size = New System.Drawing.Size(364, 53)
+        Me.SearchBox.TabIndex = 1
+        '
+        'UserPanel
+        '
+        Me.UserPanel.Controls.Add(Me.UserLabel)
+        Me.UserPanel.Controls.Add(Me.UserPhoto)
+        Me.UserPanel.Dock = System.Windows.Forms.DockStyle.Top
+        Me.UserPanel.Location = New System.Drawing.Point(0, 0)
+        Me.UserPanel.Name = "UserPanel"
+        Me.UserPanel.ShadowDecoration.Parent = Me.UserPanel
+        Me.UserPanel.Size = New System.Drawing.Size(999, 100)
+        Me.UserPanel.TabIndex = 10
+        '
+        'UserLabel
+        '
+        Me.UserLabel.AutoSize = True
+        Me.UserLabel.Font = New System.Drawing.Font("Ubuntu", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UserLabel.ForeColor = System.Drawing.Color.Black
+        Me.UserLabel.Location = New System.Drawing.Point(833, 35)
+        Me.UserLabel.Name = "UserLabel"
+        Me.UserLabel.Size = New System.Drawing.Size(136, 24)
+        Me.UserLabel.TabIndex = 3
+        Me.UserLabel.Text = "Emirul Mukmin"
+        '
+        'UserPhoto
+        '
+        Me.UserPhoto.CheckedState.ImageSize = New System.Drawing.Size(60, 60)
+        Me.UserPhoto.CheckedState.Parent = Me.UserPhoto
+        Me.UserPhoto.HoverState.ImageSize = New System.Drawing.Size(60, 60)
+        Me.UserPhoto.HoverState.Parent = Me.UserPhoto
+        Me.UserPhoto.Image = CType(resources.GetObject("UserPhoto.Image"), System.Drawing.Image)
+        Me.UserPhoto.ImageOffset = New System.Drawing.Point(0, 0)
+        Me.UserPhoto.ImageRotate = 0!
+        Me.UserPhoto.ImageSize = New System.Drawing.Size(60, 60)
+        Me.UserPhoto.Location = New System.Drawing.Point(754, 15)
+        Me.UserPhoto.Name = "UserPhoto"
+        Me.UserPhoto.PressedState.Parent = Me.UserPhoto
+        Me.UserPhoto.ShadowDecoration.Parent = Me.UserPhoto
+        Me.UserPhoto.Size = New System.Drawing.Size(73, 67)
+        Me.UserPhoto.TabIndex = 0
+        '
         'Guna2Elipse1
         '
-        Me.Guna2Elipse1.BorderRadius = 20
         Me.Guna2Elipse1.TargetControl = Me
         '
-        'Guna2DragControl1
+        'TitleBarPanel
         '
-        Me.Guna2DragControl1.TargetControl = Me
+        Me.TitleBarPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.TitleBarPanel.Controls.Add(Me.ControlPanel)
+        Me.TitleBarPanel.Dock = System.Windows.Forms.DockStyle.Top
+        Me.TitleBarPanel.Location = New System.Drawing.Point(441, 0)
+        Me.TitleBarPanel.Name = "TitleBarPanel"
+        Me.TitleBarPanel.ShadowDecoration.Parent = Me.TitleBarPanel
+        Me.TitleBarPanel.Size = New System.Drawing.Size(999, 47)
+        Me.TitleBarPanel.TabIndex = 9
         '
-        'Guna2Elipse3
+        'ControlPanel
         '
-        Me.Guna2Elipse3.BorderRadius = 20
-        Me.Guna2Elipse3.TargetControl = Me.Tabel
+        Me.ControlPanel.Controls.Add(Me.MinimazeControlBox)
+        Me.ControlPanel.Controls.Add(Me.CloseControlBox)
+        Me.ControlPanel.Dock = System.Windows.Forms.DockStyle.Right
+        Me.ControlPanel.Location = New System.Drawing.Point(799, 0)
+        Me.ControlPanel.Name = "ControlPanel"
+        Me.ControlPanel.ShadowDecoration.Parent = Me.ControlPanel
+        Me.ControlPanel.Size = New System.Drawing.Size(200, 47)
+        Me.ControlPanel.TabIndex = 0
+        '
+        'MinimazeControlBox
+        '
+        Me.MinimazeControlBox.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.MinimazeControlBox.BorderRadius = 20
+        Me.MinimazeControlBox.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox
+        Me.MinimazeControlBox.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.MinimazeControlBox.HoverState.Parent = Me.MinimazeControlBox
+        Me.MinimazeControlBox.IconColor = System.Drawing.Color.Olive
+        Me.MinimazeControlBox.Location = New System.Drawing.Point(110, 3)
+        Me.MinimazeControlBox.Name = "MinimazeControlBox"
+        Me.MinimazeControlBox.ShadowDecoration.Parent = Me.MinimazeControlBox
+        Me.MinimazeControlBox.Size = New System.Drawing.Size(36, 38)
+        Me.MinimazeControlBox.TabIndex = 1
+        '
+        'CloseControlBox
+        '
+        Me.CloseControlBox.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.CloseControlBox.BorderRadius = 20
+        Me.CloseControlBox.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.CloseControlBox.HoverState.Parent = Me.CloseControlBox
+        Me.CloseControlBox.IconColor = System.Drawing.Color.Red
+        Me.CloseControlBox.Location = New System.Drawing.Point(152, 3)
+        Me.CloseControlBox.Name = "CloseControlBox"
+        Me.CloseControlBox.ShadowDecoration.Parent = Me.CloseControlBox
+        Me.CloseControlBox.Size = New System.Drawing.Size(36, 38)
+        Me.CloseControlBox.TabIndex = 0
+        '
+        'Guna2Elipse2
+        '
+        Me.Guna2Elipse2.BorderRadius = 10
+        Me.Guna2Elipse2.TargetControl = Me.Tabel
         '
         'Profile
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1440, 1024)
-        Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.Guna2Panel3)
-        Me.Controls.Add(Me.Guna2Panel1)
+        Me.Controls.Add(Me.ContentPanel)
+        Me.Controls.Add(Me.TitleBarPanel)
+        Me.Controls.Add(Me.ListPanel)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.MaximumSize = New System.Drawing.Size(1920, 1040)
         Me.Name = "Profile"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form1"
-        Me.Guna2Panel1.ResumeLayout(False)
-        Me.Guna2Panel2.ResumeLayout(False)
-        Me.Guna2Panel2.PerformLayout()
-        Me.Guna2Panel3.ResumeLayout(False)
-        Me.Guna2Panel6.ResumeLayout(False)
-        Me.Guna2Panel4.ResumeLayout(False)
-        Me.Guna2Panel4.PerformLayout()
-        Me.Guna2Panel5.ResumeLayout(False)
-        Me.Panel1.ResumeLayout(False)
+        Me.Text = "Profile2"
+        Me.ListPanel.ResumeLayout(False)
+        Me.JudulPanel.ResumeLayout(False)
+        Me.JudulPanel.PerformLayout()
+        Me.ContentPanel.ResumeLayout(False)
         CType(Me.Tabel, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.UpperContentPanel.ResumeLayout(False)
+        Me.UserPanel.ResumeLayout(False)
+        Me.UserPanel.PerformLayout()
+        Me.TitleBarPanel.ResumeLayout(False)
+        Me.ControlPanel.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2Panel2 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2Panel3 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2Panel6 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2Panel4 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2Panel5 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button6 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button5 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button4 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button3 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button2 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2Button7 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents Guna2ControlBox1 As Guna.UI2.WinForms.Guna2ControlBox
-    Friend WithEvents Guna2ControlBox2 As Guna.UI2.WinForms.Guna2ControlBox
+    Friend WithEvents RegistrasiAdminButton As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents RegistrasiUserButton As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents UploadJadwalButton As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents UserProfileButton As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents DashboardButton As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents ListPanel As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents LogoutButton As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents JudulPanel As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents JudulLabel As Label
+    Friend WithEvents ContentPanel As Panel
     Friend WithEvents Guna2Elipse1 As Guna.UI2.WinForms.Guna2Elipse
-    Friend WithEvents Guna2DragControl1 As Guna.UI2.WinForms.Guna2DragControl
-    Friend WithEvents Guna2ImageButton2 As Guna.UI2.WinForms.Guna2ImageButton
-    Friend WithEvents Label2 As Label
-    Friend WithEvents ElipseUserTotal As Guna.UI2.WinForms.Guna2Elipse
-    Friend WithEvents Guna2Elipse2 As Guna.UI2.WinForms.Guna2Elipse
-    Friend WithEvents Guna2Elipse3 As Guna.UI2.WinForms.Guna2Elipse
+    Friend WithEvents TitleBarPanel As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents ControlPanel As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents MinimazeControlBox As Guna.UI2.WinForms.Guna2ControlBox
+    Friend WithEvents CloseControlBox As Guna.UI2.WinForms.Guna2ControlBox
+    Friend WithEvents UserPanel As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents UserLabel As Label
+    Friend WithEvents UserPhoto As Guna.UI2.WinForms.Guna2ImageButton
+    Friend WithEvents UpperContentPanel As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents SearchBox As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Tabel As Guna.UI2.WinForms.Guna2DataGridView
     Friend WithEvents ColumnFullName As DataGridViewTextBoxColumn
@@ -563,4 +530,5 @@ Partial Class Profile
     Friend WithEvents ColumnPassword As DataGridViewTextBoxColumn
     Friend WithEvents ColumnPekerjaan As DataGridViewTextBoxColumn
     Friend WithEvents ColumnStatus As DataGridViewTextBoxColumn
+    Friend WithEvents Guna2Elipse2 As Guna.UI2.WinForms.Guna2Elipse
 End Class

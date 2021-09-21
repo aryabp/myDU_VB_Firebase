@@ -253,7 +253,7 @@ Partial Class Template
         Me.RegistrasiAdminButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.RegistrasiAdminButton.ImageOffset = New System.Drawing.Point(60, 0)
         Me.RegistrasiAdminButton.ImageSize = New System.Drawing.Size(40, 40)
-        Me.RegistrasiAdminButton.Location = New System.Drawing.Point(12, 603)
+        Me.RegistrasiAdminButton.Location = New System.Drawing.Point(12, 609)
         Me.RegistrasiAdminButton.Name = "RegistrasiAdminButton"
         Me.RegistrasiAdminButton.ShadowDecoration.Parent = Me.RegistrasiAdminButton
         Me.RegistrasiAdminButton.Size = New System.Drawing.Size(423, 87)
@@ -278,7 +278,7 @@ Partial Class Template
         Me.RegistrasiUserButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.RegistrasiUserButton.ImageOffset = New System.Drawing.Point(60, 0)
         Me.RegistrasiUserButton.ImageSize = New System.Drawing.Size(40, 40)
-        Me.RegistrasiUserButton.Location = New System.Drawing.Point(12, 510)
+        Me.RegistrasiUserButton.Location = New System.Drawing.Point(12, 516)
         Me.RegistrasiUserButton.Name = "RegistrasiUserButton"
         Me.RegistrasiUserButton.PressedColor = System.Drawing.Color.Azure
         Me.RegistrasiUserButton.ShadowDecoration.Parent = Me.RegistrasiUserButton
@@ -304,7 +304,7 @@ Partial Class Template
         Me.UploadJadwalButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.UploadJadwalButton.ImageOffset = New System.Drawing.Point(60, 0)
         Me.UploadJadwalButton.ImageSize = New System.Drawing.Size(40, 40)
-        Me.UploadJadwalButton.Location = New System.Drawing.Point(12, 417)
+        Me.UploadJadwalButton.Location = New System.Drawing.Point(12, 423)
         Me.UploadJadwalButton.Name = "UploadJadwalButton"
         Me.UploadJadwalButton.ShadowDecoration.Parent = Me.UploadJadwalButton
         Me.UploadJadwalButton.Size = New System.Drawing.Size(423, 87)
@@ -330,7 +330,7 @@ Partial Class Template
         Me.UserProfileButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.UserProfileButton.ImageOffset = New System.Drawing.Point(60, 0)
         Me.UserProfileButton.ImageSize = New System.Drawing.Size(40, 40)
-        Me.UserProfileButton.Location = New System.Drawing.Point(12, 324)
+        Me.UserProfileButton.Location = New System.Drawing.Point(12, 330)
         Me.UserProfileButton.Name = "UserProfileButton"
         Me.UserProfileButton.ShadowDecoration.Parent = Me.UserProfileButton
         Me.UserProfileButton.Size = New System.Drawing.Size(423, 87)
@@ -356,7 +356,7 @@ Partial Class Template
         Me.DashboardButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.DashboardButton.ImageOffset = New System.Drawing.Point(60, 0)
         Me.DashboardButton.ImageSize = New System.Drawing.Size(40, 40)
-        Me.DashboardButton.Location = New System.Drawing.Point(12, 231)
+        Me.DashboardButton.Location = New System.Drawing.Point(12, 237)
         Me.DashboardButton.Name = "DashboardButton"
         Me.DashboardButton.ShadowDecoration.Parent = Me.DashboardButton
         Me.DashboardButton.Size = New System.Drawing.Size(423, 87)

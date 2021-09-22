@@ -67,7 +67,6 @@ Partial Class Profile
         'RegistrasiAdminButton
         '
         Me.RegistrasiAdminButton.BorderRadius = 30
-        Me.RegistrasiAdminButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
         Me.RegistrasiAdminButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
         Me.RegistrasiAdminButton.CheckedState.Parent = Me.RegistrasiAdminButton
         Me.RegistrasiAdminButton.CustomImages.Parent = Me.RegistrasiAdminButton
@@ -92,7 +91,6 @@ Partial Class Profile
         'RegistrasiUserButton
         '
         Me.RegistrasiUserButton.BorderRadius = 30
-        Me.RegistrasiUserButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
         Me.RegistrasiUserButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
         Me.RegistrasiUserButton.CheckedState.Parent = Me.RegistrasiUserButton
         Me.RegistrasiUserButton.CustomImages.Parent = Me.RegistrasiUserButton
@@ -118,7 +116,6 @@ Partial Class Profile
         'UploadJadwalButton
         '
         Me.UploadJadwalButton.BorderRadius = 30
-        Me.UploadJadwalButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
         Me.UploadJadwalButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
         Me.UploadJadwalButton.CheckedState.Parent = Me.UploadJadwalButton
         Me.UploadJadwalButton.CustomImages.Parent = Me.UploadJadwalButton
@@ -143,7 +140,6 @@ Partial Class Profile
         'UserProfileButton
         '
         Me.UserProfileButton.BorderRadius = 30
-        Me.UserProfileButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
         Me.UserProfileButton.Checked = True
         Me.UserProfileButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
         Me.UserProfileButton.CheckedState.Parent = Me.UserProfileButton
@@ -169,7 +165,6 @@ Partial Class Profile
         'DashboardButton
         '
         Me.DashboardButton.BorderRadius = 30
-        Me.DashboardButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
         Me.DashboardButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
         Me.DashboardButton.CheckedState.Parent = Me.DashboardButton
         Me.DashboardButton.CustomImages.Parent = Me.DashboardButton
@@ -247,7 +242,7 @@ Partial Class Profile
         Me.JudulLabel.ForeColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
         Me.JudulLabel.Location = New System.Drawing.Point(137, 53)
         Me.JudulLabel.Name = "JudulLabel"
-        Me.JudulLabel.Size = New System.Drawing.Size(159, 60)
+        Me.JudulLabel.Size = New System.Drawing.Size(160, 56)
         Me.JudulLabel.TabIndex = 2
         Me.JudulLabel.Text = "myDU"
         '

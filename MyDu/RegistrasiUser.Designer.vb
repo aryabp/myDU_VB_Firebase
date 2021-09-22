@@ -31,43 +31,43 @@ Partial Class RegistrasiUser
         Me.JudulPanel = New Guna.UI2.WinForms.Guna2Panel()
         Me.ContentPanel = New System.Windows.Forms.Panel()
         Me.UpperContentPanel = New Guna.UI2.WinForms.Guna2Panel()
+        Me.ContentPanelBg = New Guna.UI2.WinForms.Guna2Panel()
+        Me.TambahUser = New Guna.UI2.WinForms.Guna2Button()
+        Me.Password = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Email = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.PilihTingkat = New Guna.UI2.WinForms.Guna2ComboBox()
+        Me.PilihPekerjaan = New Guna.UI2.WinForms.Guna2ComboBox()
+        Me.CariProdiatauSatuan = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.NIMNRPTextBox = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.NamaLengkapTextBox = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.TambahDataUser = New System.Windows.Forms.Label()
         Me.UserPanel = New Guna.UI2.WinForms.Guna2Panel()
         Me.UserLabel = New System.Windows.Forms.Label()
+        Me.UserPhoto = New Guna.UI2.WinForms.Guna2ImageButton()
+        Me.TitleBarPanel = New Guna.UI2.WinForms.Guna2Panel()
+        Me.ControlPanel = New Guna.UI2.WinForms.Guna2Panel()
         Me.MinimazeControlBox = New Guna.UI2.WinForms.Guna2ControlBox()
         Me.CloseControlBox = New Guna.UI2.WinForms.Guna2ControlBox()
         Me.Guna2Elipse5 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.ListPanel = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2Elipse3 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
-        Me.Guna2Elipse2 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
-        Me.Guna2DragControl1 = New Guna.UI2.WinForms.Guna2DragControl(Me.components)
-        Me.Guna2Elipse7 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
-        Me.ControlPanel = New Guna.UI2.WinForms.Guna2Panel()
-        Me.TitleBarPanel = New Guna.UI2.WinForms.Guna2Panel()
-        Me.TambahDataUser = New System.Windows.Forms.Label()
-        Me.ContentPanelBg = New Guna.UI2.WinForms.Guna2Panel()
-        Me.NamaLengkapTextBox = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.NIMNRPTextBox = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.PilihPekerjaan = New Guna.UI2.WinForms.Guna2ComboBox()
-        Me.PilihTingkat = New Guna.UI2.WinForms.Guna2ComboBox()
-        Me.Email = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.Password = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.TambahUser = New Guna.UI2.WinForms.Guna2Button()
-        Me.UserPhoto = New Guna.UI2.WinForms.Guna2ImageButton()
         Me.LogoutButton = New Guna.UI2.WinForms.Guna2Button()
         Me.RegistrasiAdminButton = New Guna.UI2.WinForms.Guna2Button()
         Me.RegistrasiUserButton = New Guna.UI2.WinForms.Guna2Button()
         Me.UploadJadwalButton = New Guna.UI2.WinForms.Guna2Button()
         Me.UserProfileButton = New Guna.UI2.WinForms.Guna2Button()
         Me.DashboardButton = New Guna.UI2.WinForms.Guna2Button()
-        Me.CariProdiatauSatuan = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.Guna2Elipse3 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
+        Me.Guna2Elipse2 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
+        Me.Guna2DragControl1 = New Guna.UI2.WinForms.Guna2DragControl(Me.components)
+        Me.Guna2Elipse7 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.JudulPanel.SuspendLayout()
         Me.ContentPanel.SuspendLayout()
         Me.UpperContentPanel.SuspendLayout()
-        Me.UserPanel.SuspendLayout()
-        Me.ListPanel.SuspendLayout()
-        Me.ControlPanel.SuspendLayout()
-        Me.TitleBarPanel.SuspendLayout()
         Me.ContentPanelBg.SuspendLayout()
+        Me.UserPanel.SuspendLayout()
+        Me.TitleBarPanel.SuspendLayout()
+        Me.ControlPanel.SuspendLayout()
+        Me.ListPanel.SuspendLayout()
         Me.SuspendLayout()
         '
         'Guna2Elipse1
@@ -85,7 +85,7 @@ Partial Class RegistrasiUser
         Me.JudulLabel.ForeColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
         Me.JudulLabel.Location = New System.Drawing.Point(137, 53)
         Me.JudulLabel.Name = "JudulLabel"
-        Me.JudulLabel.Size = New System.Drawing.Size(159, 60)
+        Me.JudulLabel.Size = New System.Drawing.Size(160, 56)
         Me.JudulLabel.TabIndex = 2
         Me.JudulLabel.Text = "myDU"
         '
@@ -121,6 +121,251 @@ Partial Class RegistrasiUser
         Me.UpperContentPanel.Size = New System.Drawing.Size(999, 983)
         Me.UpperContentPanel.TabIndex = 1
         '
+        'ContentPanelBg
+        '
+        Me.ContentPanelBg.BackColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.ContentPanelBg.BorderColor = System.Drawing.Color.Black
+        Me.ContentPanelBg.BorderRadius = 10
+        Me.ContentPanelBg.BorderThickness = 1
+        Me.ContentPanelBg.Controls.Add(Me.TambahUser)
+        Me.ContentPanelBg.Controls.Add(Me.Password)
+        Me.ContentPanelBg.Controls.Add(Me.Email)
+        Me.ContentPanelBg.Controls.Add(Me.PilihTingkat)
+        Me.ContentPanelBg.Controls.Add(Me.PilihPekerjaan)
+        Me.ContentPanelBg.Controls.Add(Me.CariProdiatauSatuan)
+        Me.ContentPanelBg.Controls.Add(Me.NIMNRPTextBox)
+        Me.ContentPanelBg.Controls.Add(Me.NamaLengkapTextBox)
+        Me.ContentPanelBg.Controls.Add(Me.TambahDataUser)
+        Me.ContentPanelBg.Location = New System.Drawing.Point(44, 201)
+        Me.ContentPanelBg.Name = "ContentPanelBg"
+        Me.ContentPanelBg.ShadowDecoration.Parent = Me.ContentPanelBg
+        Me.ContentPanelBg.Size = New System.Drawing.Size(925, 768)
+        Me.ContentPanelBg.TabIndex = 9
+        '
+        'TambahUser
+        '
+        Me.TambahUser.BorderRadius = 10
+        Me.TambahUser.CheckedState.Parent = Me.TambahUser
+        Me.TambahUser.CustomImages.Parent = Me.TambahUser
+        Me.TambahUser.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.TambahUser.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.TambahUser.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.TambahUser.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.TambahUser.DisabledState.Parent = Me.TambahUser
+        Me.TambahUser.FillColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
+        Me.TambahUser.Font = New System.Drawing.Font("Ubuntu", 18.0!)
+        Me.TambahUser.ForeColor = System.Drawing.Color.White
+        Me.TambahUser.HoverState.Parent = Me.TambahUser
+        Me.TambahUser.Location = New System.Drawing.Point(80, 641)
+        Me.TambahUser.Name = "TambahUser"
+        Me.TambahUser.ShadowDecoration.Parent = Me.TambahUser
+        Me.TambahUser.Size = New System.Drawing.Size(396, 55)
+        Me.TambahUser.TabIndex = 16
+        Me.TambahUser.Text = "Tambah User"
+        '
+        'Password
+        '
+        Me.Password.BorderRadius = 10
+        Me.Password.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.Password.DefaultText = "Password"
+        Me.Password.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.Password.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.Password.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Password.DisabledState.Parent = Me.Password
+        Me.Password.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Password.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Password.FocusedState.Parent = Me.Password
+        Me.Password.Font = New System.Drawing.Font("Ubuntu", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Password.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
+        Me.Password.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Password.HoverState.Parent = Me.Password
+        Me.Password.Location = New System.Drawing.Point(80, 540)
+        Me.Password.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Password.Name = "Password"
+        Me.Password.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.Password.PlaceholderText = ""
+        Me.Password.SelectedText = ""
+        Me.Password.SelectionStart = 8
+        Me.Password.ShadowDecoration.Parent = Me.Password
+        Me.Password.Size = New System.Drawing.Size(396, 55)
+        Me.Password.TabIndex = 15
+        Me.Password.TextOffset = New System.Drawing.Point(20, 0)
+        '
+        'Email
+        '
+        Me.Email.BorderRadius = 10
+        Me.Email.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.Email.DefaultText = "Email"
+        Me.Email.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.Email.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.Email.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Email.DisabledState.Parent = Me.Email
+        Me.Email.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Email.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Email.FocusedState.Parent = Me.Email
+        Me.Email.Font = New System.Drawing.Font("Ubuntu", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Email.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
+        Me.Email.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Email.HoverState.Parent = Me.Email
+        Me.Email.Location = New System.Drawing.Point(80, 463)
+        Me.Email.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Email.Name = "Email"
+        Me.Email.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.Email.PlaceholderText = ""
+        Me.Email.SelectedText = ""
+        Me.Email.SelectionStart = 5
+        Me.Email.ShadowDecoration.Parent = Me.Email
+        Me.Email.Size = New System.Drawing.Size(396, 55)
+        Me.Email.TabIndex = 14
+        Me.Email.TextOffset = New System.Drawing.Point(20, 0)
+        '
+        'PilihTingkat
+        '
+        Me.PilihTingkat.BackColor = System.Drawing.Color.Transparent
+        Me.PilihTingkat.BorderRadius = 10
+        Me.PilihTingkat.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.PilihTingkat.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.PilihTingkat.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.PilihTingkat.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.PilihTingkat.FocusedState.Parent = Me.PilihTingkat
+        Me.PilihTingkat.Font = New System.Drawing.Font("Ubuntu", 18.0!)
+        Me.PilihTingkat.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
+        Me.PilihTingkat.HoverState.Parent = Me.PilihTingkat
+        Me.PilihTingkat.ItemHeight = 30
+        Me.PilihTingkat.Items.AddRange(New Object() {"Pilih Tingkat", "I", "II", "III", "IV"})
+        Me.PilihTingkat.ItemsAppearance.Font = New System.Drawing.Font("Ubuntu", 18.0!)
+        Me.PilihTingkat.ItemsAppearance.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
+        Me.PilihTingkat.ItemsAppearance.Parent = Me.PilihTingkat
+        Me.PilihTingkat.Location = New System.Drawing.Point(80, 402)
+        Me.PilihTingkat.Name = "PilihTingkat"
+        Me.PilihTingkat.ShadowDecoration.Parent = Me.PilihTingkat
+        Me.PilihTingkat.Size = New System.Drawing.Size(396, 36)
+        Me.PilihTingkat.StartIndex = 0
+        Me.PilihTingkat.TabIndex = 13
+        Me.PilihTingkat.TextOffset = New System.Drawing.Point(20, 0)
+        '
+        'PilihPekerjaan
+        '
+        Me.PilihPekerjaan.BackColor = System.Drawing.Color.Transparent
+        Me.PilihPekerjaan.BorderRadius = 10
+        Me.PilihPekerjaan.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.PilihPekerjaan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.PilihPekerjaan.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.PilihPekerjaan.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.PilihPekerjaan.FocusedState.Parent = Me.PilihPekerjaan
+        Me.PilihPekerjaan.Font = New System.Drawing.Font("Ubuntu", 18.0!)
+        Me.PilihPekerjaan.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
+        Me.PilihPekerjaan.HoverState.Parent = Me.PilihPekerjaan
+        Me.PilihPekerjaan.ItemHeight = 30
+        Me.PilihPekerjaan.Items.AddRange(New Object() {"Pilih Pekerjaan", "Kadet Mahasiswa", "TNI", "ASN"})
+        Me.PilihPekerjaan.ItemsAppearance.Font = New System.Drawing.Font("Ubuntu", 18.0!)
+        Me.PilihPekerjaan.ItemsAppearance.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
+        Me.PilihPekerjaan.ItemsAppearance.Parent = Me.PilihPekerjaan
+        Me.PilihPekerjaan.Location = New System.Drawing.Point(80, 338)
+        Me.PilihPekerjaan.Name = "PilihPekerjaan"
+        Me.PilihPekerjaan.ShadowDecoration.Parent = Me.PilihPekerjaan
+        Me.PilihPekerjaan.Size = New System.Drawing.Size(396, 36)
+        Me.PilihPekerjaan.StartIndex = 0
+        Me.PilihPekerjaan.TabIndex = 12
+        Me.PilihPekerjaan.TextOffset = New System.Drawing.Point(20, 0)
+        '
+        'CariProdiatauSatuan
+        '
+        Me.CariProdiatauSatuan.BorderRadius = 10
+        Me.CariProdiatauSatuan.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.CariProdiatauSatuan.DefaultText = "Cari Prodi atau Satuan"
+        Me.CariProdiatauSatuan.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.CariProdiatauSatuan.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.CariProdiatauSatuan.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.CariProdiatauSatuan.DisabledState.Parent = Me.CariProdiatauSatuan
+        Me.CariProdiatauSatuan.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.CariProdiatauSatuan.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.CariProdiatauSatuan.FocusedState.Parent = Me.CariProdiatauSatuan
+        Me.CariProdiatauSatuan.Font = New System.Drawing.Font("Ubuntu", 18.0!)
+        Me.CariProdiatauSatuan.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
+        Me.CariProdiatauSatuan.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.CariProdiatauSatuan.HoverState.Parent = Me.CariProdiatauSatuan
+        Me.CariProdiatauSatuan.IconLeft = Global.MyDu.My.Resources.Resources.magnifyingglass
+        Me.CariProdiatauSatuan.IconLeftOffset = New System.Drawing.Point(20, 0)
+        Me.CariProdiatauSatuan.Location = New System.Drawing.Point(80, 249)
+        Me.CariProdiatauSatuan.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.CariProdiatauSatuan.Name = "CariProdiatauSatuan"
+        Me.CariProdiatauSatuan.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.CariProdiatauSatuan.PlaceholderText = ""
+        Me.CariProdiatauSatuan.SelectedText = ""
+        Me.CariProdiatauSatuan.SelectionStart = 22
+        Me.CariProdiatauSatuan.ShadowDecoration.Parent = Me.CariProdiatauSatuan
+        Me.CariProdiatauSatuan.Size = New System.Drawing.Size(396, 55)
+        Me.CariProdiatauSatuan.TabIndex = 17
+        Me.CariProdiatauSatuan.TextOffset = New System.Drawing.Point(1, 0)
+        '
+        'NIMNRPTextBox
+        '
+        Me.NIMNRPTextBox.BorderRadius = 10
+        Me.NIMNRPTextBox.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.NIMNRPTextBox.DefaultText = "NIM/NRP"
+        Me.NIMNRPTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.NIMNRPTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.NIMNRPTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.NIMNRPTextBox.DisabledState.Parent = Me.NIMNRPTextBox
+        Me.NIMNRPTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.NIMNRPTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.NIMNRPTextBox.FocusedState.Parent = Me.NIMNRPTextBox
+        Me.NIMNRPTextBox.Font = New System.Drawing.Font("Ubuntu", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.NIMNRPTextBox.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
+        Me.NIMNRPTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.NIMNRPTextBox.HoverState.Parent = Me.NIMNRPTextBox
+        Me.NIMNRPTextBox.Location = New System.Drawing.Point(80, 168)
+        Me.NIMNRPTextBox.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.NIMNRPTextBox.Name = "NIMNRPTextBox"
+        Me.NIMNRPTextBox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.NIMNRPTextBox.PlaceholderText = ""
+        Me.NIMNRPTextBox.SelectedText = ""
+        Me.NIMNRPTextBox.SelectionStart = 7
+        Me.NIMNRPTextBox.ShadowDecoration.Parent = Me.NIMNRPTextBox
+        Me.NIMNRPTextBox.Size = New System.Drawing.Size(396, 55)
+        Me.NIMNRPTextBox.TabIndex = 10
+        Me.NIMNRPTextBox.TextOffset = New System.Drawing.Point(20, 0)
+        '
+        'NamaLengkapTextBox
+        '
+        Me.NamaLengkapTextBox.BorderRadius = 10
+        Me.NamaLengkapTextBox.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.NamaLengkapTextBox.DefaultText = "Nama Lengkap"
+        Me.NamaLengkapTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.NamaLengkapTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.NamaLengkapTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.NamaLengkapTextBox.DisabledState.Parent = Me.NamaLengkapTextBox
+        Me.NamaLengkapTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.NamaLengkapTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.NamaLengkapTextBox.FocusedState.Parent = Me.NamaLengkapTextBox
+        Me.NamaLengkapTextBox.Font = New System.Drawing.Font("Ubuntu", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.NamaLengkapTextBox.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
+        Me.NamaLengkapTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.NamaLengkapTextBox.HoverState.Parent = Me.NamaLengkapTextBox
+        Me.NamaLengkapTextBox.Location = New System.Drawing.Point(80, 92)
+        Me.NamaLengkapTextBox.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.NamaLengkapTextBox.Name = "NamaLengkapTextBox"
+        Me.NamaLengkapTextBox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.NamaLengkapTextBox.PlaceholderText = ""
+        Me.NamaLengkapTextBox.SelectedText = ""
+        Me.NamaLengkapTextBox.SelectionStart = 12
+        Me.NamaLengkapTextBox.ShadowDecoration.Parent = Me.NamaLengkapTextBox
+        Me.NamaLengkapTextBox.Size = New System.Drawing.Size(396, 55)
+        Me.NamaLengkapTextBox.TabIndex = 9
+        Me.NamaLengkapTextBox.TextOffset = New System.Drawing.Point(20, 0)
+        '
+        'TambahDataUser
+        '
+        Me.TambahDataUser.AutoSize = True
+        Me.TambahDataUser.Font = New System.Drawing.Font("Microsoft Sans Serif", 22.0!, System.Drawing.FontStyle.Bold)
+        Me.TambahDataUser.ForeColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
+        Me.TambahDataUser.Location = New System.Drawing.Point(31, 13)
+        Me.TambahDataUser.Name = "TambahDataUser"
+        Me.TambahDataUser.Size = New System.Drawing.Size(278, 36)
+        Me.TambahDataUser.TabIndex = 8
+        Me.TambahDataUser.Text = "Tambah Data User"
+        '
         'UserPanel
         '
         Me.UserPanel.Controls.Add(Me.UserLabel)
@@ -142,6 +387,45 @@ Partial Class RegistrasiUser
         Me.UserLabel.Size = New System.Drawing.Size(136, 24)
         Me.UserLabel.TabIndex = 3
         Me.UserLabel.Text = "Emirul Mukmin"
+        '
+        'UserPhoto
+        '
+        Me.UserPhoto.CheckedState.ImageSize = New System.Drawing.Size(60, 60)
+        Me.UserPhoto.CheckedState.Parent = Me.UserPhoto
+        Me.UserPhoto.HoverState.ImageSize = New System.Drawing.Size(60, 60)
+        Me.UserPhoto.HoverState.Parent = Me.UserPhoto
+        Me.UserPhoto.Image = CType(resources.GetObject("UserPhoto.Image"), System.Drawing.Image)
+        Me.UserPhoto.ImageOffset = New System.Drawing.Point(0, 0)
+        Me.UserPhoto.ImageRotate = 0!
+        Me.UserPhoto.ImageSize = New System.Drawing.Size(60, 60)
+        Me.UserPhoto.Location = New System.Drawing.Point(754, 15)
+        Me.UserPhoto.Name = "UserPhoto"
+        Me.UserPhoto.PressedState.Parent = Me.UserPhoto
+        Me.UserPhoto.ShadowDecoration.Parent = Me.UserPhoto
+        Me.UserPhoto.Size = New System.Drawing.Size(73, 67)
+        Me.UserPhoto.TabIndex = 0
+        '
+        'TitleBarPanel
+        '
+        Me.TitleBarPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.TitleBarPanel.Controls.Add(Me.ControlPanel)
+        Me.TitleBarPanel.Dock = System.Windows.Forms.DockStyle.Top
+        Me.TitleBarPanel.Location = New System.Drawing.Point(0, 0)
+        Me.TitleBarPanel.Name = "TitleBarPanel"
+        Me.TitleBarPanel.ShadowDecoration.Parent = Me.TitleBarPanel
+        Me.TitleBarPanel.Size = New System.Drawing.Size(999, 47)
+        Me.TitleBarPanel.TabIndex = 7
+        '
+        'ControlPanel
+        '
+        Me.ControlPanel.Controls.Add(Me.MinimazeControlBox)
+        Me.ControlPanel.Controls.Add(Me.CloseControlBox)
+        Me.ControlPanel.Dock = System.Windows.Forms.DockStyle.Right
+        Me.ControlPanel.Location = New System.Drawing.Point(799, 0)
+        Me.ControlPanel.Name = "ControlPanel"
+        Me.ControlPanel.ShadowDecoration.Parent = Me.ControlPanel
+        Me.ControlPanel.Size = New System.Drawing.Size(200, 47)
+        Me.ControlPanel.TabIndex = 0
         '
         'MinimazeControlBox
         '
@@ -187,265 +471,6 @@ Partial Class RegistrasiUser
         Me.ListPanel.Size = New System.Drawing.Size(441, 1024)
         Me.ListPanel.TabIndex = 6
         '
-        'Guna2Elipse3
-        '
-        Me.Guna2Elipse3.BorderRadius = 10
-        '
-        'Guna2Elipse2
-        '
-        Me.Guna2Elipse2.BorderRadius = 10
-        '
-        'Guna2Elipse7
-        '
-        Me.Guna2Elipse7.BorderRadius = 20
-        '
-        'ControlPanel
-        '
-        Me.ControlPanel.Controls.Add(Me.MinimazeControlBox)
-        Me.ControlPanel.Controls.Add(Me.CloseControlBox)
-        Me.ControlPanel.Dock = System.Windows.Forms.DockStyle.Right
-        Me.ControlPanel.Location = New System.Drawing.Point(799, 0)
-        Me.ControlPanel.Name = "ControlPanel"
-        Me.ControlPanel.ShadowDecoration.Parent = Me.ControlPanel
-        Me.ControlPanel.Size = New System.Drawing.Size(200, 47)
-        Me.ControlPanel.TabIndex = 0
-        '
-        'TitleBarPanel
-        '
-        Me.TitleBarPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.TitleBarPanel.Controls.Add(Me.ControlPanel)
-        Me.TitleBarPanel.Dock = System.Windows.Forms.DockStyle.Top
-        Me.TitleBarPanel.Location = New System.Drawing.Point(0, 0)
-        Me.TitleBarPanel.Name = "TitleBarPanel"
-        Me.TitleBarPanel.ShadowDecoration.Parent = Me.TitleBarPanel
-        Me.TitleBarPanel.Size = New System.Drawing.Size(999, 47)
-        Me.TitleBarPanel.TabIndex = 7
-        '
-        'TambahDataUser
-        '
-        Me.TambahDataUser.AutoSize = True
-        Me.TambahDataUser.Font = New System.Drawing.Font("Ubuntu Light", 22.0!, System.Drawing.FontStyle.Bold)
-        Me.TambahDataUser.ForeColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
-        Me.TambahDataUser.Location = New System.Drawing.Point(31, 13)
-        Me.TambahDataUser.Name = "TambahDataUser"
-        Me.TambahDataUser.Size = New System.Drawing.Size(271, 38)
-        Me.TambahDataUser.TabIndex = 8
-        Me.TambahDataUser.Text = "Tambah Data User"
-        '
-        'ContentPanelBg
-        '
-        Me.ContentPanelBg.BackColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.ContentPanelBg.BorderColor = System.Drawing.Color.Black
-        Me.ContentPanelBg.BorderRadius = 10
-        Me.ContentPanelBg.BorderThickness = 1
-        Me.ContentPanelBg.Controls.Add(Me.TambahUser)
-        Me.ContentPanelBg.Controls.Add(Me.Password)
-        Me.ContentPanelBg.Controls.Add(Me.Email)
-        Me.ContentPanelBg.Controls.Add(Me.PilihTingkat)
-        Me.ContentPanelBg.Controls.Add(Me.PilihPekerjaan)
-        Me.ContentPanelBg.Controls.Add(Me.CariProdiatauSatuan)
-        Me.ContentPanelBg.Controls.Add(Me.NIMNRPTextBox)
-        Me.ContentPanelBg.Controls.Add(Me.NamaLengkapTextBox)
-        Me.ContentPanelBg.Controls.Add(Me.TambahDataUser)
-        Me.ContentPanelBg.Location = New System.Drawing.Point(44, 201)
-        Me.ContentPanelBg.Name = "ContentPanelBg"
-        Me.ContentPanelBg.ShadowDecoration.Parent = Me.ContentPanelBg
-        Me.ContentPanelBg.Size = New System.Drawing.Size(925, 768)
-        Me.ContentPanelBg.TabIndex = 9
-        '
-        'NamaLengkapTextBox
-        '
-        Me.NamaLengkapTextBox.BorderRadius = 10
-        Me.NamaLengkapTextBox.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.NamaLengkapTextBox.DefaultText = "Nama Lengkap"
-        Me.NamaLengkapTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.NamaLengkapTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.NamaLengkapTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.NamaLengkapTextBox.DisabledState.Parent = Me.NamaLengkapTextBox
-        Me.NamaLengkapTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.NamaLengkapTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.NamaLengkapTextBox.FocusedState.Parent = Me.NamaLengkapTextBox
-        Me.NamaLengkapTextBox.Font = New System.Drawing.Font("Ubuntu", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.NamaLengkapTextBox.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.NamaLengkapTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.NamaLengkapTextBox.HoverState.Parent = Me.NamaLengkapTextBox
-        Me.NamaLengkapTextBox.Location = New System.Drawing.Point(80, 92)
-        Me.NamaLengkapTextBox.Name = "NamaLengkapTextBox"
-        Me.NamaLengkapTextBox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.NamaLengkapTextBox.PlaceholderText = ""
-        Me.NamaLengkapTextBox.SelectedText = ""
-        Me.NamaLengkapTextBox.SelectionStart = 12
-        Me.NamaLengkapTextBox.ShadowDecoration.Parent = Me.NamaLengkapTextBox
-        Me.NamaLengkapTextBox.Size = New System.Drawing.Size(396, 55)
-        Me.NamaLengkapTextBox.TabIndex = 9
-        Me.NamaLengkapTextBox.TextOffset = New System.Drawing.Point(20, 0)
-        '
-        'NIMNRPTextBox
-        '
-        Me.NIMNRPTextBox.BorderRadius = 10
-        Me.NIMNRPTextBox.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.NIMNRPTextBox.DefaultText = "NIM/NRP"
-        Me.NIMNRPTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.NIMNRPTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.NIMNRPTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.NIMNRPTextBox.DisabledState.Parent = Me.NIMNRPTextBox
-        Me.NIMNRPTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.NIMNRPTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.NIMNRPTextBox.FocusedState.Parent = Me.NIMNRPTextBox
-        Me.NIMNRPTextBox.Font = New System.Drawing.Font("Ubuntu", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.NIMNRPTextBox.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.NIMNRPTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.NIMNRPTextBox.HoverState.Parent = Me.NIMNRPTextBox
-        Me.NIMNRPTextBox.Location = New System.Drawing.Point(80, 168)
-        Me.NIMNRPTextBox.Name = "NIMNRPTextBox"
-        Me.NIMNRPTextBox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.NIMNRPTextBox.PlaceholderText = ""
-        Me.NIMNRPTextBox.SelectedText = ""
-        Me.NIMNRPTextBox.ShadowDecoration.Parent = Me.NIMNRPTextBox
-        Me.NIMNRPTextBox.Size = New System.Drawing.Size(396, 55)
-        Me.NIMNRPTextBox.TabIndex = 10
-        Me.NIMNRPTextBox.TextOffset = New System.Drawing.Point(20, 0)
-        '
-        'PilihPekerjaan
-        '
-        Me.PilihPekerjaan.BackColor = System.Drawing.Color.Transparent
-        Me.PilihPekerjaan.BorderRadius = 10
-        Me.PilihPekerjaan.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.PilihPekerjaan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.PilihPekerjaan.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.PilihPekerjaan.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.PilihPekerjaan.FocusedState.Parent = Me.PilihPekerjaan
-        Me.PilihPekerjaan.Font = New System.Drawing.Font("Ubuntu", 18.0!)
-        Me.PilihPekerjaan.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.PilihPekerjaan.HoverState.Parent = Me.PilihPekerjaan
-        Me.PilihPekerjaan.ItemHeight = 30
-        Me.PilihPekerjaan.Items.AddRange(New Object() {"Pilih Pekerjaan", "Kadet Mahasiswa", "TNI", "ASN"})
-        Me.PilihPekerjaan.ItemsAppearance.Font = New System.Drawing.Font("Ubuntu", 18.0!)
-        Me.PilihPekerjaan.ItemsAppearance.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.PilihPekerjaan.ItemsAppearance.Parent = Me.PilihPekerjaan
-        Me.PilihPekerjaan.Location = New System.Drawing.Point(80, 338)
-        Me.PilihPekerjaan.Name = "PilihPekerjaan"
-        Me.PilihPekerjaan.ShadowDecoration.Parent = Me.PilihPekerjaan
-        Me.PilihPekerjaan.Size = New System.Drawing.Size(396, 36)
-        Me.PilihPekerjaan.StartIndex = 0
-        Me.PilihPekerjaan.TabIndex = 12
-        Me.PilihPekerjaan.TextOffset = New System.Drawing.Point(20, 0)
-        '
-        'PilihTingkat
-        '
-        Me.PilihTingkat.BackColor = System.Drawing.Color.Transparent
-        Me.PilihTingkat.BorderRadius = 10
-        Me.PilihTingkat.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.PilihTingkat.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.PilihTingkat.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.PilihTingkat.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.PilihTingkat.FocusedState.Parent = Me.PilihTingkat
-        Me.PilihTingkat.Font = New System.Drawing.Font("Ubuntu", 18.0!)
-        Me.PilihTingkat.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.PilihTingkat.HoverState.Parent = Me.PilihTingkat
-        Me.PilihTingkat.ItemHeight = 30
-        Me.PilihTingkat.Items.AddRange(New Object() {"Pilih Tingkat", "I", "II", "III", "IV"})
-        Me.PilihTingkat.ItemsAppearance.Font = New System.Drawing.Font("Ubuntu", 18.0!)
-        Me.PilihTingkat.ItemsAppearance.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.PilihTingkat.ItemsAppearance.Parent = Me.PilihTingkat
-        Me.PilihTingkat.Location = New System.Drawing.Point(80, 402)
-        Me.PilihTingkat.Name = "PilihTingkat"
-        Me.PilihTingkat.ShadowDecoration.Parent = Me.PilihTingkat
-        Me.PilihTingkat.Size = New System.Drawing.Size(396, 36)
-        Me.PilihTingkat.StartIndex = 0
-        Me.PilihTingkat.TabIndex = 13
-        Me.PilihTingkat.TextOffset = New System.Drawing.Point(20, 0)
-        '
-        'Email
-        '
-        Me.Email.BorderRadius = 10
-        Me.Email.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Email.DefaultText = "Email"
-        Me.Email.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.Email.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.Email.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Email.DisabledState.Parent = Me.Email
-        Me.Email.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Email.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Email.FocusedState.Parent = Me.Email
-        Me.Email.Font = New System.Drawing.Font("Ubuntu", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Email.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.Email.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Email.HoverState.Parent = Me.Email
-        Me.Email.Location = New System.Drawing.Point(80, 463)
-        Me.Email.Name = "Email"
-        Me.Email.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.Email.PlaceholderText = ""
-        Me.Email.SelectedText = ""
-        Me.Email.ShadowDecoration.Parent = Me.Email
-        Me.Email.Size = New System.Drawing.Size(396, 55)
-        Me.Email.TabIndex = 14
-        Me.Email.TextOffset = New System.Drawing.Point(20, 0)
-        '
-        'Password
-        '
-        Me.Password.BorderRadius = 10
-        Me.Password.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Password.DefaultText = "Password"
-        Me.Password.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.Password.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.Password.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Password.DisabledState.Parent = Me.Password
-        Me.Password.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Password.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Password.FocusedState.Parent = Me.Password
-        Me.Password.Font = New System.Drawing.Font("Ubuntu", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Password.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.Password.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Password.HoverState.Parent = Me.Password
-        Me.Password.Location = New System.Drawing.Point(80, 540)
-        Me.Password.Name = "Password"
-        Me.Password.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.Password.PlaceholderText = ""
-        Me.Password.SelectedText = ""
-        Me.Password.ShadowDecoration.Parent = Me.Password
-        Me.Password.Size = New System.Drawing.Size(396, 55)
-        Me.Password.TabIndex = 15
-        Me.Password.TextOffset = New System.Drawing.Point(20, 0)
-        '
-        'TambahUser
-        '
-        Me.TambahUser.BorderRadius = 10
-        Me.TambahUser.CheckedState.Parent = Me.TambahUser
-        Me.TambahUser.CustomImages.Parent = Me.TambahUser
-        Me.TambahUser.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.TambahUser.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.TambahUser.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.TambahUser.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.TambahUser.DisabledState.Parent = Me.TambahUser
-        Me.TambahUser.FillColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
-        Me.TambahUser.Font = New System.Drawing.Font("Ubuntu", 18.0!)
-        Me.TambahUser.ForeColor = System.Drawing.Color.White
-        Me.TambahUser.HoverState.Parent = Me.TambahUser
-        Me.TambahUser.Location = New System.Drawing.Point(80, 641)
-        Me.TambahUser.Name = "TambahUser"
-        Me.TambahUser.ShadowDecoration.Parent = Me.TambahUser
-        Me.TambahUser.Size = New System.Drawing.Size(396, 55)
-        Me.TambahUser.TabIndex = 16
-        Me.TambahUser.Text = "Tambah User"
-        '
-        'UserPhoto
-        '
-        Me.UserPhoto.CheckedState.ImageSize = New System.Drawing.Size(60, 60)
-        Me.UserPhoto.CheckedState.Parent = Me.UserPhoto
-        Me.UserPhoto.HoverState.ImageSize = New System.Drawing.Size(60, 60)
-        Me.UserPhoto.HoverState.Parent = Me.UserPhoto
-        Me.UserPhoto.Image = CType(resources.GetObject("UserPhoto.Image"), System.Drawing.Image)
-        Me.UserPhoto.ImageOffset = New System.Drawing.Point(0, 0)
-        Me.UserPhoto.ImageRotate = 0!
-        Me.UserPhoto.ImageSize = New System.Drawing.Size(60, 60)
-        Me.UserPhoto.Location = New System.Drawing.Point(754, 15)
-        Me.UserPhoto.Name = "UserPhoto"
-        Me.UserPhoto.PressedState.Parent = Me.UserPhoto
-        Me.UserPhoto.ShadowDecoration.Parent = Me.UserPhoto
-        Me.UserPhoto.Size = New System.Drawing.Size(73, 67)
-        Me.UserPhoto.TabIndex = 0
-        '
         'LogoutButton
         '
         Me.LogoutButton.BorderRadius = 30
@@ -471,7 +496,6 @@ Partial Class RegistrasiUser
         'RegistrasiAdminButton
         '
         Me.RegistrasiAdminButton.BorderRadius = 30
-        Me.RegistrasiAdminButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
         Me.RegistrasiAdminButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
         Me.RegistrasiAdminButton.CheckedState.Parent = Me.RegistrasiAdminButton
         Me.RegistrasiAdminButton.CustomImages.Parent = Me.RegistrasiAdminButton
@@ -496,7 +520,6 @@ Partial Class RegistrasiUser
         'RegistrasiUserButton
         '
         Me.RegistrasiUserButton.BorderRadius = 30
-        Me.RegistrasiUserButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
         Me.RegistrasiUserButton.Checked = True
         Me.RegistrasiUserButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
         Me.RegistrasiUserButton.CheckedState.Parent = Me.RegistrasiUserButton
@@ -523,7 +546,6 @@ Partial Class RegistrasiUser
         'UploadJadwalButton
         '
         Me.UploadJadwalButton.BorderRadius = 30
-        Me.UploadJadwalButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
         Me.UploadJadwalButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
         Me.UploadJadwalButton.CheckedState.Parent = Me.UploadJadwalButton
         Me.UploadJadwalButton.CustomImages.Parent = Me.UploadJadwalButton
@@ -548,7 +570,6 @@ Partial Class RegistrasiUser
         'UserProfileButton
         '
         Me.UserProfileButton.BorderRadius = 30
-        Me.UserProfileButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
         Me.UserProfileButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
         Me.UserProfileButton.CheckedState.Image = Global.MyDu.My.Resources.Resources.user__3_
         Me.UserProfileButton.CheckedState.Parent = Me.UserProfileButton
@@ -574,7 +595,6 @@ Partial Class RegistrasiUser
         'DashboardButton
         '
         Me.DashboardButton.BorderRadius = 30
-        Me.DashboardButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
         Me.DashboardButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
         Me.DashboardButton.CheckedState.Parent = Me.DashboardButton
         Me.DashboardButton.CustomImages.Parent = Me.DashboardButton
@@ -596,35 +616,17 @@ Partial Class RegistrasiUser
         Me.DashboardButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.DashboardButton.TextOffset = New System.Drawing.Point(75, 0)
         '
-        'CariProdiatauSatuan
+        'Guna2Elipse3
         '
-        Me.CariProdiatauSatuan.BorderRadius = 10
-        Me.CariProdiatauSatuan.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.CariProdiatauSatuan.DefaultText = "Cari Prodi atau Satuan"
-        Me.CariProdiatauSatuan.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.CariProdiatauSatuan.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.CariProdiatauSatuan.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.CariProdiatauSatuan.DisabledState.Parent = Me.CariProdiatauSatuan
-        Me.CariProdiatauSatuan.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.CariProdiatauSatuan.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.CariProdiatauSatuan.FocusedState.Parent = Me.CariProdiatauSatuan
-        Me.CariProdiatauSatuan.Font = New System.Drawing.Font("Ubuntu", 18.0!)
-        Me.CariProdiatauSatuan.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.CariProdiatauSatuan.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.CariProdiatauSatuan.HoverState.Parent = Me.CariProdiatauSatuan
-        Me.CariProdiatauSatuan.IconLeft = Global.MyDu.My.Resources.Resources.magnifyingglass
-        Me.CariProdiatauSatuan.IconLeftOffset = New System.Drawing.Point(20, 0)
-        Me.CariProdiatauSatuan.Location = New System.Drawing.Point(80, 249)
-        Me.CariProdiatauSatuan.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
-        Me.CariProdiatauSatuan.Name = "CariProdiatauSatuan"
-        Me.CariProdiatauSatuan.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.CariProdiatauSatuan.PlaceholderText = ""
-        Me.CariProdiatauSatuan.SelectedText = ""
-        Me.CariProdiatauSatuan.SelectionStart = 22
-        Me.CariProdiatauSatuan.ShadowDecoration.Parent = Me.CariProdiatauSatuan
-        Me.CariProdiatauSatuan.Size = New System.Drawing.Size(396, 55)
-        Me.CariProdiatauSatuan.TabIndex = 17
-        Me.CariProdiatauSatuan.TextOffset = New System.Drawing.Point(1, 0)
+        Me.Guna2Elipse3.BorderRadius = 10
+        '
+        'Guna2Elipse2
+        '
+        Me.Guna2Elipse2.BorderRadius = 10
+        '
+        'Guna2Elipse7
+        '
+        Me.Guna2Elipse7.BorderRadius = 20
         '
         'RegistrasiUser
         '
@@ -640,13 +642,13 @@ Partial Class RegistrasiUser
         Me.JudulPanel.PerformLayout()
         Me.ContentPanel.ResumeLayout(False)
         Me.UpperContentPanel.ResumeLayout(False)
-        Me.UserPanel.ResumeLayout(False)
-        Me.UserPanel.PerformLayout()
-        Me.ListPanel.ResumeLayout(False)
-        Me.ControlPanel.ResumeLayout(False)
-        Me.TitleBarPanel.ResumeLayout(False)
         Me.ContentPanelBg.ResumeLayout(False)
         Me.ContentPanelBg.PerformLayout()
+        Me.UserPanel.ResumeLayout(False)
+        Me.UserPanel.PerformLayout()
+        Me.TitleBarPanel.ResumeLayout(False)
+        Me.ControlPanel.ResumeLayout(False)
+        Me.ListPanel.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub

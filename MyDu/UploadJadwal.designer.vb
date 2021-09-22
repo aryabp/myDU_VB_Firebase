@@ -38,19 +38,19 @@ Partial Class UploadJadwal
         Me.Guna2ControlBox2 = New Guna.UI2.WinForms.Guna2ControlBox()
         Me.Guna2ControlBox1 = New Guna.UI2.WinForms.Guna2ControlBox()
         Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.RegistrasiAdminButton = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button7 = New Guna.UI2.WinForms.Guna2Button()
+        Me.RegistrasiUserButton = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Panel2 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.UploadJadwalButton = New Guna.UI2.WinForms.Guna2Button()
+        Me.DashboardButton = New Guna.UI2.WinForms.Guna2Button()
+        Me.UserProfileButton = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Elipse2 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2DragControl1 = New Guna.UI2.WinForms.Guna2DragControl(Me.components)
         Me.ElipseUserTotal = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2Elipse3 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
-        Me.RegistrasiAdminButton = New Guna.UI2.WinForms.Guna2Button()
-        Me.RegistrasiUserButton = New Guna.UI2.WinForms.Guna2Button()
-        Me.UploadJadwalButton = New Guna.UI2.WinForms.Guna2Button()
-        Me.UserProfileButton = New Guna.UI2.WinForms.Guna2Button()
-        Me.DashboardButton = New Guna.UI2.WinForms.Guna2Button()
         Me.Panel1.SuspendLayout()
         Me.Guna2Panel5.SuspendLayout()
         Me.Guna2Panel4.SuspendLayout()
@@ -267,6 +267,30 @@ Partial Class UploadJadwal
         Me.Guna2Panel1.Size = New System.Drawing.Size(441, 1024)
         Me.Guna2Panel1.TabIndex = 6
         '
+        'RegistrasiAdminButton
+        '
+        Me.RegistrasiAdminButton.BorderRadius = 30
+        Me.RegistrasiAdminButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
+        Me.RegistrasiAdminButton.CheckedState.Parent = Me.RegistrasiAdminButton
+        Me.RegistrasiAdminButton.CustomImages.Parent = Me.RegistrasiAdminButton
+        Me.RegistrasiAdminButton.DisabledState.Parent = Me.RegistrasiAdminButton
+        Me.RegistrasiAdminButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.RegistrasiAdminButton.Font = New System.Drawing.Font("Ubuntu", 21.75!)
+        Me.RegistrasiAdminButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
+        Me.RegistrasiAdminButton.HoverState.Parent = Me.RegistrasiAdminButton
+        Me.RegistrasiAdminButton.Image = Global.MyDu.My.Resources.Resources.admin__1_
+        Me.RegistrasiAdminButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.RegistrasiAdminButton.ImageOffset = New System.Drawing.Point(60, 0)
+        Me.RegistrasiAdminButton.ImageSize = New System.Drawing.Size(40, 40)
+        Me.RegistrasiAdminButton.Location = New System.Drawing.Point(12, 609)
+        Me.RegistrasiAdminButton.Name = "RegistrasiAdminButton"
+        Me.RegistrasiAdminButton.ShadowDecoration.Parent = Me.RegistrasiAdminButton
+        Me.RegistrasiAdminButton.Size = New System.Drawing.Size(423, 87)
+        Me.RegistrasiAdminButton.TabIndex = 13
+        Me.RegistrasiAdminButton.Text = "Registrasi Admin"
+        Me.RegistrasiAdminButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.RegistrasiAdminButton.TextOffset = New System.Drawing.Point(75, 0)
+        '
         'Guna2Button7
         '
         Me.Guna2Button7.BorderRadius = 30
@@ -289,61 +313,9 @@ Partial Class UploadJadwal
         Me.Guna2Button7.Text = "Logout"
         Me.Guna2Button7.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
-        'Guna2Panel2
-        '
-        Me.Guna2Panel2.Controls.Add(Me.Label1)
-        Me.Guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Guna2Panel2.Location = New System.Drawing.Point(0, 0)
-        Me.Guna2Panel2.Name = "Guna2Panel2"
-        Me.Guna2Panel2.ShadowDecoration.Parent = Me.Guna2Panel2
-        Me.Guna2Panel2.Size = New System.Drawing.Size(441, 178)
-        Me.Guna2Panel2.TabIndex = 0
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Ubuntu", 36.0!, System.Drawing.FontStyle.Bold)
-        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(137, 53)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(159, 60)
-        Me.Label1.TabIndex = 2
-        Me.Label1.Text = "myDU"
-        '
-        'Guna2Elipse3
-        '
-        Me.Guna2Elipse3.BorderRadius = 10
-        Me.Guna2Elipse3.TargetControl = Me.Guna2Panel5
-        '
-        'RegistrasiAdminButton
-        '
-        Me.RegistrasiAdminButton.BorderRadius = 30
-        Me.RegistrasiAdminButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
-        Me.RegistrasiAdminButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
-        Me.RegistrasiAdminButton.CheckedState.Parent = Me.RegistrasiAdminButton
-        Me.RegistrasiAdminButton.CustomImages.Parent = Me.RegistrasiAdminButton
-        Me.RegistrasiAdminButton.DisabledState.Parent = Me.RegistrasiAdminButton
-        Me.RegistrasiAdminButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.RegistrasiAdminButton.Font = New System.Drawing.Font("Ubuntu", 21.75!)
-        Me.RegistrasiAdminButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
-        Me.RegistrasiAdminButton.HoverState.Parent = Me.RegistrasiAdminButton
-        Me.RegistrasiAdminButton.Image = Global.MyDu.My.Resources.Resources.admin__1_
-        Me.RegistrasiAdminButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.RegistrasiAdminButton.ImageOffset = New System.Drawing.Point(60, 0)
-        Me.RegistrasiAdminButton.ImageSize = New System.Drawing.Size(40, 40)
-        Me.RegistrasiAdminButton.Location = New System.Drawing.Point(12, 609)
-        Me.RegistrasiAdminButton.Name = "RegistrasiAdminButton"
-        Me.RegistrasiAdminButton.ShadowDecoration.Parent = Me.RegistrasiAdminButton
-        Me.RegistrasiAdminButton.Size = New System.Drawing.Size(423, 87)
-        Me.RegistrasiAdminButton.TabIndex = 13
-        Me.RegistrasiAdminButton.Text = "Registrasi Admin"
-        Me.RegistrasiAdminButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.RegistrasiAdminButton.TextOffset = New System.Drawing.Point(75, 0)
-        '
         'RegistrasiUserButton
         '
         Me.RegistrasiUserButton.BorderRadius = 30
-        Me.RegistrasiUserButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
         Me.RegistrasiUserButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
         Me.RegistrasiUserButton.CheckedState.Parent = Me.RegistrasiUserButton
         Me.RegistrasiUserButton.CustomImages.Parent = Me.RegistrasiUserButton
@@ -366,10 +338,30 @@ Partial Class UploadJadwal
         Me.RegistrasiUserButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.RegistrasiUserButton.TextOffset = New System.Drawing.Point(75, 0)
         '
+        'Guna2Panel2
+        '
+        Me.Guna2Panel2.Controls.Add(Me.Label1)
+        Me.Guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Guna2Panel2.Location = New System.Drawing.Point(0, 0)
+        Me.Guna2Panel2.Name = "Guna2Panel2"
+        Me.Guna2Panel2.ShadowDecoration.Parent = Me.Guna2Panel2
+        Me.Guna2Panel2.Size = New System.Drawing.Size(441, 178)
+        Me.Guna2Panel2.TabIndex = 0
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Ubuntu", 36.0!, System.Drawing.FontStyle.Bold)
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
+        Me.Label1.Location = New System.Drawing.Point(137, 53)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(160, 56)
+        Me.Label1.TabIndex = 2
+        Me.Label1.Text = "myDU"
+        '
         'UploadJadwalButton
         '
         Me.UploadJadwalButton.BorderRadius = 30
-        Me.UploadJadwalButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
         Me.UploadJadwalButton.Checked = True
         Me.UploadJadwalButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
         Me.UploadJadwalButton.CheckedState.Parent = Me.UploadJadwalButton
@@ -392,10 +384,33 @@ Partial Class UploadJadwal
         Me.UploadJadwalButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.UploadJadwalButton.TextOffset = New System.Drawing.Point(75, 0)
         '
+        'DashboardButton
+        '
+        Me.DashboardButton.BorderRadius = 30
+        Me.DashboardButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
+        Me.DashboardButton.CheckedState.Parent = Me.DashboardButton
+        Me.DashboardButton.CustomImages.Parent = Me.DashboardButton
+        Me.DashboardButton.DisabledState.Parent = Me.DashboardButton
+        Me.DashboardButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
+        Me.DashboardButton.Font = New System.Drawing.Font("Ubuntu", 21.75!)
+        Me.DashboardButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
+        Me.DashboardButton.HoverState.Parent = Me.DashboardButton
+        Me.DashboardButton.Image = CType(resources.GetObject("DashboardButton.Image"), System.Drawing.Image)
+        Me.DashboardButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.DashboardButton.ImageOffset = New System.Drawing.Point(60, 0)
+        Me.DashboardButton.ImageSize = New System.Drawing.Size(40, 40)
+        Me.DashboardButton.Location = New System.Drawing.Point(12, 237)
+        Me.DashboardButton.Name = "DashboardButton"
+        Me.DashboardButton.ShadowDecoration.Parent = Me.DashboardButton
+        Me.DashboardButton.Size = New System.Drawing.Size(423, 87)
+        Me.DashboardButton.TabIndex = 9
+        Me.DashboardButton.Text = "Dashboard"
+        Me.DashboardButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
+        Me.DashboardButton.TextOffset = New System.Drawing.Point(75, 0)
+        '
         'UserProfileButton
         '
         Me.UserProfileButton.BorderRadius = 30
-        Me.UserProfileButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
         Me.UserProfileButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
         Me.UserProfileButton.CheckedState.Image = Global.MyDu.My.Resources.Resources.user__3_
         Me.UserProfileButton.CheckedState.Parent = Me.UserProfileButton
@@ -418,32 +433,12 @@ Partial Class UploadJadwal
         Me.UserProfileButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.UserProfileButton.TextOffset = New System.Drawing.Point(75, 0)
         '
-        'DashboardButton
+        'Guna2Elipse3
         '
-        Me.DashboardButton.BorderRadius = 30
-        Me.DashboardButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
-        Me.DashboardButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
-        Me.DashboardButton.CheckedState.Parent = Me.DashboardButton
-        Me.DashboardButton.CustomImages.Parent = Me.DashboardButton
-        Me.DashboardButton.DisabledState.Parent = Me.DashboardButton
-        Me.DashboardButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.DashboardButton.Font = New System.Drawing.Font("Ubuntu", 21.75!)
-        Me.DashboardButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
-        Me.DashboardButton.HoverState.Parent = Me.DashboardButton
-        Me.DashboardButton.Image = CType(resources.GetObject("DashboardButton.Image"), System.Drawing.Image)
-        Me.DashboardButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.DashboardButton.ImageOffset = New System.Drawing.Point(60, 0)
-        Me.DashboardButton.ImageSize = New System.Drawing.Size(40, 40)
-        Me.DashboardButton.Location = New System.Drawing.Point(12, 237)
-        Me.DashboardButton.Name = "DashboardButton"
-        Me.DashboardButton.ShadowDecoration.Parent = Me.DashboardButton
-        Me.DashboardButton.Size = New System.Drawing.Size(423, 87)
-        Me.DashboardButton.TabIndex = 9
-        Me.DashboardButton.Text = "Dashboard"
-        Me.DashboardButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
-        Me.DashboardButton.TextOffset = New System.Drawing.Point(75, 0)
+        Me.Guna2Elipse3.BorderRadius = 10
+        Me.Guna2Elipse3.TargetControl = Me.Guna2Panel5
         '
-        'unggah
+        'UploadJadwal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -453,7 +448,7 @@ Partial Class UploadJadwal
         Me.Controls.Add(Me.Guna2Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.MaximumSize = New System.Drawing.Size(1920, 1040)
-        Me.Name = "unggah"
+        Me.Name = "UploadJadwal"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.Panel1.ResumeLayout(False)

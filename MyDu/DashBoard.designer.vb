@@ -146,7 +146,7 @@ Partial Class Dashboard
         Me.JudulLabel.ForeColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
         Me.JudulLabel.Location = New System.Drawing.Point(137, 53)
         Me.JudulLabel.Name = "JudulLabel"
-        Me.JudulLabel.Size = New System.Drawing.Size(159, 60)
+        Me.JudulLabel.Size = New System.Drawing.Size(160, 56)
         Me.JudulLabel.TabIndex = 2
         Me.JudulLabel.Text = "myDU"
         '
@@ -192,7 +192,6 @@ Partial Class Dashboard
         'RegistrasiAdminButton
         '
         Me.RegistrasiAdminButton.BorderRadius = 30
-        Me.RegistrasiAdminButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
         Me.RegistrasiAdminButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
         Me.RegistrasiAdminButton.CheckedState.Parent = Me.RegistrasiAdminButton
         Me.RegistrasiAdminButton.CustomImages.Parent = Me.RegistrasiAdminButton
@@ -217,7 +216,6 @@ Partial Class Dashboard
         'RegistrasiUserButton
         '
         Me.RegistrasiUserButton.BorderRadius = 30
-        Me.RegistrasiUserButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
         Me.RegistrasiUserButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
         Me.RegistrasiUserButton.CheckedState.Parent = Me.RegistrasiUserButton
         Me.RegistrasiUserButton.CustomImages.Parent = Me.RegistrasiUserButton
@@ -243,7 +241,6 @@ Partial Class Dashboard
         'UploadJadwalButton
         '
         Me.UploadJadwalButton.BorderRadius = 30
-        Me.UploadJadwalButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
         Me.UploadJadwalButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
         Me.UploadJadwalButton.CheckedState.Parent = Me.UploadJadwalButton
         Me.UploadJadwalButton.CustomImages.Parent = Me.UploadJadwalButton
@@ -268,7 +265,6 @@ Partial Class Dashboard
         'UserProfileButton
         '
         Me.UserProfileButton.BorderRadius = 30
-        Me.UserProfileButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
         Me.UserProfileButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
         Me.UserProfileButton.CheckedState.Parent = Me.UserProfileButton
         Me.UserProfileButton.CustomImages.Parent = Me.UserProfileButton
@@ -293,7 +289,6 @@ Partial Class Dashboard
         'DashboardButton
         '
         Me.DashboardButton.BorderRadius = 30
-        Me.DashboardButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
         Me.DashboardButton.Checked = True
         Me.DashboardButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
         Me.DashboardButton.CheckedState.Parent = Me.DashboardButton
@@ -629,7 +624,7 @@ Partial Class Dashboard
         Me.OnlineUserElipse.BorderRadius = 10
         Me.OnlineUserElipse.TargetControl = Me.OnlineUserPanel
         '
-        'Dashboard2
+        'Dashboard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -639,7 +634,7 @@ Partial Class Dashboard
         Me.Controls.Add(Me.ListPanel)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Name = "Dashboard2"
+        Me.Name = "Dashboard"
         Me.Text = "Form1"
         Me.ControlPanel.ResumeLayout(False)
         Me.TitleBarPanel.ResumeLayout(False)

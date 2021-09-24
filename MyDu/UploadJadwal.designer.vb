@@ -51,6 +51,7 @@ Partial Class UploadJadwal
         Me.ElipseUserTotal = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2Elipse3 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
+        Me.Guna2AnimateWindow1 = New Guna.UI2.WinForms.Guna2AnimateWindow(Me.components)
         Me.Panel1.SuspendLayout()
         Me.Guna2Panel5.SuspendLayout()
         Me.Guna2Panel4.SuspendLayout()
@@ -433,10 +434,18 @@ Partial Class UploadJadwal
         Me.UserProfileButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left
         Me.UserProfileButton.TextOffset = New System.Drawing.Point(75, 0)
         '
+        'Guna2Elipse2
+        '
+        Me.Guna2Elipse2.TargetControl = Me
+        '
         'Guna2Elipse3
         '
         Me.Guna2Elipse3.BorderRadius = 10
         Me.Guna2Elipse3.TargetControl = Me.Guna2Panel5
+        '
+        'Guna2AnimateWindow1
+        '
+        Me.Guna2AnimateWindow1.TargetForm = Me
         '
         'UploadJadwal
         '
@@ -492,4 +501,5 @@ Partial Class UploadJadwal
     Friend WithEvents UploadJadwalButton As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents DashboardButton As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents UserProfileButton As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2AnimateWindow1 As Guna.UI2.WinForms.Guna2AnimateWindow
 End Class

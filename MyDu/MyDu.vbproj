@@ -48,8 +48,8 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Guna.UI2, Version=2.0.2.0, Culture=neutral, PublicKeyToken=e4b9cdd7b4cde4b4, processorArchitecture=MSIL">
-      <HintPath>..\packages\Guna.UI2.WinForms.2.0.2\lib\net40\Guna.UI2.dll</HintPath>
+    <Reference Include="Guna.UI2, Version=2.0.2.1, Culture=neutral, PublicKeyToken=e4b9cdd7b4cde4b4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.2.1\lib\net40\Guna.UI2.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -80,6 +80,18 @@
       <DependentUpon>Dashboard.vb</DependentUpon>
     </Compile>
     <Compile Include="Dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContactAdmin.Designer.vb">
+      <DependentUpon>ContactAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ContactAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResetPassword.Designer.vb">
+      <DependentUpon>ResetPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ResetPassword.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Profile.Designer.vb">
@@ -136,6 +148,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="ContactAdmin.resx">
+      <DependentUpon>ContactAdmin.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.vb</DependentUpon>
     </EmbeddedResource>
@@ -147,6 +162,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RegistrasiUser.resx">
       <DependentUpon>RegistrasiUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResetPassword.resx">
+      <DependentUpon>ResetPassword.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Template.resx">
       <DependentUpon>Template.vb</DependentUpon>
@@ -175,9 +193,9 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
     <None Include="Resources\Slice 1.png" />
   </ItemGroup>
   <ItemGroup>
@@ -238,6 +256,7 @@
     <None Include="Resources\user %282%29 1.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Slice 11.png" />
     <None Include="Resources\view.png" />
     <None Include="Resources\verification.png" />
     <None Include="Resources\verification %283%29.png" />
@@ -275,6 +294,10 @@
     <None Include="Resources\password %281%29.png" />
     <None Include="Resources\password.png" />
     <None Include="Resources\placeholder.png" />
+    <None Include="Resources\contact admin.png" />
+    <None Include="Resources\Frame 19.png" />
+    <None Include="Resources\Group 34.png" />
+    <None Include="Resources\forgot password.png" />
     <Content Include="Resources\RegistrasiUser.png" />
     <None Include="Resources\RegistrasiUser1.png" />
   </ItemGroup>

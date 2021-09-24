@@ -65,9 +65,10 @@ Partial Class Dashboard
         Me.UserNama = New System.Windows.Forms.Label()
         Me.UserLabel = New System.Windows.Forms.Label()
         Me.UserPhoto = New Guna.UI2.WinForms.Guna2ImageButton()
-        Me.UserTotalElipse = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
-        Me.UserTodayElipse = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
+        Me.Guna2AnimateWindow1 = New Guna.UI2.WinForms.Guna2AnimateWindow(Me.components)
         Me.OnlineUserElipse = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
+        Me.UserTodayElipse = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
+        Me.UserTotalElipse = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.ControlPanel.SuspendLayout()
         Me.TitleBarPanel.SuspendLayout()
         Me.JudulPanel.SuspendLayout()
@@ -609,20 +610,24 @@ Partial Class Dashboard
         Me.UserPhoto.Size = New System.Drawing.Size(73, 67)
         Me.UserPhoto.TabIndex = 0
         '
-        'UserTotalElipse
+        'Guna2AnimateWindow1
         '
-        Me.UserTotalElipse.BorderRadius = 10
-        Me.UserTotalElipse.TargetControl = Me.UserTotalPanel
+        Me.Guna2AnimateWindow1.TargetForm = Me
+        '
+        'OnlineUserElipse
+        '
+        Me.OnlineUserElipse.BorderRadius = 10
+        Me.OnlineUserElipse.TargetControl = Me.OnlineUserPanel
         '
         'UserTodayElipse
         '
         Me.UserTodayElipse.BorderRadius = 10
         Me.UserTodayElipse.TargetControl = Me.UserTodayPanel
         '
-        'OnlineUserElipse
+        'UserTotalElipse
         '
-        Me.OnlineUserElipse.BorderRadius = 10
-        Me.OnlineUserElipse.TargetControl = Me.OnlineUserPanel
+        Me.UserTotalElipse.BorderRadius = 10
+        Me.UserTotalElipse.TargetControl = Me.UserTotalPanel
         '
         'Dashboard
         '
@@ -635,6 +640,7 @@ Partial Class Dashboard
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Dashboard"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.ControlPanel.ResumeLayout(False)
         Me.TitleBarPanel.ResumeLayout(False)
@@ -697,7 +703,8 @@ Partial Class Dashboard
     Friend WithEvents UserNama As Label
     Friend WithEvents UserLabel As Label
     Friend WithEvents UserPhoto As Guna.UI2.WinForms.Guna2ImageButton
-    Friend WithEvents UserTotalElipse As Guna.UI2.WinForms.Guna2Elipse
-    Friend WithEvents UserTodayElipse As Guna.UI2.WinForms.Guna2Elipse
+    Friend WithEvents Guna2AnimateWindow1 As Guna.UI2.WinForms.Guna2AnimateWindow
     Friend WithEvents OnlineUserElipse As Guna.UI2.WinForms.Guna2Elipse
+    Friend WithEvents UserTodayElipse As Guna.UI2.WinForms.Guna2Elipse
+    Friend WithEvents UserTotalElipse As Guna.UI2.WinForms.Guna2Elipse
 End Class

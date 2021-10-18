@@ -65,10 +65,10 @@ Partial Class Dashboard
         Me.UserNama = New System.Windows.Forms.Label()
         Me.UserLabel = New System.Windows.Forms.Label()
         Me.UserPhoto = New Guna.UI2.WinForms.Guna2ImageButton()
-        Me.Guna2AnimateWindow1 = New Guna.UI2.WinForms.Guna2AnimateWindow(Me.components)
         Me.OnlineUserElipse = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.UserTodayElipse = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.UserTotalElipse = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
+        Me.Guna2AnimateWindow1 = New Guna.UI2.WinForms.Guna2AnimateWindow(Me.components)
         Me.ControlPanel.SuspendLayout()
         Me.TitleBarPanel.SuspendLayout()
         Me.JudulPanel.SuspendLayout()
@@ -143,11 +143,11 @@ Partial Class Dashboard
         'JudulLabel
         '
         Me.JudulLabel.AutoSize = True
-        Me.JudulLabel.Font = New System.Drawing.Font("Ubuntu", 36.0!, System.Drawing.FontStyle.Bold)
+        Me.JudulLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold)
         Me.JudulLabel.ForeColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
         Me.JudulLabel.Location = New System.Drawing.Point(137, 53)
         Me.JudulLabel.Name = "JudulLabel"
-        Me.JudulLabel.Size = New System.Drawing.Size(160, 56)
+        Me.JudulLabel.Size = New System.Drawing.Size(162, 55)
         Me.JudulLabel.TabIndex = 2
         Me.JudulLabel.Text = "myDU"
         '
@@ -176,7 +176,7 @@ Partial Class Dashboard
         Me.LogoutButton.CustomImages.Parent = Me.LogoutButton
         Me.LogoutButton.DisabledState.Parent = Me.LogoutButton
         Me.LogoutButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.LogoutButton.Font = New System.Drawing.Font("Ubuntu", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LogoutButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LogoutButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
         Me.LogoutButton.HoverState.Parent = Me.LogoutButton
         Me.LogoutButton.Image = CType(resources.GetObject("LogoutButton.Image"), System.Drawing.Image)
@@ -198,7 +198,7 @@ Partial Class Dashboard
         Me.RegistrasiAdminButton.CustomImages.Parent = Me.RegistrasiAdminButton
         Me.RegistrasiAdminButton.DisabledState.Parent = Me.RegistrasiAdminButton
         Me.RegistrasiAdminButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.RegistrasiAdminButton.Font = New System.Drawing.Font("Ubuntu", 21.75!)
+        Me.RegistrasiAdminButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!)
         Me.RegistrasiAdminButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
         Me.RegistrasiAdminButton.HoverState.Parent = Me.RegistrasiAdminButton
         Me.RegistrasiAdminButton.Image = CType(resources.GetObject("RegistrasiAdminButton.Image"), System.Drawing.Image)
@@ -222,7 +222,7 @@ Partial Class Dashboard
         Me.RegistrasiUserButton.CustomImages.Parent = Me.RegistrasiUserButton
         Me.RegistrasiUserButton.DisabledState.Parent = Me.RegistrasiUserButton
         Me.RegistrasiUserButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.RegistrasiUserButton.Font = New System.Drawing.Font("Ubuntu", 21.75!)
+        Me.RegistrasiUserButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!)
         Me.RegistrasiUserButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
         Me.RegistrasiUserButton.HoverState.Parent = Me.RegistrasiUserButton
         Me.RegistrasiUserButton.Image = Global.MyDu.My.Resources.Resources.RegistrasiUser_Gray
@@ -247,7 +247,7 @@ Partial Class Dashboard
         Me.UploadJadwalButton.CustomImages.Parent = Me.UploadJadwalButton
         Me.UploadJadwalButton.DisabledState.Parent = Me.UploadJadwalButton
         Me.UploadJadwalButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.UploadJadwalButton.Font = New System.Drawing.Font("Ubuntu", 21.75!)
+        Me.UploadJadwalButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!)
         Me.UploadJadwalButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
         Me.UploadJadwalButton.HoverState.Parent = Me.UploadJadwalButton
         Me.UploadJadwalButton.Image = CType(resources.GetObject("UploadJadwalButton.Image"), System.Drawing.Image)
@@ -271,7 +271,7 @@ Partial Class Dashboard
         Me.UserProfileButton.CustomImages.Parent = Me.UserProfileButton
         Me.UserProfileButton.DisabledState.Parent = Me.UserProfileButton
         Me.UserProfileButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.UserProfileButton.Font = New System.Drawing.Font("Ubuntu", 22.0!)
+        Me.UserProfileButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 22.0!)
         Me.UserProfileButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
         Me.UserProfileButton.HoverState.Parent = Me.UserProfileButton
         Me.UserProfileButton.Image = CType(resources.GetObject("UserProfileButton.Image"), System.Drawing.Image)
@@ -296,7 +296,7 @@ Partial Class Dashboard
         Me.DashboardButton.CustomImages.Parent = Me.DashboardButton
         Me.DashboardButton.DisabledState.Parent = Me.DashboardButton
         Me.DashboardButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.DashboardButton.Font = New System.Drawing.Font("Ubuntu", 21.75!)
+        Me.DashboardButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!)
         Me.DashboardButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
         Me.DashboardButton.HoverState.Parent = Me.DashboardButton
         Me.DashboardButton.Image = CType(resources.GetObject("DashboardButton.Image"), System.Drawing.Image)
@@ -391,11 +391,11 @@ Partial Class Dashboard
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Ubuntu", 24.0!)
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!)
         Me.Label10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
         Me.Label10.Location = New System.Drawing.Point(42, 501)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(279, 39)
+        Me.Label10.Size = New System.Drawing.Size(268, 37)
         Me.Label10.TabIndex = 5
         Me.Label10.Text = "Recently Updated"
         '
@@ -449,11 +449,11 @@ Partial Class Dashboard
         'OnlineUserText
         '
         Me.OnlineUserText.AutoSize = True
-        Me.OnlineUserText.Font = New System.Drawing.Font("Ubuntu", 12.0!)
+        Me.OnlineUserText.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.OnlineUserText.ForeColor = System.Drawing.Color.White
         Me.OnlineUserText.Location = New System.Drawing.Point(27, 28)
         Me.OnlineUserText.Name = "OnlineUserText"
-        Me.OnlineUserText.Size = New System.Drawing.Size(90, 20)
+        Me.OnlineUserText.Size = New System.Drawing.Size(89, 20)
         Me.OnlineUserText.TabIndex = 2
         Me.OnlineUserText.Text = "Online user"
         '
@@ -494,11 +494,11 @@ Partial Class Dashboard
         'UserTodayText
         '
         Me.UserTodayText.AutoSize = True
-        Me.UserTodayText.Font = New System.Drawing.Font("Ubuntu", 12.0!)
+        Me.UserTodayText.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.UserTodayText.ForeColor = System.Drawing.Color.White
         Me.UserTodayText.Location = New System.Drawing.Point(23, 28)
         Me.UserTodayText.Name = "UserTodayText"
-        Me.UserTodayText.Size = New System.Drawing.Size(236, 20)
+        Me.UserTodayText.Size = New System.Drawing.Size(238, 20)
         Me.UserTodayText.TabIndex = 1
         Me.UserTodayText.Text = "User today accessed application"
         '
@@ -540,7 +540,7 @@ Partial Class Dashboard
         'UserTotalText
         '
         Me.UserTotalText.AutoSize = True
-        Me.UserTotalText.Font = New System.Drawing.Font("Ubuntu", 12.0!)
+        Me.UserTotalText.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.UserTotalText.ForeColor = System.Drawing.Color.White
         Me.UserTotalText.Location = New System.Drawing.Point(16, 28)
         Me.UserTotalText.Name = "UserTotalText"
@@ -551,11 +551,11 @@ Partial Class Dashboard
         'UpperContentJudul
         '
         Me.UpperContentJudul.AutoSize = True
-        Me.UpperContentJudul.Font = New System.Drawing.Font("Ubuntu", 24.0!)
+        Me.UpperContentJudul.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!)
         Me.UpperContentJudul.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
         Me.UpperContentJudul.Location = New System.Drawing.Point(42, 41)
         Me.UpperContentJudul.Name = "UpperContentJudul"
-        Me.UpperContentJudul.Size = New System.Drawing.Size(299, 39)
+        Me.UpperContentJudul.Size = New System.Drawing.Size(284, 37)
         Me.UpperContentJudul.TabIndex = 2
         Me.UpperContentJudul.Text = "Analytics Overview"
         '
@@ -574,7 +574,7 @@ Partial Class Dashboard
         'UserNama
         '
         Me.UserNama.AutoSize = True
-        Me.UserNama.Font = New System.Drawing.Font("Ubuntu", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UserNama.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UserNama.ForeColor = System.Drawing.Color.Black
         Me.UserNama.Location = New System.Drawing.Point(833, 35)
         Me.UserNama.Name = "UserNama"
@@ -585,7 +585,7 @@ Partial Class Dashboard
         'UserLabel
         '
         Me.UserLabel.AutoSize = True
-        Me.UserLabel.Font = New System.Drawing.Font("Ubuntu", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UserLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UserLabel.ForeColor = System.Drawing.Color.Black
         Me.UserLabel.Location = New System.Drawing.Point(833, 35)
         Me.UserLabel.Name = "UserLabel"
@@ -610,10 +610,6 @@ Partial Class Dashboard
         Me.UserPhoto.Size = New System.Drawing.Size(73, 67)
         Me.UserPhoto.TabIndex = 0
         '
-        'Guna2AnimateWindow1
-        '
-        Me.Guna2AnimateWindow1.TargetForm = Me
-        '
         'OnlineUserElipse
         '
         Me.OnlineUserElipse.BorderRadius = 10
@@ -628,6 +624,11 @@ Partial Class Dashboard
         '
         Me.UserTotalElipse.BorderRadius = 10
         Me.UserTotalElipse.TargetControl = Me.UserTotalPanel
+        '
+        'Guna2AnimateWindow1
+        '
+        Me.Guna2AnimateWindow1.AnimationType = Guna.UI2.WinForms.Guna2AnimateWindow.AnimateWindowType.AW_HOR_NEGATIVE
+        Me.Guna2AnimateWindow1.TargetForm = Me
         '
         'Dashboard
         '
@@ -703,8 +704,8 @@ Partial Class Dashboard
     Friend WithEvents UserNama As Label
     Friend WithEvents UserLabel As Label
     Friend WithEvents UserPhoto As Guna.UI2.WinForms.Guna2ImageButton
-    Friend WithEvents Guna2AnimateWindow1 As Guna.UI2.WinForms.Guna2AnimateWindow
     Friend WithEvents OnlineUserElipse As Guna.UI2.WinForms.Guna2Elipse
     Friend WithEvents UserTodayElipse As Guna.UI2.WinForms.Guna2Elipse
     Friend WithEvents UserTotalElipse As Guna.UI2.WinForms.Guna2Elipse
+    Friend WithEvents Guna2AnimateWindow1 As Guna.UI2.WinForms.Guna2AnimateWindow
 End Class

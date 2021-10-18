@@ -90,7 +90,7 @@ Partial Class RegistrasiAdmin
         Me.LogoutButton.CustomImages.Parent = Me.LogoutButton
         Me.LogoutButton.DisabledState.Parent = Me.LogoutButton
         Me.LogoutButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.LogoutButton.Font = New System.Drawing.Font("Ubuntu", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LogoutButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LogoutButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
         Me.LogoutButton.HoverState.Parent = Me.LogoutButton
         Me.LogoutButton.Image = CType(resources.GetObject("LogoutButton.Image"), System.Drawing.Image)
@@ -113,7 +113,7 @@ Partial Class RegistrasiAdmin
         Me.RegistrasiAdminButton.CustomImages.Parent = Me.RegistrasiAdminButton
         Me.RegistrasiAdminButton.DisabledState.Parent = Me.RegistrasiAdminButton
         Me.RegistrasiAdminButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.RegistrasiAdminButton.Font = New System.Drawing.Font("Ubuntu", 21.75!)
+        Me.RegistrasiAdminButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!)
         Me.RegistrasiAdminButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
         Me.RegistrasiAdminButton.HoverState.Parent = Me.RegistrasiAdminButton
         Me.RegistrasiAdminButton.Image = Global.MyDu.My.Resources.Resources.admin__1_
@@ -137,7 +137,7 @@ Partial Class RegistrasiAdmin
         Me.RegistrasiUserButton.CustomImages.Parent = Me.RegistrasiUserButton
         Me.RegistrasiUserButton.DisabledState.Parent = Me.RegistrasiUserButton
         Me.RegistrasiUserButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.RegistrasiUserButton.Font = New System.Drawing.Font("Ubuntu", 21.75!)
+        Me.RegistrasiUserButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!)
         Me.RegistrasiUserButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
         Me.RegistrasiUserButton.HoverState.Parent = Me.RegistrasiUserButton
         Me.RegistrasiUserButton.Image = Global.MyDu.My.Resources.Resources.edit__1_
@@ -162,7 +162,7 @@ Partial Class RegistrasiAdmin
         Me.UploadJadwalButton.CustomImages.Parent = Me.UploadJadwalButton
         Me.UploadJadwalButton.DisabledState.Parent = Me.UploadJadwalButton
         Me.UploadJadwalButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.UploadJadwalButton.Font = New System.Drawing.Font("Ubuntu", 21.75!)
+        Me.UploadJadwalButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!)
         Me.UploadJadwalButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
         Me.UploadJadwalButton.HoverState.Parent = Me.UploadJadwalButton
         Me.UploadJadwalButton.Image = CType(resources.GetObject("UploadJadwalButton.Image"), System.Drawing.Image)
@@ -187,7 +187,7 @@ Partial Class RegistrasiAdmin
         Me.UserProfileButton.CustomImages.Parent = Me.UserProfileButton
         Me.UserProfileButton.DisabledState.Parent = Me.UserProfileButton
         Me.UserProfileButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.UserProfileButton.Font = New System.Drawing.Font("Ubuntu", 22.0!)
+        Me.UserProfileButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 22.0!)
         Me.UserProfileButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
         Me.UserProfileButton.HoverState.Parent = Me.UserProfileButton
         Me.UserProfileButton.Image = CType(resources.GetObject("UserProfileButton.Image"), System.Drawing.Image)
@@ -211,7 +211,7 @@ Partial Class RegistrasiAdmin
         Me.DashboardButton.CustomImages.Parent = Me.DashboardButton
         Me.DashboardButton.DisabledState.Parent = Me.DashboardButton
         Me.DashboardButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.DashboardButton.Font = New System.Drawing.Font("Ubuntu", 21.75!)
+        Me.DashboardButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!)
         Me.DashboardButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
         Me.DashboardButton.HoverState.Parent = Me.DashboardButton
         Me.DashboardButton.Image = CType(resources.GetObject("DashboardButton.Image"), System.Drawing.Image)
@@ -240,11 +240,11 @@ Partial Class RegistrasiAdmin
         'JudulLabel
         '
         Me.JudulLabel.AutoSize = True
-        Me.JudulLabel.Font = New System.Drawing.Font("Ubuntu", 36.0!, System.Drawing.FontStyle.Bold)
+        Me.JudulLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold)
         Me.JudulLabel.ForeColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
         Me.JudulLabel.Location = New System.Drawing.Point(137, 53)
         Me.JudulLabel.Name = "JudulLabel"
-        Me.JudulLabel.Size = New System.Drawing.Size(160, 56)
+        Me.JudulLabel.Size = New System.Drawing.Size(162, 55)
         Me.JudulLabel.TabIndex = 2
         Me.JudulLabel.Text = "myDU"
         '
@@ -295,7 +295,7 @@ Partial Class RegistrasiAdmin
         Me.TambahAdmin.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.TambahAdmin.DisabledState.Parent = Me.TambahAdmin
         Me.TambahAdmin.FillColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
-        Me.TambahAdmin.Font = New System.Drawing.Font("Ubuntu", 18.0!)
+        Me.TambahAdmin.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
         Me.TambahAdmin.ForeColor = System.Drawing.Color.White
         Me.TambahAdmin.HoverState.Parent = Me.TambahAdmin
         Me.TambahAdmin.Location = New System.Drawing.Point(80, 596)
@@ -317,7 +317,7 @@ Partial Class RegistrasiAdmin
         Me.Password.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.Password.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Password.FocusedState.Parent = Me.Password
-        Me.Password.Font = New System.Drawing.Font("Ubuntu", 18.0!)
+        Me.Password.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
         Me.Password.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
         Me.Password.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Password.HoverState.Parent = Me.Password
@@ -344,7 +344,7 @@ Partial Class RegistrasiAdmin
         Me.Email.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.Email.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Email.FocusedState.Parent = Me.Email
-        Me.Email.Font = New System.Drawing.Font("Ubuntu", 18.0!)
+        Me.Email.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
         Me.Email.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
         Me.Email.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Email.HoverState.Parent = Me.Email
@@ -371,7 +371,7 @@ Partial Class RegistrasiAdmin
         Me.CariJabatan.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.CariJabatan.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.CariJabatan.FocusedState.Parent = Me.CariJabatan
-        Me.CariJabatan.Font = New System.Drawing.Font("Ubuntu", 18.0!)
+        Me.CariJabatan.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
         Me.CariJabatan.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
         Me.CariJabatan.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.CariJabatan.HoverState.Parent = Me.CariJabatan
@@ -400,7 +400,7 @@ Partial Class RegistrasiAdmin
         Me.CariProdiSatuan.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.CariProdiSatuan.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.CariProdiSatuan.FocusedState.Parent = Me.CariProdiSatuan
-        Me.CariProdiSatuan.Font = New System.Drawing.Font("Ubuntu", 18.0!)
+        Me.CariProdiSatuan.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
         Me.CariProdiSatuan.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
         Me.CariProdiSatuan.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.CariProdiSatuan.HoverState.Parent = Me.CariProdiSatuan
@@ -429,7 +429,7 @@ Partial Class RegistrasiAdmin
         Me.NIMNRPTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.NIMNRPTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.NIMNRPTextBox.FocusedState.Parent = Me.NIMNRPTextBox
-        Me.NIMNRPTextBox.Font = New System.Drawing.Font("Ubuntu", 18.0!)
+        Me.NIMNRPTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
         Me.NIMNRPTextBox.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
         Me.NIMNRPTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.NIMNRPTextBox.HoverState.Parent = Me.NIMNRPTextBox
@@ -456,7 +456,7 @@ Partial Class RegistrasiAdmin
         Me.NamaLengkapTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.NamaLengkapTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.NamaLengkapTextBox.FocusedState.Parent = Me.NamaLengkapTextBox
-        Me.NamaLengkapTextBox.Font = New System.Drawing.Font("Ubuntu", 18.0!)
+        Me.NamaLengkapTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
         Me.NamaLengkapTextBox.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
         Me.NamaLengkapTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.NamaLengkapTextBox.HoverState.Parent = Me.NamaLengkapTextBox
@@ -506,7 +506,7 @@ Partial Class RegistrasiAdmin
         'UserLabel
         '
         Me.UserLabel.AutoSize = True
-        Me.UserLabel.Font = New System.Drawing.Font("Ubuntu", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UserLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UserLabel.ForeColor = System.Drawing.Color.Black
         Me.UserLabel.Location = New System.Drawing.Point(833, 35)
         Me.UserLabel.Name = "UserLabel"
@@ -592,6 +592,7 @@ Partial Class RegistrasiAdmin
         '
         'Guna2AnimateWindow1
         '
+        Me.Guna2AnimateWindow1.AnimationType = Guna.UI2.WinForms.Guna2AnimateWindow.AnimateWindowType.AW_HOR_NEGATIVE
         Me.Guna2AnimateWindow1.TargetForm = Me
         '
         'RegistrasiAdmin

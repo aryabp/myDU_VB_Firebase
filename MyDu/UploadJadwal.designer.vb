@@ -72,7 +72,7 @@ Partial Class UploadJadwal
         Me.Guna2Button8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.Guna2Button8.DisabledState.Parent = Me.Guna2Button8
         Me.Guna2Button8.FillColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
-        Me.Guna2Button8.Font = New System.Drawing.Font("Ubuntu", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2Button8.ForeColor = System.Drawing.Color.White
         Me.Guna2Button8.HoverState.Parent = Me.Guna2Button8
         Me.Guna2Button8.Location = New System.Drawing.Point(291, 646)
@@ -148,7 +148,7 @@ Partial Class UploadJadwal
         Me.Guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.Guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Guna2TextBox1.FocusedState.Parent = Me.Guna2TextBox1
-        Me.Guna2TextBox1.Font = New System.Drawing.Font("Ubuntu", 15.75!)
+        Me.Guna2TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!)
         Me.Guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Guna2TextBox1.HoverState.Parent = Me.Guna2TextBox1
         Me.Guna2TextBox1.IconLeft = Global.MyDu.My.Resources.Resources.magnifyingglass
@@ -177,7 +177,7 @@ Partial Class UploadJadwal
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Ubuntu", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Black
         Me.Label2.Location = New System.Drawing.Point(833, 35)
         Me.Label2.Name = "Label2"
@@ -276,7 +276,7 @@ Partial Class UploadJadwal
         Me.RegistrasiAdminButton.CustomImages.Parent = Me.RegistrasiAdminButton
         Me.RegistrasiAdminButton.DisabledState.Parent = Me.RegistrasiAdminButton
         Me.RegistrasiAdminButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.RegistrasiAdminButton.Font = New System.Drawing.Font("Ubuntu", 21.75!)
+        Me.RegistrasiAdminButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!)
         Me.RegistrasiAdminButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
         Me.RegistrasiAdminButton.HoverState.Parent = Me.RegistrasiAdminButton
         Me.RegistrasiAdminButton.Image = Global.MyDu.My.Resources.Resources.admin__1_
@@ -300,7 +300,7 @@ Partial Class UploadJadwal
         Me.Guna2Button7.CustomImages.Parent = Me.Guna2Button7
         Me.Guna2Button7.DisabledState.Parent = Me.Guna2Button7
         Me.Guna2Button7.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.Guna2Button7.Font = New System.Drawing.Font("Ubuntu", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2Button7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
         Me.Guna2Button7.HoverState.Parent = Me.Guna2Button7
         Me.Guna2Button7.Image = CType(resources.GetObject("Guna2Button7.Image"), System.Drawing.Image)
@@ -322,7 +322,7 @@ Partial Class UploadJadwal
         Me.RegistrasiUserButton.CustomImages.Parent = Me.RegistrasiUserButton
         Me.RegistrasiUserButton.DisabledState.Parent = Me.RegistrasiUserButton
         Me.RegistrasiUserButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.RegistrasiUserButton.Font = New System.Drawing.Font("Ubuntu", 21.75!)
+        Me.RegistrasiUserButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!)
         Me.RegistrasiUserButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
         Me.RegistrasiUserButton.HoverState.Parent = Me.RegistrasiUserButton
         Me.RegistrasiUserButton.Image = Global.MyDu.My.Resources.Resources.edit__1_
@@ -352,11 +352,11 @@ Partial Class UploadJadwal
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Ubuntu", 36.0!, System.Drawing.FontStyle.Bold)
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 36.0!, System.Drawing.FontStyle.Bold)
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
         Me.Label1.Location = New System.Drawing.Point(137, 53)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(160, 56)
+        Me.Label1.Size = New System.Drawing.Size(162, 55)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "myDU"
         '
@@ -369,7 +369,7 @@ Partial Class UploadJadwal
         Me.UploadJadwalButton.CustomImages.Parent = Me.UploadJadwalButton
         Me.UploadJadwalButton.DisabledState.Parent = Me.UploadJadwalButton
         Me.UploadJadwalButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.UploadJadwalButton.Font = New System.Drawing.Font("Ubuntu", 21.75!)
+        Me.UploadJadwalButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!)
         Me.UploadJadwalButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
         Me.UploadJadwalButton.HoverState.Parent = Me.UploadJadwalButton
         Me.UploadJadwalButton.Image = CType(resources.GetObject("UploadJadwalButton.Image"), System.Drawing.Image)
@@ -393,7 +393,7 @@ Partial Class UploadJadwal
         Me.DashboardButton.CustomImages.Parent = Me.DashboardButton
         Me.DashboardButton.DisabledState.Parent = Me.DashboardButton
         Me.DashboardButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.DashboardButton.Font = New System.Drawing.Font("Ubuntu", 21.75!)
+        Me.DashboardButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!)
         Me.DashboardButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
         Me.DashboardButton.HoverState.Parent = Me.DashboardButton
         Me.DashboardButton.Image = CType(resources.GetObject("DashboardButton.Image"), System.Drawing.Image)
@@ -418,7 +418,7 @@ Partial Class UploadJadwal
         Me.UserProfileButton.CustomImages.Parent = Me.UserProfileButton
         Me.UserProfileButton.DisabledState.Parent = Me.UserProfileButton
         Me.UserProfileButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.UserProfileButton.Font = New System.Drawing.Font("Ubuntu", 22.0!)
+        Me.UserProfileButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 22.0!)
         Me.UserProfileButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
         Me.UserProfileButton.HoverState.Parent = Me.UserProfileButton
         Me.UserProfileButton.Image = CType(resources.GetObject("UserProfileButton.Image"), System.Drawing.Image)
@@ -445,6 +445,7 @@ Partial Class UploadJadwal
         '
         'Guna2AnimateWindow1
         '
+        Me.Guna2AnimateWindow1.AnimationType = Guna.UI2.WinForms.Guna2AnimateWindow.AnimateWindowType.AW_HOR_NEGATIVE
         Me.Guna2AnimateWindow1.TargetForm = Me
         '
         'UploadJadwal

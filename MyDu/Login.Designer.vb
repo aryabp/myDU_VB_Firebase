@@ -107,14 +107,14 @@ Partial Class Login
         Me.Guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.Guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Guna2TextBox2.FocusedState.Parent = Me.Guna2TextBox2
-        Me.Guna2TextBox2.Font = New System.Drawing.Font("Ubuntu Medium", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2TextBox2.Font = New System.Drawing.Font("Ubuntu Medium", 18.0!, System.Drawing.FontStyle.Bold)
         Me.Guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Guna2TextBox2.HoverState.Parent = Me.Guna2TextBox2
         Me.Guna2TextBox2.Location = New System.Drawing.Point(267, 375)
         Me.Guna2TextBox2.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Guna2TextBox2.Name = "Guna2TextBox2"
         Me.Guna2TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.Guna2TextBox2.PlaceholderText = "Username"
+        Me.Guna2TextBox2.PlaceholderText = "Username / e-mail"
         Me.Guna2TextBox2.SelectedText = ""
         Me.Guna2TextBox2.ShadowDecoration.Parent = Me.Guna2TextBox2
         Me.Guna2TextBox2.Size = New System.Drawing.Size(396, 52)

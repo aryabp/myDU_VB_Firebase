@@ -24,6 +24,11 @@ Public Class RegistrasiUser
 
         Me.Show()
     End Sub
+    Private Sub RegistrasiUser_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        If status = "HighAdmin" Then
+            RegistrasiAdminButton.Visible = True
+        End If
+    End Sub
 
     Private Function SHA256(ByVal Content As String) As String
         Dim MoLeCuL3 As New Security.Cryptography.SHA256CryptoServiceProvider
@@ -40,25 +45,25 @@ Public Class RegistrasiUser
 
     Private Sub DashboardButton_Click(sender As Object, e As EventArgs) Handles DashboardButton.Click
         Me.Hide()
-        Me.Close()
+
         Dashboard.ProfileReciever(mail, fullName, nIMorNRP, prodiorUnit, rank, status)
     End Sub
 
     Private Sub UserProfileButton_Click(sender As Object, e As EventArgs) Handles UserProfileButton.Click
         Me.Hide()
-        Me.Close()
+
         Profile.ProfileReciever(mail, fullName, nIMorNRP, prodiorUnit, rank, status)
     End Sub
 
     Private Sub UploadJadwalButton_Click(sender As Object, e As EventArgs) Handles UploadJadwalButton.Click
         Me.Hide()
-        Me.Close()
+
         UploadJadwal.ProfileReciever(mail, fullName, nIMorNRP, prodiorUnit, rank, status)
     End Sub
 
     Private Sub RegistrasiAdminButton_Click(sender As Object, e As EventArgs) Handles RegistrasiAdminButton.Click
         Me.Hide()
-        Me.Close()
+
         RegistrasiAdmin.ProfileReciever(mail, fullName, nIMorNRP, prodiorUnit, rank, status)
     End Sub
 
@@ -68,7 +73,7 @@ Public Class RegistrasiUser
 
     Private Sub LogoutButton_Click(sender As Object, e As EventArgs) Handles LogoutButton.Click
         Me.Hide()
-        Me.Close()
+
         Login.LogOut()
     End Sub
 
@@ -79,5 +84,8 @@ Public Class RegistrasiUser
     Private Sub TambahUser_Click(sender As Object, e As EventArgs) Handles TambahUser.Click
         NamaLengkapTextBox.Text = SHA256(Email.Text)
 
+    End Sub
+    Private Sub Windows_exit(sender As Object, e As EventArgs) Handles Me.Closed
+        Login.Close()
     End Sub
 End Class

@@ -22,27 +22,32 @@
 
         Me.Show()
     End Sub
+    Private Sub Profile_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        If status = "HighAdmin" Then
+            RegistrasiAdminButton.Visible = True
+        End If
+    End Sub
     Private Sub DashboardButton_Click(sender As Object, e As EventArgs) Handles DashboardButton.Click
         Me.Hide()
-        Me.Close()
+
         Dashboard.ProfileReciever(mail, fullName, nIMorNRP, prodiorUnit, rank, status)
     End Sub
 
     Private Sub UploadJadwalButton_Click(sender As Object, e As EventArgs) Handles UploadJadwalButton.Click
         Me.Hide()
-        Me.Close()
+
         UploadJadwal.ProfileReciever(mail, fullName, nIMorNRP, prodiorUnit, rank, status)
     End Sub
 
     Private Sub RegistrasiUserButton_Click(sender As Object, e As EventArgs) Handles RegistrasiUserButton.Click
         Me.Hide()
-        Me.Close()
+
         RegistrasiUser.ProfileReciever(mail, fullName, nIMorNRP, prodiorUnit, rank, status)
     End Sub
 
     Private Sub RegistrasiAdminButton_Click(sender As Object, e As EventArgs) Handles RegistrasiAdminButton.Click
         Me.Hide()
-        Me.Close()
+
         RegistrasiAdmin.ProfileReciever(mail, fullName, nIMorNRP, prodiorUnit, rank, status)
     End Sub
 
@@ -52,8 +57,9 @@
 
     Private Sub LogoutButton_Click(sender As Object, e As EventArgs) Handles LogoutButton.Click
         Me.Hide()
-        Me.Close()
         Login.LogOut()
     End Sub
-
+    Private Sub Windows_exit(sender As Object, e As EventArgs) Handles Me.Closed
+        Login.Close()
+    End Sub
 End Class

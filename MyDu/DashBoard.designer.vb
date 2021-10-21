@@ -45,6 +45,7 @@ Partial Class Dashboard
         Me.Guna2Panel11 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Panel10 = New Guna.UI2.WinForms.Guna2Panel()
         Me.ContentPanel = New System.Windows.Forms.Panel()
+        Me.Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.Guna2Panel13 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.UpperContentPanel = New Guna.UI2.WinForms.Guna2Panel()
@@ -170,13 +171,13 @@ Partial Class Dashboard
         '
         'LogoutButton
         '
+        Me.LogoutButton.Animated = True
         Me.LogoutButton.BorderRadius = 30
-        Me.LogoutButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton
         Me.LogoutButton.CheckedState.Parent = Me.LogoutButton
         Me.LogoutButton.CustomImages.Parent = Me.LogoutButton
         Me.LogoutButton.DisabledState.Parent = Me.LogoutButton
         Me.LogoutButton.FillColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer), CType(CType(241, Byte), Integer))
-        Me.LogoutButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LogoutButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!)
         Me.LogoutButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
         Me.LogoutButton.HoverState.Parent = Me.LogoutButton
         Me.LogoutButton.Image = CType(resources.GetObject("LogoutButton.Image"), System.Drawing.Image)
@@ -365,6 +366,7 @@ Partial Class Dashboard
         'ContentPanel
         '
         Me.ContentPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(229, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(229, Byte), Integer))
+        Me.ContentPanel.Controls.Add(Me.Guna2CircleButton1)
         Me.ContentPanel.Controls.Add(Me.Guna2Panel14)
         Me.ContentPanel.Controls.Add(Me.Guna2Panel13)
         Me.ContentPanel.Controls.Add(Me.Guna2Panel12)
@@ -378,6 +380,33 @@ Partial Class Dashboard
         Me.ContentPanel.Name = "ContentPanel"
         Me.ContentPanel.Size = New System.Drawing.Size(999, 977)
         Me.ContentPanel.TabIndex = 9
+        '
+        'Guna2CircleButton1
+        '
+        Me.Guna2CircleButton1.Animated = True
+        Me.Guna2CircleButton1.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2CircleButton1.BorderColor = System.Drawing.Color.Transparent
+        Me.Guna2CircleButton1.CheckedState.Parent = Me.Guna2CircleButton1
+        Me.Guna2CircleButton1.CustomImages.Parent = Me.Guna2CircleButton1
+        Me.Guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2CircleButton1.DisabledState.Parent = Me.Guna2CircleButton1
+        Me.Guna2CircleButton1.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2CircleButton1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.Guna2CircleButton1.ForeColor = System.Drawing.Color.Transparent
+        Me.Guna2CircleButton1.HoverState.Image = Global.MyDu.My.Resources.Resources.menu__2__11
+        Me.Guna2CircleButton1.HoverState.Parent = Me.Guna2CircleButton1
+        Me.Guna2CircleButton1.Image = Global.MyDu.My.Resources.Resources.circular_arrow
+        Me.Guna2CircleButton1.ImageSize = New System.Drawing.Size(30, 30)
+        Me.Guna2CircleButton1.Location = New System.Drawing.Point(316, 478)
+        Me.Guna2CircleButton1.Name = "Guna2CircleButton1"
+        Me.Guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CircleButton1.ShadowDecoration.Parent = Me.Guna2CircleButton1
+        Me.Guna2CircleButton1.Size = New System.Drawing.Size(87, 78)
+        Me.Guna2CircleButton1.TabIndex = 8
+        Me.Guna2CircleButton1.UseTransparentBackground = True
         '
         'Guna2Panel13
         '
@@ -442,9 +471,9 @@ Partial Class Dashboard
         Me.OnlineUserNumber.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
         Me.OnlineUserNumber.Location = New System.Drawing.Point(22, 103)
         Me.OnlineUserNumber.Name = "OnlineUserNumber"
-        Me.OnlineUserNumber.Size = New System.Drawing.Size(97, 51)
+        Me.OnlineUserNumber.Size = New System.Drawing.Size(47, 51)
         Me.OnlineUserNumber.TabIndex = 2
-        Me.OnlineUserNumber.Text = "142"
+        Me.OnlineUserNumber.Text = "0"
         '
         'OnlineUserText
         '
@@ -487,9 +516,9 @@ Partial Class Dashboard
         Me.UserTodayNumber.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
         Me.UserTodayNumber.Location = New System.Drawing.Point(18, 103)
         Me.UserTodayNumber.Name = "UserTodayNumber"
-        Me.UserTodayNumber.Size = New System.Drawing.Size(97, 51)
+        Me.UserTodayNumber.Size = New System.Drawing.Size(47, 51)
         Me.UserTodayNumber.TabIndex = 3
-        Me.UserTodayNumber.Text = "203"
+        Me.UserTodayNumber.Text = "0"
         '
         'UserTodayText
         '
@@ -533,9 +562,9 @@ Partial Class Dashboard
         Me.UserTotalNumber.ForeColor = System.Drawing.Color.FromArgb(CType(CType(117, Byte), Integer), CType(CType(108, Byte), Integer), CType(CType(131, Byte), Integer))
         Me.UserTotalNumber.Location = New System.Drawing.Point(11, 103)
         Me.UserTotalNumber.Name = "UserTotalNumber"
-        Me.UserTotalNumber.Size = New System.Drawing.Size(122, 51)
+        Me.UserTotalNumber.Size = New System.Drawing.Size(47, 51)
         Me.UserTotalNumber.TabIndex = 1
-        Me.UserTotalNumber.Text = "2393"
+        Me.UserTotalNumber.Text = "0"
         '
         'UserTotalText
         '
@@ -708,4 +737,5 @@ Partial Class Dashboard
     Friend WithEvents UserTodayElipse As Guna.UI2.WinForms.Guna2Elipse
     Friend WithEvents UserTotalElipse As Guna.UI2.WinForms.Guna2Elipse
     Friend WithEvents Guna2AnimateWindow1 As Guna.UI2.WinForms.Guna2AnimateWindow
+    Friend WithEvents Guna2CircleButton1 As Guna.UI2.WinForms.Guna2CircleButton
 End Class

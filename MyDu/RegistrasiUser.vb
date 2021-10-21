@@ -45,25 +45,25 @@ Public Class RegistrasiUser
 
     Private Sub DashboardButton_Click(sender As Object, e As EventArgs) Handles DashboardButton.Click
         Me.Hide()
-
+        MyBase.Dispose()
         Dashboard.ProfileReciever(mail, fullName, nIMorNRP, prodiorUnit, rank, status)
     End Sub
 
     Private Sub UserProfileButton_Click(sender As Object, e As EventArgs) Handles UserProfileButton.Click
         Me.Hide()
-
+        MyBase.Dispose()
         Profile.ProfileReciever(mail, fullName, nIMorNRP, prodiorUnit, rank, status)
     End Sub
 
     Private Sub UploadJadwalButton_Click(sender As Object, e As EventArgs) Handles UploadJadwalButton.Click
         Me.Hide()
-
+        MyBase.Dispose()
         UploadJadwal.ProfileReciever(mail, fullName, nIMorNRP, prodiorUnit, rank, status)
     End Sub
 
     Private Sub RegistrasiAdminButton_Click(sender As Object, e As EventArgs) Handles RegistrasiAdminButton.Click
         Me.Hide()
-
+        MyBase.Dispose()
         RegistrasiAdmin.ProfileReciever(mail, fullName, nIMorNRP, prodiorUnit, rank, status)
     End Sub
 
@@ -73,12 +73,8 @@ Public Class RegistrasiUser
 
     Private Sub LogoutButton_Click(sender As Object, e As EventArgs) Handles LogoutButton.Click
         Me.Hide()
-
+        MyBase.Dispose()
         Login.LogOut()
-    End Sub
-
-    Private Sub Email_TextChanged(sender As Object, e As EventArgs) Handles Email.TextChanged
-
     End Sub
 
     Private Sub TambahUser_Click(sender As Object, e As EventArgs) Handles TambahUser.Click

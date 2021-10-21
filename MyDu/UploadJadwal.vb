@@ -30,25 +30,25 @@
 
     Private Sub DashboardButton_Click(sender As Object, e As EventArgs) Handles DashboardButton.Click
         Me.Hide()
-
+        MyBase.Dispose()
         Dashboard.ProfileReciever(mail, fullName, nIMorNRP, prodiorUnit, rank, status)
     End Sub
 
     Private Sub UserProfileButton_Click(sender As Object, e As EventArgs) Handles UserProfileButton.Click
         Me.Hide()
-
+        MyBase.Dispose()
         Profile.ProfileReciever(mail, fullName, nIMorNRP, prodiorUnit, rank, status)
     End Sub
 
     Private Sub RegistrasiUserButton_Click(sender As Object, e As EventArgs) Handles RegistrasiUserButton.Click
         Me.Hide()
-
+        MyBase.Dispose()
         RegistrasiUser.ProfileReciever(mail, fullName, nIMorNRP, prodiorUnit, rank, status)
     End Sub
 
     Private Sub RegistrasiAdminButton_Click(sender As Object, e As EventArgs) Handles RegistrasiAdminButton.Click
         Me.Hide()
-
+        MyBase.Dispose()
         RegistrasiAdmin.ProfileReciever(mail, fullName, nIMorNRP, prodiorUnit, rank, status)
     End Sub
 
@@ -58,7 +58,7 @@
 
     Private Sub Guna2Button7_Click(sender As Object, e As EventArgs) Handles Guna2Button7.Click
         Me.Hide()
-
+        MyBase.Dispose()
         Login.LogOut()
     End Sub
     Private Sub Windows_exit(sender As Object, e As EventArgs) Handles Me.Closed

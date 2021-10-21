@@ -35,10 +35,14 @@ Partial Class Login
         Me.Guna2Button3 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2AnimateWindow1 = New Guna.UI2.WinForms.Guna2AnimateWindow(Me.components)
+        Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
+        Me.TrackBar1 = New System.Windows.Forms.TrackBar()
+        Me.Guna2CircleButton4 = New Guna.UI2.WinForms.Guna2CircleButton()
+        Me.Guna2CircleButton3 = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.Guna2CircleButton2 = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.Guna2CircleButton1 = New Guna.UI2.WinForms.Guna2CircleButton()
         Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
+        CType(Me.TrackBar1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -234,6 +238,66 @@ Partial Class Login
         Me.Guna2AnimateWindow1.AnimationType = Guna.UI2.WinForms.Guna2AnimateWindow.AnimateWindowType.AW_ACTIVATE
         Me.Guna2AnimateWindow1.TargetForm = Me
         '
+        'Guna2Elipse1
+        '
+        Me.Guna2Elipse1.BorderRadius = 25
+        Me.Guna2Elipse1.TargetControl = Me
+        '
+        'TrackBar1
+        '
+        Me.TrackBar1.BackColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
+        Me.TrackBar1.Location = New System.Drawing.Point(1246, 201)
+        Me.TrackBar1.Name = "TrackBar1"
+        Me.TrackBar1.Size = New System.Drawing.Size(150, 45)
+        Me.TrackBar1.TabIndex = 18
+        '
+        'Guna2CircleButton4
+        '
+        Me.Guna2CircleButton4.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
+        Me.Guna2CircleButton4.BorderColor = System.Drawing.Color.Transparent
+        Me.Guna2CircleButton4.CheckedState.Parent = Me.Guna2CircleButton4
+        Me.Guna2CircleButton4.CustomImages.Parent = Me.Guna2CircleButton4
+        Me.Guna2CircleButton4.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2CircleButton4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2CircleButton4.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2CircleButton4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2CircleButton4.DisabledState.Parent = Me.Guna2CircleButton4
+        Me.Guna2CircleButton4.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2CircleButton4.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.Guna2CircleButton4.ForeColor = System.Drawing.Color.Transparent
+        Me.Guna2CircleButton4.HoverState.Parent = Me.Guna2CircleButton4
+        Me.Guna2CircleButton4.Image = Global.MyDu.My.Resources.Resources.mute
+        Me.Guna2CircleButton4.Location = New System.Drawing.Point(1277, 83)
+        Me.Guna2CircleButton4.Name = "Guna2CircleButton4"
+        Me.Guna2CircleButton4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CircleButton4.ShadowDecoration.Parent = Me.Guna2CircleButton4
+        Me.Guna2CircleButton4.Size = New System.Drawing.Size(82, 75)
+        Me.Guna2CircleButton4.TabIndex = 16
+        Me.Guna2CircleButton4.Visible = False
+        '
+        'Guna2CircleButton3
+        '
+        Me.Guna2CircleButton3.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(148, Byte), Integer))
+        Me.Guna2CircleButton3.BorderColor = System.Drawing.Color.Transparent
+        Me.Guna2CircleButton3.CheckedState.Parent = Me.Guna2CircleButton3
+        Me.Guna2CircleButton3.CustomImages.Parent = Me.Guna2CircleButton3
+        Me.Guna2CircleButton3.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2CircleButton3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2CircleButton3.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2CircleButton3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2CircleButton3.DisabledState.Parent = Me.Guna2CircleButton3
+        Me.Guna2CircleButton3.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2CircleButton3.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.Guna2CircleButton3.ForeColor = System.Drawing.Color.Transparent
+        Me.Guna2CircleButton3.HoverState.Parent = Me.Guna2CircleButton3
+        Me.Guna2CircleButton3.Image = Global.MyDu.My.Resources.Resources.volume
+        Me.Guna2CircleButton3.Location = New System.Drawing.Point(1277, 83)
+        Me.Guna2CircleButton3.Name = "Guna2CircleButton3"
+        Me.Guna2CircleButton3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
+        Me.Guna2CircleButton3.ShadowDecoration.Parent = Me.Guna2CircleButton3
+        Me.Guna2CircleButton3.Size = New System.Drawing.Size(82, 75)
+        Me.Guna2CircleButton3.TabIndex = 15
+        '
         'Guna2CircleButton2
         '
         Me.Guna2CircleButton2.BackColor = System.Drawing.Color.White
@@ -284,23 +348,21 @@ Partial Class Login
         '
         Me.Guna2PictureBox1.Image = Global.MyDu.My.Resources.Resources.Slice_1
         Me.Guna2PictureBox1.ImageRotate = 0!
-        Me.Guna2PictureBox1.Location = New System.Drawing.Point(867, 0)
+        Me.Guna2PictureBox1.Location = New System.Drawing.Point(874, 0)
         Me.Guna2PictureBox1.Name = "Guna2PictureBox1"
         Me.Guna2PictureBox1.ShadowDecoration.Parent = Me.Guna2PictureBox1
         Me.Guna2PictureBox1.Size = New System.Drawing.Size(573, 1024)
         Me.Guna2PictureBox1.TabIndex = 0
         Me.Guna2PictureBox1.TabStop = False
         '
-        'Guna2Elipse1
-        '
-        Me.Guna2Elipse1.BorderRadius = 25
-        Me.Guna2Elipse1.TargetControl = Me
-        '
         'Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1440, 1024)
+        Me.Controls.Add(Me.TrackBar1)
+        Me.Controls.Add(Me.Guna2CircleButton4)
+        Me.Controls.Add(Me.Guna2CircleButton3)
         Me.Controls.Add(Me.Guna2CircleButton2)
         Me.Controls.Add(Me.Guna2CircleButton1)
         Me.Controls.Add(Me.Guna2Button4)
@@ -322,6 +384,7 @@ Partial Class Login
         Me.Name = "Login"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
+        CType(Me.TrackBar1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -344,4 +407,7 @@ Partial Class Login
     Friend WithEvents Guna2AnimateWindow1 As Guna.UI2.WinForms.Guna2AnimateWindow
     Private WithEvents Guna2TextBox2 As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Guna2Elipse1 As Guna.UI2.WinForms.Guna2Elipse
+    Friend WithEvents Guna2CircleButton3 As Guna.UI2.WinForms.Guna2CircleButton
+    Friend WithEvents Guna2CircleButton4 As Guna.UI2.WinForms.Guna2CircleButton
+    Friend WithEvents TrackBar1 As TrackBar
 End Class

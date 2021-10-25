@@ -63,6 +63,9 @@ Public Class ResetPassword
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
         If Guna2TextBox1.Text = veriCode And Guna2TextBox2.Text = Guna2TextBox3.Text Then
             ContactFirebase.ResetPassword(ID & "," & Guna2TextBox2.Text)
+            Me.Hide()
+            MyBase.Dispose()
+            Login.Show()
         ElseIf Not Guna2TextBox1.Text = veriCode Then
             MessageBox.Show(" Your verification code is wrong !")
         ElseIf Not Guna2TextBox2.Text = Guna2TextBox3.Text Then

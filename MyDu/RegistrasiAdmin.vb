@@ -6,6 +6,8 @@
     Dim rank As String
     Dim status As String
 
+    Dim KoneksiRegistrasiAdmin As New KoneksiFirebase()
+
     Sub ProfileReciever(ByVal A As String, ByVal B As String, ByVal C As String, ByVal D As String, ByVal E As String, ByVal F As String)
 
         mail = A
@@ -23,9 +25,13 @@
         Me.Show()
     End Sub
     Private Sub RegistrasiAdmin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim cek As String()
         If status = "HighAdmin" Then
             RegistrasiAdminButton.Visible = True
         End If
+        cek = CStr(KoneksiRegistrasiAdmin.Contacting()).Split("|")
+        Guna2ComboBox1.Items.AddRange(cek(3).Split(","))
+        Guna2ComboBox2.Items.AddRange(cek(2).Split(","))
     End Sub
     Private Sub DashboardButton_Click(sender As Object, e As EventArgs) Handles DashboardButton.Click
         Me.Hide()
@@ -62,5 +68,21 @@
     End Sub
     Private Sub Windows_exit(sender As Object, e As EventArgs) Handles Me.Closed
         Login.Close()
+    End Sub
+    Private Function SHA256(ByVal Content As String) As String
+        Dim MoLeCuL3 As New Security.Cryptography.SHA256CryptoServiceProvider
+        Dim ByteString() As Byte = System.Text.Encoding.ASCII.GetBytes(Content)
+        ByteString = MoLeCuL3.ComputeHash(ByteString)
+
+        Dim FinalString As String = Nothing
+        For Each bt As Byte In ByteString
+            FinalString &= bt.ToString("x2")
+
+        Next
+        Return FinalString
+    End Function
+
+    Private Sub TambahAdmin_Click_1(sender As Object, e As EventArgs) Handles TambahAdmin.Click
+        KoneksiRegistrasiAdmin.RegisteringAdmin(SHA256(Email.Text))
     End Sub
 End Class

@@ -33,7 +33,7 @@ Public Class Login
 
     Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
         Me.Hide()
-        KoneksiLogin.Contacting()
+        ContactAdmin.Show()
     End Sub
 
     Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles Guna2Button4.Click
@@ -45,9 +45,9 @@ Public Class Login
     Private Sub Login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         TrackBar1.Maximum() = 100
-        TrackBar1.Value() = 20
+        TrackBar1.Value() = 25
         device.AudioEndpointVolume.MasterVolumeLevelScalar = TrackBar1.Value / 100.0F
-        Suara.PlayLooping()
+        'Suara.PlayLooping()
     End Sub
 
     Sub LogOut()

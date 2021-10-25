@@ -44,27 +44,20 @@ Public Class KoneksiFirebase
         End Try
     End Sub
 
-    Sub Contacting()
+    Function Contacting()
         Try
             Main()
-            Dim res = Client.Get("Auth")
+            Dim res = Client.Get("Auth/Daftar")
             Dim pon As New Auth()
             pon = res.ResultAs(Of Auth)
 
-            Dim jabatan As String() = pon.DaftarJabatan.Split(",")
-            Dim prodiorSatuan As String() = pon.DaftarProdiorSatuan.Split(",")
-            Dim admin As String() = pon.DaftarAdmin.Split(",")
-
-            ContactAdmin.Guna2ComboBox1.Items.AddRange(admin)
-            ContactAdmin.Guna2ComboBox2.Items.AddRange(prodiorSatuan)
-            ContactAdmin.Guna2ComboBox3.Items.AddRange(jabatan)
-
-            ContactAdmin.Show()
+            Return (pon.AdminID & "|" & pon.DaftarAdmin & "|" & pon.DaftarJabatan & "|" & pon.DaftarProdiorSatuan)
         Catch ex As Exception
             MessageBox.Show("Koneksi Bermasalah !")
+            Return ""
         End Try
 
-    End Sub
+    End Function
 
     Function Validating(ByVal A As String)
         Try
@@ -98,9 +91,6 @@ Public Class KoneksiFirebase
 
     Sub ResetPassword(ByVal A As String)
         Dim data As String() = A.Split(",")
-        MessageBox.Show(data(0))
-        MessageBox.Show(data(1))
-        MessageBox.Show(data(2))
         Try
             Main()
             Dim ganti As New DataID() With {
@@ -113,6 +103,130 @@ Public Class KoneksiFirebase
             MessageBox.Show("Password Berhasil Diperbarui")
         Catch ex As Exception
             MessageBox.Show("Koneksi Anda Bermasalah !")
+        End Try
+    End Sub
+
+    Sub SendInbox(ByVal A As String)
+        Try
+            Main()
+            If ContactAdmin.Guna2ComboBox4.Text = "Admin" Then
+                Dim res1 = Client.Get("Inbox/""" & A & """/RegisterAdmin")
+                Dim pon1 As New DataInbox()
+                pon1 = res1.ResultAs(Of DataInbox)
+
+                Dim res As New DataInbox With {
+                .Email = pon1.Email & "|" & ContactAdmin.Guna2TextBox3.Text,
+                .FullName = pon1.FullName & "|" & ContactAdmin.Guna2TextBox1.Text,
+                .NIMorNRP = pon1.NIMorNRP & "|" & ContactAdmin.Guna2TextBox2.Text,
+                .ProdiorUnit = pon1.ProdiorUnit & "|" & ContactAdmin.Guna2ComboBox2.Text,
+                .Rank = pon1.Rank & "|" & ContactAdmin.Guna2ComboBox3.Text,
+                .Username = pon1.Username & "|" & ContactAdmin.Guna2TextBox5.Text,
+                .Pass = pon1.Pass & "|" & ContactAdmin.Guna2TextBox4.Text}
+                Dim pon = Client.Set("Inbox/""" & A & """/RegisterAdmin", res)
+            Else
+                Dim res1 = Client.Get("Inbox/""" & A & """/RegisterUser")
+                Dim pon1 As New DataInbox()
+                pon1 = res1.ResultAs(Of DataInbox)
+
+                Dim res As New DataInbox With {
+                .Email = pon1.Email & "|" & ContactAdmin.Guna2TextBox3.Text,
+                .FullName = pon1.FullName & "|" & ContactAdmin.Guna2TextBox1.Text,
+                .NIMorNRP = pon1.NIMorNRP & "|" & ContactAdmin.Guna2TextBox2.Text,
+                .ProdiorUnit = pon1.ProdiorUnit & "|" & ContactAdmin.Guna2ComboBox2.Text,
+                .Rank = pon1.Rank & "|" & ContactAdmin.Guna2ComboBox3.Text,
+                .Username = pon1.Username & "|" & ContactAdmin.Guna2TextBox5.Text,
+                .Pass = pon1.Pass & "|" & ContactAdmin.Guna2TextBox4.Text}
+                Dim pon = Client.Set("Inbox/""" & A & """/RegisterUser", res)
+            End If
+            MessageBox.Show("Your register form has been sent.")
+        Catch ex As Exception
+            MessageBox.Show("Koneksi Anda Bermasalah !")
+        End Try
+    End Sub
+
+    Sub RegisteringAdmin(ByVal A As String)
+        Try
+            Main()
+            Dim res0 = Client.Get("Auth/Login/" & RegistrasiAdmin.Username.Text)
+            Dim pon0 As New DataID()
+            pon0 = res0.ResultAs(Of DataID)
+            If (IsNothing(pon0)) Then
+                Dim res As New DataID With {
+                    .ID = A,
+                    .Pass = RegistrasiAdmin.Password.Text,
+                    .Username = RegistrasiAdmin.Username.Text}
+                Dim pon = Client.Set("Auth/Login/" & RegistrasiAdmin.Username.Text, res)
+                Dim pon1 = Client.Set("Auth/Login/" & RegistrasiAdmin.Email.Text.Replace(".", ""), res)
+
+                Dim res1 As New ProfileData With {
+                    .Email = RegistrasiAdmin.Email.Text,
+                    .FullName = RegistrasiAdmin.NamaLengkapTextBox.Text,
+                    .NIMorNRP = RegistrasiAdmin.NIMNRPTextBox.Text,
+                    .ProdiorUnit = RegistrasiAdmin.Guna2ComboBox1.Text,
+                    .Rank = RegistrasiAdmin.Guna2ComboBox2.Text,
+                    .Status = "Admin",
+                    .Username = RegistrasiAdmin.Username.Text}
+                Dim pon2 = Client.Set("Auth/Profile/""" & A & """", res1)
+
+                Dim res2 As New DataInbox With {
+                    .Email = "",
+                    .FullName = "",
+                    .NIMorNRP = "",
+                    .ProdiorUnit = "",
+                    .Rank = "",
+                    .Pass = "",
+                    .Username = ""}
+                Dim pon3 = Client.Set("Inbox/""" & A & """/RegisterUser", res2)
+
+                Dim pon4 = Client.Get("Auth/Daftar")
+                Dim res3 As New Auth()
+                res3 = pon4.ResultAs(Of Auth)
+
+                Dim res4 As New Auth With {
+                    .AdminID = res3.AdminID & "," & A,
+                    .DaftarAdmin = res3.DaftarAdmin & "," & String.Format("{0} ({1} {2} {3})", RegistrasiAdmin.NamaLengkapTextBox.Text, "Admin", RegistrasiAdmin.Guna2ComboBox2.Text, RegistrasiAdmin.Guna2ComboBox1.Text),
+                    .DaftarJabatan = res3.DaftarJabatan,
+                    .DaftarProdiorSatuan = res3.DaftarProdiorSatuan}
+                Dim pon5 = Client.Set("Auth/Daftar", res4)
+                MessageBox.Show(RegistrasiAdmin.NamaLengkapTextBox.Text & "'s Account has been Registered !")
+            Else
+                MessageBox.Show("Username has been taken !")
+            End If
+        Catch ex As Exception
+            MessageBox.Show("Koneksi Anda Bermasalah")
+        End Try
+    End Sub
+
+    Sub RegisteringUser(ByVal A As String)
+        Try
+            Main()
+            Dim res0 = Client.Get("Auth/Login/" & RegistrasiUser.Username.Text)
+            Dim pon0 As New DataID()
+            pon0 = res0.ResultAs(Of DataID)
+            If (IsNothing(pon0)) Then
+                Dim res As New DataID With {
+                    .ID = A,
+                    .Pass = RegistrasiUser.Password.Text,
+                    .Username = RegistrasiUser.Username.Text}
+                Dim pon = Client.Set("Auth/Login/" & RegistrasiUser.Username.Text, res)
+                Dim pon1 = Client.Set("Auth/Login/" & RegistrasiUser.Email.Text.Replace(".", ""), res)
+
+                Dim res1 As New ProfileData With {
+                    .Email = RegistrasiUser.Email.Text,
+                    .FullName = RegistrasiUser.NamaLengkapTextBox.Text,
+                    .NIMorNRP = RegistrasiUser.NIMNRPTextBox.Text,
+                    .ProdiorUnit = RegistrasiUser.Guna2ComboBox1.Text,
+                    .Rank = RegistrasiUser.Guna2ComboBox2.Text,
+                    .Status = "Admin",
+                    .Username = RegistrasiUser.Username.Text}
+                Dim pon2 = Client.Set("Auth/Profile/""" & A & """", res1)
+
+                MessageBox.Show(RegistrasiUser.NamaLengkapTextBox.Text & "'s Account has been Registered !")
+            Else
+                MessageBox.Show("Username has been taken !")
+            End If
+        Catch ex As Exception
+            MessageBox.Show("Koneksi Anda Bermasalah")
         End Try
     End Sub
 End Class
@@ -134,4 +248,9 @@ Public Class Auth
     Public Property DaftarJabatan As String
     Public Property DaftarProdiorSatuan As String
     Public Property DaftarAdmin As String
+    Public Property AdminID As String
+End Class
+Public Class DataInbox
+    Inherits ProfileData
+    Public Property Pass As String
 End Class

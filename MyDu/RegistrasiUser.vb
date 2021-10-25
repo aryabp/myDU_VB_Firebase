@@ -1,12 +1,12 @@
-﻿Imports System.Security.Cryptography
-
-Public Class RegistrasiUser
+﻿Public Class RegistrasiUser
     Dim mail As String
     Dim fullName As String
     Dim nIMorNRP As String
     Dim prodiorUnit As String
     Dim rank As String
     Dim status As String
+
+    Dim KoneksiRegistrasiUser As New KoneksiFirebase()
 
     Sub ProfileReciever(ByVal A As String, ByVal B As String, ByVal C As String, ByVal D As String, ByVal E As String, ByVal F As String)
 
@@ -25,23 +25,14 @@ Public Class RegistrasiUser
         Me.Show()
     End Sub
     Private Sub RegistrasiUser_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim cek As String()
         If status = "HighAdmin" Then
             RegistrasiAdminButton.Visible = True
         End If
+        cek = CStr(KoneksiRegistrasiUser.Contacting()).Split("|")
+        Guna2ComboBox1.Items.AddRange(cek(3).Split(","))
+        Guna2ComboBox2.Items.AddRange(cek(2).Split(","))
     End Sub
-
-    Private Function SHA256(ByVal Content As String) As String
-        Dim MoLeCuL3 As New Security.Cryptography.SHA256CryptoServiceProvider
-        Dim ByteString() As Byte = System.Text.Encoding.ASCII.GetBytes(Content)
-        ByteString = MoLeCuL3.ComputeHash(ByteString)
-
-        Dim FinalString As String = Nothing
-        For Each bt As Byte In ByteString
-            FinalString &= bt.ToString("x2")
-
-        Next
-        Return FinalString
-    End Function
 
     Private Sub DashboardButton_Click(sender As Object, e As EventArgs) Handles DashboardButton.Click
         Me.Hide()
@@ -77,11 +68,22 @@ Public Class RegistrasiUser
         Login.LogOut()
     End Sub
 
-    Private Sub TambahUser_Click(sender As Object, e As EventArgs) Handles TambahUser.Click
-        NamaLengkapTextBox.Text = SHA256(Email.Text)
-
-    End Sub
     Private Sub Windows_exit(sender As Object, e As EventArgs) Handles Me.Closed
         Login.Close()
+    End Sub
+    Private Function SHA256(ByVal Content As String) As String
+        Dim MoLeCuL3 As New Security.Cryptography.SHA256CryptoServiceProvider
+        Dim ByteString() As Byte = System.Text.Encoding.ASCII.GetBytes(Content)
+        ByteString = MoLeCuL3.ComputeHash(ByteString)
+
+        Dim FinalString As String = Nothing
+        For Each bt As Byte In ByteString
+            FinalString &= bt.ToString("x2")
+
+        Next
+        Return FinalString
+    End Function
+    Private Sub TambahUser_Click(sender As Object, e As EventArgs) Handles TambahUser.Click
+        KoneksiRegistrasiUser.RegisteringUser(SHA256(Email.Text))
     End Sub
 End Class

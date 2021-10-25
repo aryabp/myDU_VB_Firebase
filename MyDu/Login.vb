@@ -11,6 +11,7 @@ Public Class Login
     Dim DevEnum As New MMDeviceEnumerator()
     Dim device As MMDevice = DevEnum.GetDefaultAudioEndpoint(EDataFlow.eRender, ERole.eMultimedia)
 
+    'Dim lagu As String = My.Resources.Mars_TNI__Ciptaan__Addie_MS___320_kbps_
 
     Private Sub Guna2CircleButton2_Click(sender As Object, e As EventArgs) Handles Guna2CircleButton2.Click
         If Guna2TextBox1.UseSystemPasswordChar = True Then
@@ -27,7 +28,6 @@ Public Class Login
     End Sub
 
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
-        KoneksiLogin.Main()
         KoneksiLogin.Logining(Guna2TextBox2.Text, Guna2TextBox1.Text)
     End Sub
 
@@ -41,7 +41,9 @@ Public Class Login
         ResetPassword.Show()
     End Sub
 
+
     Private Sub Login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
         TrackBar1.Maximum() = 100
         TrackBar1.Value() = 20
         device.AudioEndpointVolume.MasterVolumeLevelScalar = TrackBar1.Value / 100.0F

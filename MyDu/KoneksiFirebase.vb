@@ -21,6 +21,7 @@ Public Class KoneksiFirebase
 
     Sub Logining(ByVal A As String, ByVal B As String)
         Try
+            Main()
             If A.Contains(".") Then
                 A = A.Replace(".", "")
             End If
@@ -44,25 +45,81 @@ Public Class KoneksiFirebase
     End Sub
 
     Sub Contacting()
-        Main()
-        Dim res = Client.Get("Auth")
-        Dim pon As New Auth()
-        pon = res.ResultAs(Of Auth)
+        Try
+            Main()
+            Dim res = Client.Get("Auth")
+            Dim pon As New Auth()
+            pon = res.ResultAs(Of Auth)
 
-        Dim jabatan As String() = pon.DaftarJabatan.Split(",")
-        Dim prodiorSatuan As String() = pon.DaftarProdiorSatuan.Split(",")
-        Dim admin As String() = pon.DaftarAdmin.Split(",")
+            Dim jabatan As String() = pon.DaftarJabatan.Split(",")
+            Dim prodiorSatuan As String() = pon.DaftarProdiorSatuan.Split(",")
+            Dim admin As String() = pon.DaftarAdmin.Split(",")
 
-        ContactAdmin.Guna2ComboBox1.Items.AddRange(admin)
-        ContactAdmin.Guna2ComboBox2.Items.AddRange(prodiorSatuan)
-        ContactAdmin.Guna2ComboBox3.Items.AddRange(jabatan)
+            ContactAdmin.Guna2ComboBox1.Items.AddRange(admin)
+            ContactAdmin.Guna2ComboBox2.Items.AddRange(prodiorSatuan)
+            ContactAdmin.Guna2ComboBox3.Items.AddRange(jabatan)
 
-        ContactAdmin.Show()
+            ContactAdmin.Show()
+        Catch ex As Exception
+            MessageBox.Show("Koneksi Bermasalah !")
+        End Try
+
+    End Sub
+
+    Function Validating(ByVal A As String)
+        Try
+            Main()
+            If A.Contains(".") Then
+                A = A.Replace(".", "")
+            ElseIf Not A.Contains("@") And Not A.Contains(".") Then
+                MessageBox.Show("Isilah E-mail dengan Benar !")
+                Return ""
+            Else
+                MessageBox.Show("Isilah E-mail dengan Benar !")
+                Return ""
+            End If
+
+            Dim res = Client.Get("Auth/Login/" & A)
+            Dim pon As New DataID()
+            pon = res.ResultAs(Of DataID)
+            If IsNothing(pon) Then
+                MessageBox.Show("Email Tidak Valid !")
+                Return ""
+            Else
+                Return pon.Username & "," & A & "," & pon.ID
+            End If
+            Return ""
+        Catch ex As Exception
+            MessageBox.Show("Koneksi Bermasalah !")
+            Return ""
+        End Try
+        Return ""
+    End Function
+
+    Sub ResetPassword(ByVal A As String)
+        Dim data As String() = A.Split(",")
+        MessageBox.Show(data(0))
+        MessageBox.Show(data(1))
+        MessageBox.Show(data(2))
+        Try
+            Main()
+            Dim ganti As New DataID() With {
+                .ID = data(2),
+                .Username = data(0),
+                .Pass = data(3)}
+
+            Dim res1 = Client.SetAsync("Auth/Login/" & data(0), ganti)
+            Dim res2 = Client.SetAsync("Auth/Login/" & data(1), ganti)
+            MessageBox.Show("Password Berhasil Diperbarui")
+        Catch ex As Exception
+            MessageBox.Show("Koneksi Anda Bermasalah !")
+        End Try
     End Sub
 End Class
 Public Class DataID
     Public Property ID As String
     Public Property Pass As String
+    Public Property Username As String
 End Class
 Public Class ProfileData
     Public Property Email As String
@@ -71,6 +128,7 @@ Public Class ProfileData
     Public Property ProdiorUnit As String
     Public Property Rank As String
     Public Property Status As String
+    Public Property Username As String
 End Class
 Public Class Auth
     Public Property DaftarJabatan As String

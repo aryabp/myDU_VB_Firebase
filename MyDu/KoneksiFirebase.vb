@@ -162,8 +162,8 @@ Public Class KoneksiFirebase
                     .Email = RegistrasiAdmin.Email.Text,
                     .FullName = RegistrasiAdmin.NamaLengkapTextBox.Text,
                     .NIMorNRP = RegistrasiAdmin.NIMNRPTextBox.Text,
-                    .ProdiorUnit = RegistrasiAdmin.Guna2ComboBox1.Text,
-                    .Rank = RegistrasiAdmin.Guna2ComboBox2.Text,
+                    .ProdiorUnit = RegistrasiAdmin.RankCombo.Text,
+                    .Rank = RegistrasiAdmin.ProdiCombo.Text,
                     .Status = "Admin",
                     .Username = RegistrasiAdmin.Username.Text}
                 Dim pon2 = Client.Set("Auth/Profile/""" & A & """", res1)
@@ -184,7 +184,7 @@ Public Class KoneksiFirebase
 
                 Dim res4 As New Auth With {
                     .AdminID = res3.AdminID & "," & A,
-                    .DaftarAdmin = res3.DaftarAdmin & "," & String.Format("{0} ({1} {2} {3})", RegistrasiAdmin.NamaLengkapTextBox.Text, "Admin", RegistrasiAdmin.Guna2ComboBox2.Text, RegistrasiAdmin.Guna2ComboBox1.Text),
+                    .DaftarAdmin = res3.DaftarAdmin & "," & String.Format("{0} ({1} {2} {3})", RegistrasiAdmin.NamaLengkapTextBox.Text, "Admin", RegistrasiAdmin.ProdiCombo.Text, RegistrasiAdmin.RankCombo.Text),
                     .DaftarJabatan = res3.DaftarJabatan,
                     .DaftarProdiorSatuan = res3.DaftarProdiorSatuan}
                 Dim pon5 = Client.Set("Auth/Daftar", res4)
@@ -215,8 +215,8 @@ Public Class KoneksiFirebase
                     .Email = RegistrasiUser.Email.Text,
                     .FullName = RegistrasiUser.NamaLengkapTextBox.Text,
                     .NIMorNRP = RegistrasiUser.NIMNRPTextBox.Text,
-                    .ProdiorUnit = RegistrasiUser.Guna2ComboBox1.Text,
-                    .Rank = RegistrasiUser.Guna2ComboBox2.Text,
+                    .ProdiorUnit = RegistrasiUser.ProdiCombo1.Text,
+                    .Rank = RegistrasiUser.RankCombo1.Text,
                     .Status = "Admin",
                     .Username = RegistrasiUser.Username.Text}
                 Dim pon2 = Client.Set("Auth/Profile/""" & A & """", res1)
@@ -225,6 +225,39 @@ Public Class KoneksiFirebase
             Else
                 MessageBox.Show("Username has been taken !")
             End If
+        Catch ex As Exception
+            MessageBox.Show("Koneksi Anda Bermasalah")
+        End Try
+    End Sub
+
+    Function CheckInbox(ByVal A As String)
+        Try
+            Main()
+            Dim res = Client.Get(A)
+            Dim pon As New DataInbox()
+            pon = res.ResultAs(Of DataInbox)
+
+            Return (pon.Email & "\" & pon.FullName & "\" & pon.NIMorNRP & "\" & pon.Pass & "\" & pon.ProdiorUnit & "\" & pon.Rank & "\" & pon.Username)
+        Catch ex As Exception
+            MessageBox.Show("Koneksi Anda Bermasalah")
+            Return ""
+        End Try
+    End Function
+
+    Sub DeleteInbox(ByVal A As String, ByVal B As String, ByVal C As String, ByVal D As String, ByVal E As String, ByVal F As String, ByVal G As String, ByVal H As String)
+        Try
+            Main()
+            Dim res As New DataInbox With {
+                .Email = B,
+                .FullName = C,
+                .NIMorNRP = D,
+                .Pass = E,
+                .ProdiorUnit = F,
+                .Rank = G,
+                .Username = H
+                }
+            Dim pon = Client.Set(A, res)
+            MessageBox.Show("form has been deleted !")
         Catch ex As Exception
             MessageBox.Show("Koneksi Anda Bermasalah")
         End Try

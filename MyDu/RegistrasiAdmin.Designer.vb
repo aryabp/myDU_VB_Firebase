@@ -36,6 +36,21 @@ Partial Class RegistrasiAdmin
         Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
         Me.UpperContentPanel = New Guna.UI2.WinForms.Guna2Panel()
         Me.ContentPanelBg = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Inboxbutton = New Guna.UI2.WinForms.Guna2Button()
+        Me.InboxPanel = New Guna.UI2.WinForms.Guna2CustomGradientPanel()
+        Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
+        Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Inboxlabel = New System.Windows.Forms.Label()
+        Me.Data5 = New Guna.UI2.WinForms.Guna2RadioButton()
+        Me.Data4 = New Guna.UI2.WinForms.Guna2RadioButton()
+        Me.Data3 = New Guna.UI2.WinForms.Guna2RadioButton()
+        Me.Data2 = New Guna.UI2.WinForms.Guna2RadioButton()
+        Me.Data1 = New Guna.UI2.WinForms.Guna2RadioButton()
+        Me.ProdiCombo = New Guna.UI2.WinForms.Guna2ComboBox()
+        Me.RankCombo = New Guna.UI2.WinForms.Guna2ComboBox()
+        Me.Username = New Guna.UI2.WinForms.Guna2TextBox()
         Me.TambahAdmin = New Guna.UI2.WinForms.Guna2Button()
         Me.Password = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Email = New Guna.UI2.WinForms.Guna2TextBox()
@@ -52,13 +67,12 @@ Partial Class RegistrasiAdmin
         Me.CloseControlBox = New Guna.UI2.WinForms.Guna2ControlBox()
         Me.ContentPanel = New System.Windows.Forms.Panel()
         Me.Guna2AnimateWindow1 = New Guna.UI2.WinForms.Guna2AnimateWindow(Me.components)
-        Me.Username = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.Guna2ComboBox1 = New Guna.UI2.WinForms.Guna2ComboBox()
-        Me.Guna2ComboBox2 = New Guna.UI2.WinForms.Guna2ComboBox()
         Me.ListPanel.SuspendLayout()
         Me.JudulPanel.SuspendLayout()
         Me.UpperContentPanel.SuspendLayout()
         Me.ContentPanelBg.SuspendLayout()
+        Me.InboxPanel.SuspendLayout()
+        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.UserPanel.SuspendLayout()
         Me.Guna2Panel1.SuspendLayout()
         Me.TitleBarPanel.SuspendLayout()
@@ -271,8 +285,10 @@ Partial Class RegistrasiAdmin
         Me.ContentPanelBg.BorderColor = System.Drawing.Color.Black
         Me.ContentPanelBg.BorderRadius = 10
         Me.ContentPanelBg.BorderThickness = 1
-        Me.ContentPanelBg.Controls.Add(Me.Guna2ComboBox2)
-        Me.ContentPanelBg.Controls.Add(Me.Guna2ComboBox1)
+        Me.ContentPanelBg.Controls.Add(Me.Inboxbutton)
+        Me.ContentPanelBg.Controls.Add(Me.InboxPanel)
+        Me.ContentPanelBg.Controls.Add(Me.ProdiCombo)
+        Me.ContentPanelBg.Controls.Add(Me.RankCombo)
         Me.ContentPanelBg.Controls.Add(Me.Username)
         Me.ContentPanelBg.Controls.Add(Me.TambahAdmin)
         Me.ContentPanelBg.Controls.Add(Me.Password)
@@ -285,6 +301,294 @@ Partial Class RegistrasiAdmin
         Me.ContentPanelBg.ShadowDecoration.Parent = Me.ContentPanelBg
         Me.ContentPanelBg.Size = New System.Drawing.Size(925, 768)
         Me.ContentPanelBg.TabIndex = 10
+        '
+        'Inboxbutton
+        '
+        Me.Inboxbutton.BorderRadius = 10
+        Me.Inboxbutton.CheckedState.Parent = Me.Inboxbutton
+        Me.Inboxbutton.CustomImages.Parent = Me.Inboxbutton
+        Me.Inboxbutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Inboxbutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Inboxbutton.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Inboxbutton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Inboxbutton.DisabledState.Parent = Me.Inboxbutton
+        Me.Inboxbutton.FillColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
+        Me.Inboxbutton.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Inboxbutton.ForeColor = System.Drawing.Color.White
+        Me.Inboxbutton.HoverState.Parent = Me.Inboxbutton
+        Me.Inboxbutton.Location = New System.Drawing.Point(371, 36)
+        Me.Inboxbutton.Name = "Inboxbutton"
+        Me.Inboxbutton.ShadowDecoration.Parent = Me.Inboxbutton
+        Me.Inboxbutton.Size = New System.Drawing.Size(105, 45)
+        Me.Inboxbutton.TabIndex = 29
+        Me.Inboxbutton.Text = "Inbox"
+        '
+        'InboxPanel
+        '
+        Me.InboxPanel.BackColor = System.Drawing.Color.Transparent
+        Me.InboxPanel.BorderRadius = 15
+        Me.InboxPanel.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash
+        Me.InboxPanel.Controls.Add(Me.NumericUpDown1)
+        Me.InboxPanel.Controls.Add(Me.Guna2Button2)
+        Me.InboxPanel.Controls.Add(Me.Guna2Button1)
+        Me.InboxPanel.Controls.Add(Me.Label1)
+        Me.InboxPanel.Controls.Add(Me.Inboxlabel)
+        Me.InboxPanel.Controls.Add(Me.Data5)
+        Me.InboxPanel.Controls.Add(Me.Data4)
+        Me.InboxPanel.Controls.Add(Me.Data3)
+        Me.InboxPanel.Controls.Add(Me.Data2)
+        Me.InboxPanel.Controls.Add(Me.Data1)
+        Me.InboxPanel.FillColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
+        Me.InboxPanel.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.InboxPanel.Location = New System.Drawing.Point(534, 36)
+        Me.InboxPanel.Name = "InboxPanel"
+        Me.InboxPanel.ShadowDecoration.Parent = Me.InboxPanel
+        Me.InboxPanel.Size = New System.Drawing.Size(349, 639)
+        Me.InboxPanel.TabIndex = 28
+        Me.InboxPanel.Visible = False
+        '
+        'NumericUpDown1
+        '
+        Me.NumericUpDown1.BackColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
+        Me.NumericUpDown1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.NumericUpDown1.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.NumericUpDown1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.NumericUpDown1.Location = New System.Drawing.Point(172, 441)
+        Me.NumericUpDown1.Name = "NumericUpDown1"
+        Me.NumericUpDown1.Size = New System.Drawing.Size(73, 36)
+        Me.NumericUpDown1.TabIndex = 19
+        Me.NumericUpDown1.Value = New Decimal(New Integer() {1, 0, 0, 0})
+        '
+        'Guna2Button2
+        '
+        Me.Guna2Button2.BorderRadius = 10
+        Me.Guna2Button2.CheckedState.Parent = Me.Guna2Button2
+        Me.Guna2Button2.CustomImages.Parent = Me.Guna2Button2
+        Me.Guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button2.DisabledState.Parent = Me.Guna2Button2
+        Me.Guna2Button2.FillColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
+        Me.Guna2Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
+        Me.Guna2Button2.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button2.HoverState.Parent = Me.Guna2Button2
+        Me.Guna2Button2.Location = New System.Drawing.Point(189, 506)
+        Me.Guna2Button2.Name = "Guna2Button2"
+        Me.Guna2Button2.ShadowDecoration.Parent = Me.Guna2Button2
+        Me.Guna2Button2.Size = New System.Drawing.Size(131, 88)
+        Me.Guna2Button2.TabIndex = 18
+        Me.Guna2Button2.Text = "Delete"
+        '
+        'Guna2Button1
+        '
+        Me.Guna2Button1.BorderRadius = 10
+        Me.Guna2Button1.CheckedState.Parent = Me.Guna2Button1
+        Me.Guna2Button1.CustomImages.Parent = Me.Guna2Button1
+        Me.Guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button1.DisabledState.Parent = Me.Guna2Button1
+        Me.Guna2Button1.FillColor = System.Drawing.Color.FromArgb(CType(CType(243, Byte), Integer), CType(CType(129, Byte), Integer), CType(CType(129, Byte), Integer))
+        Me.Guna2Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
+        Me.Guna2Button1.ForeColor = System.Drawing.Color.White
+        Me.Guna2Button1.HoverState.Parent = Me.Guna2Button1
+        Me.Guna2Button1.Location = New System.Drawing.Point(33, 506)
+        Me.Guna2Button1.Name = "Guna2Button1"
+        Me.Guna2Button1.ShadowDecoration.Parent = Me.Guna2Button1
+        Me.Guna2Button1.Size = New System.Drawing.Size(131, 88)
+        Me.Guna2Button1.TabIndex = 17
+        Me.Guna2Button1.Text = "Deploy"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(91, 450)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(62, 25)
+        Me.Label1.TabIndex = 7
+        Me.Label1.Text = "Page"
+        '
+        'Inboxlabel
+        '
+        Me.Inboxlabel.AutoSize = True
+        Me.Inboxlabel.BackColor = System.Drawing.Color.Transparent
+        Me.Inboxlabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Inboxlabel.ForeColor = System.Drawing.Color.White
+        Me.Inboxlabel.Location = New System.Drawing.Point(35, 32)
+        Me.Inboxlabel.Name = "Inboxlabel"
+        Me.Inboxlabel.Size = New System.Drawing.Size(99, 37)
+        Me.Inboxlabel.TabIndex = 6
+        Me.Inboxlabel.Text = "Inbox"
+        '
+        'Data5
+        '
+        Me.Data5.AutoSize = True
+        Me.Data5.BackColor = System.Drawing.Color.Transparent
+        Me.Data5.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Data5.CheckedState.BorderThickness = 0
+        Me.Data5.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Data5.CheckedState.InnerColor = System.Drawing.Color.White
+        Me.Data5.CheckedState.InnerOffset = -4
+        Me.Data5.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Data5.Location = New System.Drawing.Point(42, 365)
+        Me.Data5.Name = "Data5"
+        Me.Data5.Size = New System.Drawing.Size(14, 13)
+        Me.Data5.TabIndex = 5
+        Me.Data5.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(137, Byte), Integer), CType(CType(149, Byte), Integer))
+        Me.Data5.UncheckedState.BorderThickness = 2
+        Me.Data5.UncheckedState.FillColor = System.Drawing.Color.Transparent
+        Me.Data5.UncheckedState.InnerColor = System.Drawing.Color.Transparent
+        Me.Data5.UseVisualStyleBackColor = False
+        '
+        'Data4
+        '
+        Me.Data4.AutoSize = True
+        Me.Data4.BackColor = System.Drawing.Color.Transparent
+        Me.Data4.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Data4.CheckedState.BorderThickness = 0
+        Me.Data4.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Data4.CheckedState.InnerColor = System.Drawing.Color.White
+        Me.Data4.CheckedState.InnerOffset = -4
+        Me.Data4.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Data4.Location = New System.Drawing.Point(42, 318)
+        Me.Data4.Name = "Data4"
+        Me.Data4.Size = New System.Drawing.Size(14, 13)
+        Me.Data4.TabIndex = 4
+        Me.Data4.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(137, Byte), Integer), CType(CType(149, Byte), Integer))
+        Me.Data4.UncheckedState.BorderThickness = 2
+        Me.Data4.UncheckedState.FillColor = System.Drawing.Color.Transparent
+        Me.Data4.UncheckedState.InnerColor = System.Drawing.Color.Transparent
+        Me.Data4.UseVisualStyleBackColor = False
+        '
+        'Data3
+        '
+        Me.Data3.AutoSize = True
+        Me.Data3.BackColor = System.Drawing.Color.Transparent
+        Me.Data3.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Data3.CheckedState.BorderThickness = 0
+        Me.Data3.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Data3.CheckedState.InnerColor = System.Drawing.Color.White
+        Me.Data3.CheckedState.InnerOffset = -4
+        Me.Data3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Data3.Location = New System.Drawing.Point(42, 271)
+        Me.Data3.Name = "Data3"
+        Me.Data3.Size = New System.Drawing.Size(14, 13)
+        Me.Data3.TabIndex = 3
+        Me.Data3.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(137, Byte), Integer), CType(CType(149, Byte), Integer))
+        Me.Data3.UncheckedState.BorderThickness = 2
+        Me.Data3.UncheckedState.FillColor = System.Drawing.Color.Transparent
+        Me.Data3.UncheckedState.InnerColor = System.Drawing.Color.Transparent
+        Me.Data3.UseVisualStyleBackColor = False
+        '
+        'Data2
+        '
+        Me.Data2.AutoSize = True
+        Me.Data2.BackColor = System.Drawing.Color.Transparent
+        Me.Data2.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Data2.CheckedState.BorderThickness = 0
+        Me.Data2.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Data2.CheckedState.InnerColor = System.Drawing.Color.White
+        Me.Data2.CheckedState.InnerOffset = -4
+        Me.Data2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Data2.Location = New System.Drawing.Point(42, 224)
+        Me.Data2.Name = "Data2"
+        Me.Data2.Size = New System.Drawing.Size(14, 13)
+        Me.Data2.TabIndex = 2
+        Me.Data2.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(137, Byte), Integer), CType(CType(149, Byte), Integer))
+        Me.Data2.UncheckedState.BorderThickness = 2
+        Me.Data2.UncheckedState.FillColor = System.Drawing.Color.Transparent
+        Me.Data2.UncheckedState.InnerColor = System.Drawing.Color.Transparent
+        Me.Data2.UseVisualStyleBackColor = False
+        '
+        'Data1
+        '
+        Me.Data1.AutoSize = True
+        Me.Data1.BackColor = System.Drawing.Color.Transparent
+        Me.Data1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Data1.CheckedState.BorderThickness = 0
+        Me.Data1.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Data1.CheckedState.InnerColor = System.Drawing.Color.White
+        Me.Data1.CheckedState.InnerOffset = -4
+        Me.Data1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Data1.Location = New System.Drawing.Point(42, 177)
+        Me.Data1.Name = "Data1"
+        Me.Data1.Size = New System.Drawing.Size(14, 13)
+        Me.Data1.TabIndex = 1
+        Me.Data1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(137, Byte), Integer), CType(CType(149, Byte), Integer))
+        Me.Data1.UncheckedState.BorderThickness = 2
+        Me.Data1.UncheckedState.FillColor = System.Drawing.Color.Transparent
+        Me.Data1.UncheckedState.InnerColor = System.Drawing.Color.Transparent
+        Me.Data1.UseVisualStyleBackColor = False
+        '
+        'ProdiCombo
+        '
+        Me.ProdiCombo.BackColor = System.Drawing.Color.Transparent
+        Me.ProdiCombo.BorderRadius = 10
+        Me.ProdiCombo.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.ProdiCombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.ProdiCombo.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ProdiCombo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.ProdiCombo.FocusedState.Parent = Me.ProdiCombo
+        Me.ProdiCombo.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
+        Me.ProdiCombo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
+        Me.ProdiCombo.HoverState.Parent = Me.ProdiCombo
+        Me.ProdiCombo.ItemHeight = 49
+        Me.ProdiCombo.ItemsAppearance.Parent = Me.ProdiCombo
+        Me.ProdiCombo.Location = New System.Drawing.Point(80, 510)
+        Me.ProdiCombo.Name = "ProdiCombo"
+        Me.ProdiCombo.ShadowDecoration.Parent = Me.ProdiCombo
+        Me.ProdiCombo.Size = New System.Drawing.Size(396, 55)
+        Me.ProdiCombo.TabIndex = 19
+        '
+        'RankCombo
+        '
+        Me.RankCombo.BackColor = System.Drawing.Color.Transparent
+        Me.RankCombo.BorderRadius = 10
+        Me.RankCombo.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.RankCombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.RankCombo.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.RankCombo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.RankCombo.FocusedState.Parent = Me.RankCombo
+        Me.RankCombo.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
+        Me.RankCombo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
+        Me.RankCombo.HoverState.Parent = Me.RankCombo
+        Me.RankCombo.ItemHeight = 49
+        Me.RankCombo.ItemsAppearance.Parent = Me.RankCombo
+        Me.RankCombo.Location = New System.Drawing.Point(80, 440)
+        Me.RankCombo.Name = "RankCombo"
+        Me.RankCombo.ShadowDecoration.Parent = Me.RankCombo
+        Me.RankCombo.Size = New System.Drawing.Size(396, 55)
+        Me.RankCombo.TabIndex = 18
+        '
+        'Username
+        '
+        Me.Username.BorderRadius = 10
+        Me.Username.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.Username.DefaultText = ""
+        Me.Username.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.Username.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.Username.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Username.DisabledState.Parent = Me.Username
+        Me.Username.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.Username.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Username.FocusedState.Parent = Me.Username
+        Me.Username.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
+        Me.Username.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
+        Me.Username.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Username.HoverState.Parent = Me.Username
+        Me.Username.Location = New System.Drawing.Point(80, 301)
+        Me.Username.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.Username.Name = "Username"
+        Me.Username.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.Username.PlaceholderText = "Username"
+        Me.Username.SelectedText = ""
+        Me.Username.ShadowDecoration.Parent = Me.Username
+        Me.Username.Size = New System.Drawing.Size(396, 55)
+        Me.Username.TabIndex = 17
+        Me.Username.TextOffset = New System.Drawing.Point(20, 0)
         '
         'TambahAdmin
         '
@@ -300,12 +604,12 @@ Partial Class RegistrasiAdmin
         Me.TambahAdmin.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
         Me.TambahAdmin.ForeColor = System.Drawing.Color.White
         Me.TambahAdmin.HoverState.Parent = Me.TambahAdmin
-        Me.TambahAdmin.Location = New System.Drawing.Point(80, 596)
+        Me.TambahAdmin.Location = New System.Drawing.Point(80, 628)
         Me.TambahAdmin.Name = "TambahAdmin"
         Me.TambahAdmin.ShadowDecoration.Parent = Me.TambahAdmin
         Me.TambahAdmin.Size = New System.Drawing.Size(396, 55)
         Me.TambahAdmin.TabIndex = 16
-        Me.TambahAdmin.Text = "Tambah Admin"
+        Me.TambahAdmin.Text = "Add Admin"
         '
         'Password
         '
@@ -323,7 +627,7 @@ Partial Class RegistrasiAdmin
         Me.Password.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
         Me.Password.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Password.HoverState.Parent = Me.Password
-        Me.Password.Location = New System.Drawing.Point(80, 336)
+        Me.Password.Location = New System.Drawing.Point(80, 368)
         Me.Password.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Password.Name = "Password"
         Me.Password.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -333,6 +637,7 @@ Partial Class RegistrasiAdmin
         Me.Password.Size = New System.Drawing.Size(396, 55)
         Me.Password.TabIndex = 15
         Me.Password.TextOffset = New System.Drawing.Point(20, 0)
+        Me.Password.UseSystemPasswordChar = True
         '
         'Email
         '
@@ -350,7 +655,7 @@ Partial Class RegistrasiAdmin
         Me.Email.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
         Me.Email.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Email.HoverState.Parent = Me.Email
-        Me.Email.Location = New System.Drawing.Point(80, 202)
+        Me.Email.Location = New System.Drawing.Point(80, 234)
         Me.Email.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Email.Name = "Email"
         Me.Email.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -377,7 +682,7 @@ Partial Class RegistrasiAdmin
         Me.NIMNRPTextBox.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
         Me.NIMNRPTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.NIMNRPTextBox.HoverState.Parent = Me.NIMNRPTextBox
-        Me.NIMNRPTextBox.Location = New System.Drawing.Point(80, 135)
+        Me.NIMNRPTextBox.Location = New System.Drawing.Point(80, 167)
         Me.NIMNRPTextBox.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.NIMNRPTextBox.Name = "NIMNRPTextBox"
         Me.NIMNRPTextBox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -404,7 +709,7 @@ Partial Class RegistrasiAdmin
         Me.NamaLengkapTextBox.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
         Me.NamaLengkapTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.NamaLengkapTextBox.HoverState.Parent = Me.NamaLengkapTextBox
-        Me.NamaLengkapTextBox.Location = New System.Drawing.Point(80, 68)
+        Me.NamaLengkapTextBox.Location = New System.Drawing.Point(80, 100)
         Me.NamaLengkapTextBox.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.NamaLengkapTextBox.Name = "NamaLengkapTextBox"
         Me.NamaLengkapTextBox.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
@@ -539,73 +844,6 @@ Partial Class RegistrasiAdmin
         Me.Guna2AnimateWindow1.AnimationType = Guna.UI2.WinForms.Guna2AnimateWindow.AnimateWindowType.AW_HOR_NEGATIVE
         Me.Guna2AnimateWindow1.TargetForm = Me
         '
-        'Username
-        '
-        Me.Username.BorderRadius = 10
-        Me.Username.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.Username.DefaultText = ""
-        Me.Username.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.Username.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.Username.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Username.DisabledState.Parent = Me.Username
-        Me.Username.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.Username.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Username.FocusedState.Parent = Me.Username
-        Me.Username.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
-        Me.Username.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.Username.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Username.HoverState.Parent = Me.Username
-        Me.Username.Location = New System.Drawing.Point(80, 269)
-        Me.Username.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
-        Me.Username.Name = "Username"
-        Me.Username.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.Username.PlaceholderText = "Username"
-        Me.Username.SelectedText = ""
-        Me.Username.ShadowDecoration.Parent = Me.Username
-        Me.Username.Size = New System.Drawing.Size(396, 55)
-        Me.Username.TabIndex = 17
-        Me.Username.TextOffset = New System.Drawing.Point(20, 0)
-        '
-        'Guna2ComboBox1
-        '
-        Me.Guna2ComboBox1.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2ComboBox1.BorderRadius = 10
-        Me.Guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.Guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.Guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2ComboBox1.FocusedState.Parent = Me.Guna2ComboBox1
-        Me.Guna2ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
-        Me.Guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.Guna2ComboBox1.HoverState.Parent = Me.Guna2ComboBox1
-        Me.Guna2ComboBox1.ItemHeight = 49
-        Me.Guna2ComboBox1.ItemsAppearance.Parent = Me.Guna2ComboBox1
-        Me.Guna2ComboBox1.Location = New System.Drawing.Point(80, 408)
-        Me.Guna2ComboBox1.Name = "Guna2ComboBox1"
-        Me.Guna2ComboBox1.ShadowDecoration.Parent = Me.Guna2ComboBox1
-        Me.Guna2ComboBox1.Size = New System.Drawing.Size(396, 55)
-        Me.Guna2ComboBox1.TabIndex = 18
-        '
-        'Guna2ComboBox2
-        '
-        Me.Guna2ComboBox2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2ComboBox2.BorderRadius = 10
-        Me.Guna2ComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
-        Me.Guna2ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.Guna2ComboBox2.FocusedColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2ComboBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Guna2ComboBox2.FocusedState.Parent = Me.Guna2ComboBox2
-        Me.Guna2ComboBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!)
-        Me.Guna2ComboBox2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(197, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(199, Byte), Integer))
-        Me.Guna2ComboBox2.HoverState.Parent = Me.Guna2ComboBox2
-        Me.Guna2ComboBox2.ItemHeight = 49
-        Me.Guna2ComboBox2.ItemsAppearance.Parent = Me.Guna2ComboBox2
-        Me.Guna2ComboBox2.Location = New System.Drawing.Point(80, 478)
-        Me.Guna2ComboBox2.Name = "Guna2ComboBox2"
-        Me.Guna2ComboBox2.ShadowDecoration.Parent = Me.Guna2ComboBox2
-        Me.Guna2ComboBox2.Size = New System.Drawing.Size(396, 55)
-        Me.Guna2ComboBox2.TabIndex = 19
-        '
         'RegistrasiAdmin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -623,6 +861,9 @@ Partial Class RegistrasiAdmin
         Me.UpperContentPanel.ResumeLayout(False)
         Me.ContentPanelBg.ResumeLayout(False)
         Me.ContentPanelBg.PerformLayout()
+        Me.InboxPanel.ResumeLayout(False)
+        Me.InboxPanel.PerformLayout()
+        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.UserPanel.ResumeLayout(False)
         Me.Guna2Panel1.ResumeLayout(False)
         Me.Guna2Panel1.PerformLayout()
@@ -661,6 +902,18 @@ Partial Class RegistrasiAdmin
     Friend WithEvents UserPhoto As Guna.UI2.WinForms.Guna2ImageButton
     Friend WithEvents Guna2AnimateWindow1 As Guna.UI2.WinForms.Guna2AnimateWindow
     Friend WithEvents Username As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2ComboBox2 As Guna.UI2.WinForms.Guna2ComboBox
-    Friend WithEvents Guna2ComboBox1 As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents ProdiCombo As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents RankCombo As Guna.UI2.WinForms.Guna2ComboBox
+    Friend WithEvents InboxPanel As Guna.UI2.WinForms.Guna2CustomGradientPanel
+    Friend WithEvents NumericUpDown1 As NumericUpDown
+    Friend WithEvents Guna2Button2 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Inboxlabel As Label
+    Friend WithEvents Data5 As Guna.UI2.WinForms.Guna2RadioButton
+    Friend WithEvents Data4 As Guna.UI2.WinForms.Guna2RadioButton
+    Friend WithEvents Data3 As Guna.UI2.WinForms.Guna2RadioButton
+    Friend WithEvents Data2 As Guna.UI2.WinForms.Guna2RadioButton
+    Friend WithEvents Data1 As Guna.UI2.WinForms.Guna2RadioButton
+    Friend WithEvents Inboxbutton As Guna.UI2.WinForms.Guna2Button
 End Class

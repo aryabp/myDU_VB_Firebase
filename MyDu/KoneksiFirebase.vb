@@ -6,8 +6,8 @@ Public Class KoneksiFirebase
 
     Private fcon As New FirebaseConfig() With
         {
-            .AuthSecret = "hAprYvfDrJCOBzpXppxoSYHJEnL0UeOOW9VH8YAx",
-            .BasePath = "https://piketunhan-default-rtdb.asia-southeast1.firebasedatabase.app/"
+            .AuthSecret = "",
+            .BasePath = ""
         }
     Private Client As IFirebaseClient
 

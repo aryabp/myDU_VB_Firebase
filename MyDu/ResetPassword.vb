@@ -26,11 +26,11 @@ Public Class ResetPassword
                 Dim fixrandomNumber As String = String.Format("{0:#######}", Rand.Next(10000, 1000000))
 
                 Dim Smtp_Server As New SmtpClient("smtp.gmail.com", 587)
-                Dim e_mail As New MailMessage("servermydu@gmail.com", Guna2TextBox1.Text)
+                Dim e_mail As New MailMessage("email", Guna2TextBox1.Text)
 
                 Smtp_Server.UseDefaultCredentials = True
                 Smtp_Server.EnableSsl = True
-                Smtp_Server.Credentials = New Net.NetworkCredential("servermydu@gmail.com", "27mei2003")
+                Smtp_Server.Credentials = New Net.NetworkCredential("email", "emailpassword")
 
                 e_mail.Subject = "Verification Code Notification"
                 e_mail.IsBodyHtml = False
